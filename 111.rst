@@ -12,15 +12,15 @@ A project directory in the purpose of power analysis consists of the following s
 
 .. code-block::
 
-  new_project
+  alkaidS_power_timebased_report
   ├── config
-  │   └── ptpx_task.yaml
+  │   └── ptpx_task.yaml
   ├── Makefile
-  ├── sdc
-  │   └── bitstream.xml
-  ├── activity
-  │   └── wave.saif.gz
-  └── _snps_ptpx_<task_name>
+  ├── netlist -> ../alkaid_v0p5_power_leakage/netlist
+  ├── report.tar.gz
+  ├── sdc -> ../alkaidS_power_timebased/sdc
+  └── waveform -> ../alkaidS_power_timebased/waveform
+
   
 where 
 
