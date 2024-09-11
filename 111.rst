@@ -56,7 +56,6 @@ Take the example of the following task configuration file,
 Detail description about ``config/ptpx_task.yaml``
 
 Power Summary
-Hierarchy Power
 ---------------
 
 - **Name:** hierarchy_power
