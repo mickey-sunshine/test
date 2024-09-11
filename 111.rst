@@ -57,7 +57,7 @@ Detail Description about ``config/ptpx_task.yaml``
 ~~~~~~~~~~~~~~~
 
 Power Summary
---------------
+~~~~~~~~~~~~~~~
 
 - **Name:** hierarchy_power
 
