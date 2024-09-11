@@ -53,8 +53,8 @@ Take the example of the following task configuration file,
 .. literalinclude:: example_report_power_task.yaml
   :language: yaml
 
-Detail Description about ``config/ptpx_task.yaml``
-~~~~~~~~~~~~~~~~~~~
+ Detail Description about ``config/ptpx_task.yaml``
+~~~~~~~~~~~~~~~
 
 Power Summary
 ~~~~~~~~~~~~~~~~
