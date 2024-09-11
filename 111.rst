@@ -155,8 +155,6 @@ Detail Description about ``config/ptpx_task.yaml``
     - `adder16_dynamic.fpga_top.power_by_hierarchy`
       - The format is `<task_name>.<design_name>.<report_name>`.
 
-
-
 Run a PTPX task
 ~~~~~~~~~~~~~~~
 
