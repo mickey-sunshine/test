@@ -53,10 +53,12 @@ Take the example of the following task configuration file,
 .. literalinclude:: example_report_power_task.yaml
   :language: yaml
 
-Detail description about ``config/ptpx_task.yaml``
+Detail Description about ``config/ptpx_task.yaml``
 ~~~~~~~~~~~~~~~~~~~~
 
 Power Summary
+--------------
+
 - **Name:** hierarchy_power
 
 - **Histogram:**
@@ -65,12 +67,12 @@ Power Summary
     - This can be applied to hierarchical power reports.
   
   - **Data Type:** "leak power"
-    - Specify the type of power values which will be selected.
+    - Specify the type of power values to be selected.
   
   - **Hierarchy Level:** 2
-    - Can be all or an integer. Specify the level of data to be extracted in power report that contains hierarchy.
-    - Note that hierarchy contains a tab space at the beginning of a line. See Fig. 4 for a detailed example. 
-    - In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted.
+    - Can be set to "all" or an integer. Specify the level of data to be extracted from power reports containing hierarchical data.
+    - Note that hierarchy contains a tab space at the beginning of a line. Refer to Fig. 4 for a detailed example.
+    - In level 2, only lines matching the pattern `tile_<int>__<int>_` are considered. By default, it should be "all", resulting in all lines being extracted.
 
 - **Distribution:**
   
@@ -78,27 +80,27 @@ Power Summary
     - This can be applied to hierarchical power reports.
 
   - **Data Type:** "leak power"
-    - Specify the type of power values which will be selected.
+    - Specify the type of power values to be selected.
 
   - **Hierarchy Level:** 2
-    - Same as the hierarchy_level of histogram.
+    - Same as the hierarchy_level for the histogram.
 
 - **CSV:**
 
   - **Name:** `../reports/power/csv/fpga_top_leakage.csv`
 
   - **Data Type:** "leak power"
-    - Specify the type of power values which will be selected.
+    - Specify the type of power values to be selected.
 
   - **Hierarchy Level:** 2
-    - Same as the hierarchy_level of histogram.
+    - Same as the hierarchy_level for the histogram.
 
 - **Power Tasks:**
 
-  - Define the name of power tasks in the report section. This will be where the input file comes from. Currently, only support 1 report. Error out when there are more than 1.
+  - Define the name of power tasks in the report section. This will determine where the input file is sourced from. Currently, only one report is supported. An error will be triggered if more than one report is specified.
 
   - `adder16_dynamic.fpga_top.power_by_hierarchy`
-    - The format is <task_name>.<design_name>.<report_name>
+    - The format is `<task_name>.<design_name>.<report_name>`.
 
 
 Run a PTPX task
