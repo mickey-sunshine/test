@@ -53,7 +53,7 @@ Take the example of the following task configuration file,
 .. literalinclude:: example_report_power_task.yaml
   :language: yaml
 
-..Detail description about ``config/ptpx_task.yaml``
+Detail description about ``config/ptpx_task.yaml``
   power_summary:
    - name: hierarchy_power
    histogram:
