@@ -54,10 +54,9 @@ Take the example of the following task configuration file,
   :language: yaml
 
 Detail description about ``config/ptpx_task.yaml``
+~~~~~~~~~~~~~~~~~~~~
 
 Power Summary
----------------
-
 - **Name:** hierarchy_power
 
 - **Histogram:**
