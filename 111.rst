@@ -54,7 +54,7 @@ Take the example of the following task configuration file,
   :language: yaml
 
 Detail Description about ``config/ptpx_task.yaml``
-- **report_power**
+- **report power**
 
 - **Name:** and2_dynamic
 
