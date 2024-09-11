@@ -58,7 +58,7 @@ Detail description about ``config/ptpx_task.yaml``
    - name: hierarchy_power
    histogram:
      - file: "../reports/power/histogram/power_histo.png"
-       .. This can be applied to hierarchical power reports. 
+       .. note:: This can be applied to hierarchical power reports. 
      - data_type: "leak power"
        .. Specify the type of power values which will be selected.
      - hierarchy_level: 2
