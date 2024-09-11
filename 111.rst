@@ -62,15 +62,16 @@ Take the example of the following task configuration file,
      - hierarchy_level: 2 # Can be all or an integer. Specify the level of data to be extracted in power report that contains hierarchy.for a detailed example.
        # In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted.
    distribution: # This is similar to a 2D plot 
-     file: "../reports/power/histogram/power_dist.png" # This can be applied to hierarchical power reports. 
-     data_type: "leak power" # Specify the type of power values which will be selected
-     hierarchy_ level: 2 # Same as the hierarchy_level of histogram
+     - file: "../reports/power/histogram/power_dist.png" # This can be applied to hierarchical power reports. 
+     - data_type: "leak power" # Specify the type of power values which will be selected
+     - hierarchy_ level: 2 # Same as the hierarchy_level of histogram
    csv: # For CSV, just convert the power report into CSV format
-     name: "../reports/power/csv/fpga_top_leakage.csv"
-     data_type: "leak power" # Specify the type of power values which will be selected
-     hierarchy_ level: 2 # Same as the hierarchy_level of histogram
-     power_tasks: # Define the name of power tasks in the report section. This will be where the input file comes from. Currently, only support 1 report. Error out when there are more than 1.
-   - "adder16_dynamic.fpga_top.power_by_hierarchy" # The format is <task_name>.<design_name>.<report_name>
+     - name: "../reports/power/csv/fpga_top_leakage.csv"
+     - data_type: "leak power" # Specify the type of power values which will be selected
+     - hierarchy_ level: 2 # Same as the hierarchy_level of histogram
+   power_tasks: # Define the name of power tasks in the report section. This will be where the input file comes from. Currently, only support 1 report.
+      # Error out when there are more than 1.
+     - "adder16_dynamic.fpga_top.power_by_hierarchy" # The format is <task_name>.<design_name>.<report_name>
 
 Run a PTPX task
 ~~~~~~~~~~~~~~~
