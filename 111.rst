@@ -56,60 +56,59 @@ Take the example of the following task configuration file,
 Detail Description about ``config/ptpx_task.yaml``
 
 - **report power**
-=============
 
-- **Name:** and2_dynamic
-
-- **Design:**
-
-  - `fpga_top`
-
-- **Method:** average
-
-- **Variables:**
-
-  - **ptpx_reg_clk_derate:** 0
-  - **ptpx_cg_clk_derate:** 0
-
-- **Appvars:**
-
-  - **power_default_toggle_rate:** 0
-  - **power_default_static_probability:** 0
-  - **power_x_transition_derate_factor:** 0
-  - **power_match_state_for_logic_x:** 0
-
-- **SDC:**
-
-  - `sdc/set_config_mode.tcl`
-
-- **Reports:**
-
-  - **Name:** power_by_cell
+  - **Name:** and2_dynamic
   
-    - **File:** `reports/and2_dynamic/and2_dynamic.rpt`
+  - **Design:**
+  
+    - `fpga_top`
+  
+  - **Method:** average
+  
+  - **Variables:**
+  
+    - **ptpx_reg_clk_derate:** 0
+    - **ptpx_cg_clk_derate:** 0
+  
+  - **Appvars:**
+  
+    - **power_default_toggle_rate:** 0
+    - **power_default_static_probability:** 0
+    - **power_x_transition_derate_factor:** 0
+    - **power_match_state_for_logic_x:** 0
+  
+  - **SDC:**
+  
+    - `sdc/set_config_mode.tcl`
+  
+  - **Reports:**
+  
+    - **Name:** power_by_cell
     
-    - **Command:**
-      - `report_power -nosplit -cell_power -area -verbose`
+      - **File:** `reports/and2_dynamic/and2_dynamic.rpt`
       
-    - **Remove Time Stamp:** false
-  
-  - **Name:** power_by_hierarchy
-  
-    - **File:** `reports/and2_dynamic/and2_dynamic_by_hierarchy.rpt`
+      - **Command:**
+        - `report_power -nosplit -cell_power -area -verbose`
+        
+      - **Remove Time Stamp:** false
     
-    - **Command:**
-      - `report_power -hierachy -levels 2 -nosplit -verbose`
-      
-    - **Remove Time Stamp:** true
-
-  - **Name:** average_activity
-  
-    - **File:** `reports/[current_design]/report_switching_activity.average.rpt`
+    - **Name:** power_by_hierarchy
     
-    - **Command:**
-      - `report_switching_activity -average_activity`
+      - **File:** `reports/and2_dynamic/and2_dynamic_by_hierarchy.rpt`
       
-    - **Remove Time Stamp:** true
+      - **Command:**
+        - `report_power -hierachy -levels 2 -nosplit -verbose`
+        
+      - **Remove Time Stamp:** true
+  
+    - **Name:** average_activity
+    
+      - **File:** `reports/[current_design]/report_switching_activity.average.rpt`
+      
+      - **Command:**
+        - `report_switching_activity -average_activity`
+        
+      - **Remove Time Stamp:** true
 
 - **Power Summary**
 
