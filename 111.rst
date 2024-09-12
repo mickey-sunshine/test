@@ -142,10 +142,15 @@ An example of file designed for report dynamic power is shown as follows.
 
     - **adder16_dynamic.fpga_top.power_by_hierarchy**
 
-Syntax explanation
-Report-power tasks should be defined under the report_power section. Each task should constain the following information.
-name="<string>"
-Specify the unique name for this report-power task. The name will be used to create runtime directory
+Syntax Explanation
+==================
+
+Report-power tasks should be defined under the `report_power` section. Each task should contain the following information:
+
+- **name** = ``<string>``
+
+  Specify the unique name for this report-power task. The name will be used to create the runtime directory.
+
 
 Run a PTPX task
 ~~~~~~~~~~~~~~~
