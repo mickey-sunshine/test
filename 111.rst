@@ -139,7 +139,7 @@ An example of file designed for report dynamic power is shown as follows.
     - **Hierarchy Level:** 2
   
   - **Power Tasks:**
-    - adder16_dynamic.fpga_top.power_by_hierarchy
+    - **adder16_dynamic.fpga_top.power_by_hierarchy**
 
 Syntax explanation
 
