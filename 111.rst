@@ -198,7 +198,7 @@ The parameters for the tasks to be executed and the paths for generating reports
 - **Distribution** = ``<string>``
     Specify the unique name for this power summary task. The name will be used to create the runtime directory.
 
-     - **name** = ``<string>``
+    - **name** = ``<string>``
         Specify the path to the output file
 
     - **data_type** = ``<string>``
