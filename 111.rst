@@ -53,7 +53,7 @@ Take the example of the following task configuration file,
 .. literalinclude:: example_report_power_task.yaml
   :language: yaml
 
-Detail Description about ``config/ptpx_task.yaml``
+An example of file designed for report dynamic power is shown as follows.
 
 - **report power**
 
@@ -154,6 +154,7 @@ Detail Description about ``config/ptpx_task.yaml``
   
     - `adder16_dynamic.fpga_top.power_by_hierarchy`
       - The format is `<task_name>.<design_name>.<report_name>`.
+Syntax explanation
 
 Run a PTPX task
 ~~~~~~~~~~~~~~~
