@@ -117,43 +117,30 @@ An example of file designed for report dynamic power is shown as follows.
   - **Histogram:**
 
     - **File:** `../reports/power/histogram/power_histo.png`
-      - This can be applied to hierarchical power reports.
-    
+
     - **Data Type:** "leak power"
-      - Specify the type of power values to be selected.
     
     - **Hierarchy Level:** 2
-      - Can be set to "all" or an integer. Specify the level of data to be extracted from power reports containing hierarchical data.
-      - Note that hierarchy contains a tab space at the beginning of a line. Refer to Fig. 4 for a detailed example.
-      - In level 2, only lines matching the pattern `tile_<int>__<int>_` are considered. By default, it should be "all", resulting in all lines being extracted.
 
   - **Distribution:**
   
     - **File:** `../reports/power/histogram/power_dist.png`
-      - This can be applied to hierarchical power reports.
-  
+
     - **Data Type:** "leak power"
-      - Specify the type of power values to be selected.
   
     - **Hierarchy Level:** 2
-      - Same as the hierarchy_level for the histogram.
 
   - **CSV:**
   
     - **Name:** `../reports/power/csv/fpga_top_leakage.csv`
   
     - **Data Type:** "leak power"
-      - Specify the type of power values to be selected.
   
     - **Hierarchy Level:** 2
-      - Same as the hierarchy_level for the histogram.
   
   - **Power Tasks:**
-  
-    - Define the name of power tasks in the report section. This will determine where the input file is sourced from. Currently, only one report is supported. An error will be triggered if more than one report is specified.
-  
-    - `adder16_dynamic.fpga_top.power_by_hierarchy`
-      - The format is `<task_name>.<design_name>.<report_name>`.
+    - `adder16_dynamic.fpga_top.power_by_hierarchy
+
 Syntax explanation
 
 Run a PTPX task
