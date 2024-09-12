@@ -198,11 +198,14 @@ The parameters for the tasks to be executed and the paths for generating reports
 - **Distribution** = ``<string>``
     Specify the unique name for this power summary task. The name will be used to create the runtime directory.
 
-      - **name** = ``<string>``
-          Specify the path to the output file
+     - **name** = ``<string>``
+        Specify the path to the output file
 
-      - **Hierarchy Level**: ``Can be all or an integer``
-         Specify the level of data to be extracted in power report that contains hierarchy. Note that hierarchy contains a tab space at the beginning of a line. In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted
+    - **data_type** = ``<string>``
+        Specify the types of keywords to be extracted.
+
+    - **Hierarchy Level**: ``Can be all or an integer``
+       Specify the level of data to be extracted in power report that contains hierarchy. Note that hierarchy contains a tab space at the beginning of a line. In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted
 
 - **CSV** = ``<string>``
     Specify the unique name for this power summary task. The name will be used to create the runtime directory.
@@ -210,8 +213,11 @@ The parameters for the tasks to be executed and the paths for generating reports
     - **name** = ``<string>``
         Specify the path to the output file
 
+    - **data_type** = ``<string>``
+        Specify the types of keywords to be extracted.
+
     - **Hierarchy Level**: ``Can be all or an integer``
-     Specify the level of data to be extracted in power report that contains hierarchy. Note that hierarchy contains a tab space at the beginning of a line. In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted
+       Specify the level of data to be extracted in power report that contains hierarchy. Note that hierarchy contains a tab space at the beginning of a line. In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted
 
 - **Power Tasks:** = ``<string>``
     Define the name of power tasks in the report section. This will be where the input file comes from. Currently, only support 1 report. Error out when there are more than 1
