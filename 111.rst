@@ -154,9 +154,60 @@ Report-power tasks should be defined under the ``report_power`` section. Each ta
 - **Design** = ``<string>``
   Specify a list of the module name from the netlist for which power analysis should be performed. Alternatively, the design list can be defined an external file. 
 
-- **method** = ``<string>``
+- **Method** = ``<string>``
   Can be [ time_based | average ]. Depends on different methodology, input files are different
   In time-based analysis method, the flow require activity files or waveform files.In average analysis method, the flow does not require activity files or waveform files. User may define switching activities in their SDC files.
+
+- **Variables** = ``<list>``
+  List all the variables which will be utilized by the Tcl scripts. 
+
+- **Appvars** = ``<list>``
+  List all the application options/variables which will be utilized by the Tcl scripts
+
+- **SDC** = ``<list>``
+  These files will be included before running any power analysis!
+  List all the external SDC/Tcl files which will be included in the auto-generated tcl file. All the tcl files will be included in serial. 
+
+In each step, the output reports should be defined under the ``reports`` section. Each report should contain the following information
+  - name  = ``<string>``
+    Specify the unique name for this save data.
+  - file = ``<string>``
+    Specify the path to the output file
+  - command = ``<list>``
+    List the commands to run in PTPX when creating a report file. The commands will be executed serially.
+  - remove_time_stamp = ``<bool>``
+    Remove the time stamp in the resulting report files.
+
+The parameters for the tasks to be executed and the paths for generating reports need to be defined in section ``power summary``.
+
+- **name** = ``<string>``
+  Specify the unique name for this power summary task.
+
+- **Histogram** = ``<string>``
+    Specify the unique name for this power summary task. The name will be used to create the runtime directory.
+    - **name** = ``<string>``
+        Specify the path to the output file
+    - **data_type** = ``<string>``
+        Specify the types of keywords to be extracted.
+    - **Hierarchy Level:** ``Can be all or an integer``
+       Specify the level of data to be extracted in power report that contains hierarchy. Note that hierarchy contains a tab space at the beginning of a line. In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted
+        
+- **Distribution** = ``<string>``
+    Specify the unique name for this power summary task. The name will be used to create the runtime directory.
+      - **name** = ``<string>``
+          Specify the path to the output file
+      - **Hierarchy Level:** ``Can be all or an integer``
+         Specify the level of data to be extracted in power report that contains hierarchy. Note that hierarchy contains a tab space at the beginning of a line. In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted
+
+- **CSV** = ``<string>``
+    Specify the unique name for this power summary task. The name will be used to create the runtime directory.
+    - **name** = ``<string>``
+        Specify the path to the output file
+- **Hierarchy Level:** ``Can be all or an integer``
+     Specify the level of data to be extracted in power report that contains hierarchy. Note that hierarchy contains a tab space at the beginning of a line. In level 2, only the tile_<int>__<int>_ lines are considered. By default, it should be all, resulting in all the lines to be extracted
+
+- **Power Tasks:** = ``<string>``
+    Define the name of power tasks in the report section. This will be where the input file comes from. Currently, only support 1 report. Error out when there are more than 1
 
 Run a PTPX task
 ~~~~~~~~~~~~~~~
