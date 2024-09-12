@@ -155,8 +155,7 @@ Report-power tasks should be defined under the ``report_power`` section. Each ta
   Specify a list of the module name from the netlist for which power analysis should be performed. Alternatively, the design list can be defined an external file. 
 
 - **method** = ``<string>``
-Can be [ time_based | average ]. Depends on different methodology, input files are different
-
+  Can be [ time_based | average ]. Depends on different methodology, input files are different
   In time-based analysis method, the flow require activity files or waveform files.In average analysis method, the flow does not require activity files or waveform files. User may define switching activities in their SDC files.
 
 Run a PTPX task
