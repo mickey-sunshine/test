@@ -145,7 +145,7 @@ An example of file designed for report dynamic power is shown as follows.
 Syntax Explanation
 ==================
 
-Report-power tasks should be defined under the `report_power` section. Each task should contain the following information:
+Report-power tasks should be defined under the ``report_power`` section. Each task should contain the following information:
 
 - **name** = ``<string>``
 
