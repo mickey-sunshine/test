@@ -1,0 +1,1411 @@
+Job <283943> is submitted to default queue <normal>.
+
+
+                        _                                        _ 
+         /\            | |        /\                            | |
+        /  \     _ __  | | __    /  \     _ __     __ _    ___  | |
+       / /\ \   | '__| | |/ /   / /\ \   | '_ \   / _` |  / _ \ | |
+      / ____ \  | |    |   <   / ____ \  | | | | | (_| | |  __/ | |
+     /_/    \_\ |_|    |_|\_\ /_/    \_\ |_| |_|  \__, |  \___| |_|     
+                                                   __/ |           
+                                                  |___/            
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                        ArkAngel FPGA Design Tool Suites
+                               Engineering Edition
+                                 Version 2024R1
+             Copyright (C) 2023-2024 by Rapid Flex Shanghai Limited
+                              ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Rapid Flex Shanghai
+Limited and its affiliates and may be used and disclosed only as authorized in a
+license agreement which controls such use and disclosure. The licensed product
+may be delivered with software that is subject to open-source licensing terms.
+The open-source software is provided on an "AS IS" basis:
+
+ANY WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY DISCLAIMED
+AS: RAPID FLEX SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED TO PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES, LOSS OF USE OR DATA OR PROFITS, OR BUSINESS
+INTERRUPTION, NO MATTER HOW THEY ARE CAUSED IN USING OF THIS SOFRWARE, ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+This software and the associated documentation are proprietary to Rapid Flex
+Shanghai Limited and its affiliates. This software may only be used in
+accordance with the terms and conditions of a written license agreement with
+Rapid Flex. All other use, reproduction, or distribution of this software is
+strictly prohibited.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Initializing...
+Booting...
+# Read Boot Configuration File
+# Read Boot Configuration File took 0.00 seconds (max_rss 16.5 MiB, delta_rss +1.2 MiB)
+Done
+Initializing... took 0.00 seconds (max_rss 16.5 MiB, delta_rss +1.2 MiB)
+Reading script file run.arkangel...
+
+Command line to execute: create_tapeout --config_file project.xml
+
+Confirm selected options when call command 'create_tapeout':
+--config_file: project.xml
+--verbosity: off
+Reading configuration file 'project.xml'...
+Read tapeout project file
+# Read architecture template for project file
+# Read architecture template for project file took 0.00 seconds (max_rss 16.8 MiB, delta_rss +0.0 MiB)
+Read tapeout project file took 0.00 seconds (max_rss 16.8 MiB, delta_rss +0.3 MiB)
+Read PDK file
+Read PDK file took 0.00 seconds (max_rss 16.9 MiB, delta_rss +0.1 MiB)
+Validating configuration file...
+Read benchmark file
+Warning 1: The benchmark suite name 'checkin' already exist. Benchmarks will be automatically appended to the existing one!
+Warning 2: The benchmark suite name 'checkin' already exist. Benchmarks will be automatically appended to the existing one!
+Warning 3: The benchmark suite name 'checkin' already exist. Benchmarks will be automatically appended to the existing one!
+Read benchmark file took 0.00 seconds (max_rss 17.0 MiB, delta_rss +0.1 MiB)
+Done
+Initializing tapeout project 'alkaid_ex'...
+
+Command line to execute: create_arch
+
+Confirm selected options when call command 'create_arch':
+--run: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.1 MiB, delta_rss +0.1 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.1 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Initializing arch directory...
+Warning 4: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 5: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 6: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 7: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 8: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 9: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 10: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 11: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 12: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 13: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 14: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 15: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 16: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Done
+
+Command line to execute: setup_arch
+
+Confirm selected options when call command 'setup_arch':
+--run: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.2 MiB, delta_rss +0.1 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.2 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 17: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 18: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 19: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v0p9' already exists. Will overwrite contents
+Warning 20: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v0p9' already exists. Will overwrite contents
+Warning 21: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p0' already exists. Will overwrite contents
+Warning 22: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p0' already exists. Will overwrite contents
+Warning 23: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 24: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 25: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 26: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 27: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 28: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Done
+
+Command line to execute: set_arch --type module_names
+
+Confirm selected options when call command 'set_arch':
+--type: module_names
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read module rename rules
+Read module rename rules took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Generating custom module names...
+Adding custom module name 'tile_0__EMPTY_id7_'
+Adding custom module name 'tile_10__io_bottomL_bottom_id5_'
+Adding custom module name 'tile_11__clb_id14_'
+Adding custom module name 'tile_12__clb_id15_'
+Adding custom module name 'tile_13__EMPTY_id4_'
+Adding custom module name 'tile_14__io_rightL_right_id3_'
+Adding custom module name 'tile_15__io_rightL_right_id2_'
+Adding custom module name 'tile_1__io_leftL_left_id8_'
+Adding custom module name 'tile_2__io_leftL_left_id9_'
+Adding custom module name 'tile_3__io_leftL_left_id10_'
+Adding custom module name 'tile_4__io_leftL_left_id11_'
+Adding custom module name 'tile_5__EMPTY_id0_'
+Adding custom module name 'tile_6__io_bottomL_bottom_id6_'
+Adding custom module name 'tile_7__clb_id12_'
+Adding custom module name 'tile_8__clb_id13_'
+Adding custom module name 'tile_9__io_topL_top_id1_'
+Write module renaming rules
+Write module renaming rules took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read module rename rules
+Read module rename rules took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Generating custom module names...
+Adding custom module name 'tile_0__EMPTY_id7_'
+Adding custom module name 'tile_10__io_bottomL_bottom_id5_'
+Adding custom module name 'tile_11__clb_id14_'
+Adding custom module name 'tile_12__clb_id15_'
+Adding custom module name 'tile_13__EMPTY_id4_'
+Adding custom module name 'tile_14__io_rightL_right_id3_'
+Adding custom module name 'tile_15__io_rightL_right_id2_'
+Adding custom module name 'tile_1__io_leftL_left_id8_'
+Adding custom module name 'tile_2__io_leftL_left_id9_'
+Adding custom module name 'tile_3__io_leftL_left_id10_'
+Adding custom module name 'tile_4__io_leftL_left_id11_'
+Adding custom module name 'tile_5__EMPTY_id0_'
+Adding custom module name 'tile_6__io_bottomL_bottom_id6_'
+Adding custom module name 'tile_7__clb_id12_'
+Adding custom module name 'tile_8__clb_id13_'
+Adding custom module name 'tile_9__io_topL_top_id1_'
+Write module renaming rules
+Write module renaming rules took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Warning 29: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 30: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 31: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 32: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+
+Command line to execute: set_arch --type crafted_fabric_key
+
+Confirm selected options when call command 'set_arch':
+--type: crafted_fabric_key
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 33: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 34: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 35: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 36: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+[ARKANGEL INFO] Parent process pid: 67433, child process pid: 70700, parent process has run
+[ARKANGEL INFO] Parent process pid: 67433, child process pid: 70700, child process has run
+[ARKANGEL INFO] Parent process received: child process has run
+[ARKANGEL INFO] Waiting for process with pid: 70700
+
+Confirm selected options when call command 'fabric_key_assistant':
+--reference: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/reference_fabric_key.xml
+--input: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/crafted_fabric_key.xml
+--output: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/fabric_key.xml
+--verbose: off
+--help: off
+Read the reference fabric key from an XML file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/reference_fabric_key.xml.
+Read Fabric Key
+Read Fabric Key took 0.00 seconds (max_rss 5.4 MiB, delta_rss +0.0 MiB)
+Read the hand-crafted fabric key from an XML file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/crafted_fabric_key.xml.
+Read Fabric Key
+Read Fabric Key took 0.00 seconds (max_rss 5.4 MiB, delta_rss +0.0 MiB)
+Checking key alias in reference key...
+Checking key alias in reference key... [Pass]
+Checking key names and values in reference key...
+Checking key names and valus in reference key... [Pass]
+Checking key alias in input key...
+Checking key alias in input key... [Pass]
+Checking key alias matching between reference key and input keys...
+Checking key alias matching between reference key and input keys... [Pass]
+Pairing key alias between reference key and input keys...
+Write the final fabric key to an XML file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/fabric_key.xml.
+Write Fabric Key
+Write Fabric Key took 0.00 seconds (max_rss 5.4 MiB, delta_rss +0.0 MiB)
+[ARKANGEL INFO] Process 70700 finished with status: 0
+Warning 37: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 38: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+
+Command line to execute: set_arch --type io_pin_table_naming_rules
+
+Confirm selected options when call command 'set_arch':
+--type: io_pin_table_naming_rules
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 39: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Read I/O coordinate File
+Read I/O coordinate File took 0.00 seconds (max_rss 17.5 MiB, delta_rss +0.0 MiB)
+Write pin table naming rules to file
+Warning 40: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Write pin table naming rules to file took 0.00 seconds (max_rss 17.6 MiB, delta_rss +0.0 MiB)
+INFO: Generation succeed
+Done
+
+Command line to execute: eval_arch
+
+Confirm selected options when call command 'eval_arch':
+--run: off
+--arch_run: off
+--corner: off
+--report_qor: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Automatically use the latest run 'iter0' of arch as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.6 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.6 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.6 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.6 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.6 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Generating golden bitstream and reports...
+Initializing bitstream generation workspace...
+Warning 41: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Warning 42: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Done
+Running bitstream generation for suite 'checkin' for corner 'tt_25C_v1p1'...
+Warning 43: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 44: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 45: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 46: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+The number of availbale global ports is: 32
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.1 MiB, delta_rss +0.4 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Warning 47: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 48: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 49: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 50: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Global signal clk is constrained to port clk[0:0]
+Global signal OPEN is constrained to port clk[1:1]
+Global signal OPEN is constrained to port clk[2:2]
+Global signal OPEN is constrained to port clk[3:3]
+Global signal OPEN is constrained to port clk[4:4]
+Global signal OPEN is constrained to port clk[5:5]
+Global signal OPEN is constrained to port clk[6:6]
+Global signal OPEN is constrained to port clk[7:7]
+Global signal OPEN is constrained to port reset[0:0]
+Global signal OPEN is constrained to port reset[1:1]
+The number of availbale global ports is: 22
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Warning 51: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 52: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 53: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 54: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+The number of availbale global ports is: 32
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Warning 55: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 56: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 57: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 58: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Global signal clk_i is constrained to port clk[0:0]
+Global signal OPEN is constrained to port clk[1:1]
+Global signal OPEN is constrained to port clk[2:2]
+Global signal OPEN is constrained to port clk[3:3]
+Global signal OPEN is constrained to port clk[4:4]
+Global signal OPEN is constrained to port clk[5:5]
+Global signal OPEN is constrained to port clk[6:6]
+Global signal OPEN is constrained to port clk[7:7]
+Global signal rst_ni is constrained to port reset[0:0]
+Global signal OPEN is constrained to port reset[1:1]
+The number of availbale global ports is: 22
+Ckbuf net rst_local_ckbuf is constraint to port reset[1:1] 
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.1 MiB, delta_rss +0.0 MiB)
+Done
+Warning 59: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Done
+
+Command line to execute: generate_netlist
+
+Confirm selected options when call command 'generate_netlist':
+--run: off
+--arch_run: off
+--netlist_makeup: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Automatically use the latest run 'iter0' of arch as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.2 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.2 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.2 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Initializing netlist directory...
+Warning 60: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0' already exists. Will overwrite contents
+Warning 61: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0' already exists. Will overwrite contents
+Generating RTL netlists
+Warning 62: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/dp/generate_fabric' already exists. Will overwrite contents
+Warning 63: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/dp/generate_fabric' already exists. Will overwrite contents
+Importing external IP netlists...
+Warning 64: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 65: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 66: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 67: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 68: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 69: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 70: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 71: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 72: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 73: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 74: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 75: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 76: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 77: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 78: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 79: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 80: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 81: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 82: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 83: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Done
+Importing external PDK netlists...
+Warning 84: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 85: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 86: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Done
+Creating include files for external netlists...
+Done
+Appending flags to netlist '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/fpga_defines.v'...
+Appended 1 flags
+Done
+Warning 87: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl' already exists. Will overwrite contents
+Netlist makeup is skipped
+Done
+Warning 88: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_fabric' already exists. Will overwrite contents
+Warning 89: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_fabric' already exists. Will overwrite contents
+Importing external IP netlists...
+Warning 90: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 91: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 92: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 93: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 94: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 95: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 96: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 97: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 98: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 99: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 100: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 101: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 102: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 103: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 104: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 105: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 106: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 107: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 108: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 109: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Done
+Importing external PDK netlists...
+Warning 110: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 111: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 112: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Done
+Creating include files for external netlists...
+Done
+Appending flags to netlist '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/fpga_defines.v'...
+Appended 1 flags
+Done
+Warning 113: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl' already exists. Will overwrite contents
+Netlist makeup is skipped
+Done
+Generating base bitstream
+Warning 114: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_base_bitstream' already exists. Will overwrite contents
+Warning 115: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_base_bitstream' already exists. Will overwrite contents
+
+Command line to execute: optimize_netlist --jobs 32
+
+Confirm selected options when call command 'optimize_netlist':
+--run: off
+--stage: off
+--strategy: off
+--corner: off
+--dryrun: off
+--jobs: 32
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.2 MiB, delta_rss +0.0 MiB)
+allInitializing SDC files for netlist synthesis
+Warning 116: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth' already exists. Will overwrite contents
+Done
+Generating PDK configuration to '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/pdk/synth_pdk_config.xml'
+Write synthesis-oriented pdk data to file
+Warning 117: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/pdk' already exists. Will overwrite contents
+Write synthesis-oriented pdk data to file took 0.00 seconds (max_rss 18.2 MiB, delta_rss +0.0 MiB)
+Done
+Generating synthesis task configuration to '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/config/synth_task.yaml'
+Read Synthesis Strategy File
+Read Synthesis Strategy File took 0.00 seconds (max_rss 18.2 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to find sub-blocks under tiles
+Read fabric hierarchy file to find sub-blocks under tiles took 0.00 seconds (max_rss 18.2 MiB, delta_rss +0.0 MiB)
+Warning 118: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/config' already exists. Will overwrite contents
+Done
+Apply CCFF makeup...
+INFO: 
+Runing pythons script ccff_makeup.py ...
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/fpga_defines.v
+WARNING: !!!! Warning, not support macro yet, skip this file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/fpga_defines.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/./custom_modules/efpga_circuits.v
+WARNING: !!!! Warning, not support macro yet, skip this file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/./custom_modules/efpga_circuits.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/inv_buf_passgate.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/arch_encoder.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/local_encoder.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/mux_primitives.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/muxes.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/luts.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/wires.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/memories.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/sub_module/shift_register_banks.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_ckbuf_mode_ckbuf_physical_mode__ckbuf_core.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_ckbuf_mode_ckbuf_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode___phy_fpga_adder_core.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic_mode_frac_logic_default_mode__frac_lut5_arith_frac_lut5_arith.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__p_ff_p_ff.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_clb_mode_clb_default_mode__fle.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_clb_mode_clb_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__io_pi_io_pi.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_mode_io_pi_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__io_pi_pdc_ecb1_io_pi_pdc_ecb1.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__p_io_pdc_ecb1_scffi_p_io_pdc_ecb1_scffi.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__io_po_core.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__p_io_scffo_p_io_scffo.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_mode_io_po_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__io_po_cko_core.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__p_io_cko_scffo_p_io_cko_scffo.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_io_po_cko_mode_io_po_cko_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/logical_tile_pcnt_mode_pcnt_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/grid_clb.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/grid_io_bottomL_bottom.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/grid_io_leftL_left.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/grid_io_rightL_right.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/lb/grid_io_topL_top.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_0_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_1_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_2_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_3_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_4_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_5_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_6_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_7_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_8_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_9_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_10_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_11_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_12_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_13_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/sb_14_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cbx_0_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cbx_1_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cbx_2_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cbx_3_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cbx_4_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cbx_5_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cbx_6_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cby_0_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cby_1_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cby_2_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cby_3_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cby_4_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cby_5_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/routing/cby_6_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_0__EMPTY_id7_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_1__io_leftL_left_id8_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_2__io_leftL_left_id9_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_3__io_leftL_left_id10_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_4__io_leftL_left_id11_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_5__EMPTY_id0_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_6__io_bottomL_bottom_id6_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_7__clb_id12_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_8__clb_id13_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_9__io_topL_top_id1_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_10__io_bottomL_bottom_id5_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_11__clb_id14_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_12__clb_id15_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_13__EMPTY_id4_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_14__io_rightL_right_id3_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/tile/tile_15__io_rightL_right_id2_.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/fpga_core.v
+INFO: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/ultimate/fpga_top.v
+INFO: Processing ccff chain - grid_io_topL_top_config_group_mem_size136
+INFO: Processing ccff chain - cby_2__config_group_mem_size176
+INFO: Processing ccff chain - grid_io_rightL_right_config_group_mem_size136
+INFO: Processing ccff chain - grid_io_bottomL_bottom_config_group_mem_size140
+INFO: Processing ccff chain - cbx_2__config_group_mem_size32
+INFO: Processing ccff chain - sb_10__config_group_mem_size336
+INFO: Processing ccff chain - sb_6__config_group_mem_size340
+INFO: Processing ccff chain - sb_0__config_group_mem_size265
+INFO: Processing ccff chain - grid_io_leftL_left_config_group_mem_size136
+INFO: Processing ccff chain - cby_1__config_group_mem_size224
+INFO: Processing ccff chain - sb_1__config_group_mem_size344
+INFO: Processing ccff chain - sb_2__config_group_mem_size408
+INFO: Processing ccff chain - sb_3__config_group_mem_size344
+INFO: Processing ccff chain - sb_4__config_group_mem_size244
+INFO: Processing ccff chain - grid_clb_config_group_mem_size885
+WARNING: Warning! - memory bit in instance pcnt_wrapper_EFPGA_CCFF_mem is bigger than max fanout 33,so this instance will be devided manually
+WARNING: Warning! - memory bit in instance pcnt_wrapper_EFPGA_CCFF_mem_1_ is bigger than max fanout 33,so this instance will be devided manually
+WARNING: Warning! - memory bit in instance pcnt_wrapper_EFPGA_CCFF_mem_2_ is bigger than max fanout 33,so this instance will be devided manually
+INFO: Processing ccff chain - cbx_3__config_group_mem_size174
+INFO: Processing ccff chain - cby_3__config_group_mem_size336
+INFO: Processing ccff chain - sb_7__config_group_mem_size358
+INFO: Processing ccff chain - cbx_4__config_group_mem_size206
+INFO: Processing ccff chain - cby_4__config_group_mem_size336
+INFO: Processing ccff chain - sb_8__config_group_mem_size360
+INFO: Processing ccff chain - cbx_5__config_group_mem_size174
+INFO: Processing ccff chain - cby_5__config_group_mem_size560
+INFO: Processing ccff chain - sb_11__config_group_mem_size358
+INFO: Processing ccff chain - cbx_6__config_group_mem_size206
+INFO: Processing ccff chain - cby_6__config_group_mem_size560
+INFO: Processing ccff chain - sb_12__config_group_mem_size315
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_topL_top_config_group_mem_size136_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_topL_top_config_group_mem_size136_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_topL_top_config_group_mem_size136_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_topL_top_config_group_mem_size136_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_2__config_group_mem_size176_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_2__config_group_mem_size176_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_2__config_group_mem_size176_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_2__config_group_mem_size176_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_rightL_right_config_group_mem_size136_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_rightL_right_config_group_mem_size136_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_rightL_right_config_group_mem_size136_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_rightL_right_config_group_mem_size136_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_bottomL_bottom_config_group_mem_size140_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_bottomL_bottom_config_group_mem_size140_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_bottomL_bottom_config_group_mem_size140_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_bottomL_bottom_config_group_mem_size140_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_2__config_group_mem_size32_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_2__config_group_mem_size32_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_2__config_group_mem_size32_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_2__config_group_mem_size32_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_10__config_group_mem_size336_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_10__config_group_mem_size336_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_10__config_group_mem_size336_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_10__config_group_mem_size336_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_6__config_group_mem_size340_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_6__config_group_mem_size340_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_6__config_group_mem_size340_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_6__config_group_mem_size340_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_0__config_group_mem_size265_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_0__config_group_mem_size265_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_0__config_group_mem_size265_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_0__config_group_mem_size265_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_leftL_left_config_group_mem_size136_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_leftL_left_config_group_mem_size136_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_leftL_left_config_group_mem_size136_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_io_leftL_left_config_group_mem_size136_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_1__config_group_mem_size224_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_1__config_group_mem_size224_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_1__config_group_mem_size224_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_1__config_group_mem_size224_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_1__config_group_mem_size344_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_1__config_group_mem_size344_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_1__config_group_mem_size344_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_1__config_group_mem_size344_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_2__config_group_mem_size408_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_2__config_group_mem_size408_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_2__config_group_mem_size408_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_2__config_group_mem_size408_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_3__config_group_mem_size344_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_3__config_group_mem_size344_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_3__config_group_mem_size344_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_3__config_group_mem_size344_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_4__config_group_mem_size244_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_4__config_group_mem_size244_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_4__config_group_mem_size244_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_4__config_group_mem_size244_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_clb_config_group_mem_size885_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_clb_config_group_mem_size885_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_clb_config_group_mem_size885_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/grid_clb_config_group_mem_size885_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_3__config_group_mem_size174_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_3__config_group_mem_size174_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_3__config_group_mem_size174_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_3__config_group_mem_size174_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_3__config_group_mem_size336_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_3__config_group_mem_size336_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_3__config_group_mem_size336_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_3__config_group_mem_size336_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_7__config_group_mem_size358_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_7__config_group_mem_size358_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_7__config_group_mem_size358_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_7__config_group_mem_size358_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_4__config_group_mem_size206_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_4__config_group_mem_size206_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_4__config_group_mem_size206_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_4__config_group_mem_size206_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_4__config_group_mem_size336_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_4__config_group_mem_size336_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_4__config_group_mem_size336_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_4__config_group_mem_size336_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_8__config_group_mem_size360_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_8__config_group_mem_size360_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_8__config_group_mem_size360_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_8__config_group_mem_size360_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_5__config_group_mem_size174_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_5__config_group_mem_size174_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_5__config_group_mem_size174_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_5__config_group_mem_size174_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_5__config_group_mem_size560_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_5__config_group_mem_size560_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_5__config_group_mem_size560_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_5__config_group_mem_size560_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_11__config_group_mem_size358_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_11__config_group_mem_size358_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_11__config_group_mem_size358_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_11__config_group_mem_size358_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_6__config_group_mem_size206_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_6__config_group_mem_size206_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_6__config_group_mem_size206_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cbx_6__config_group_mem_size206_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_6__config_group_mem_size560_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_6__config_group_mem_size560_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_6__config_group_mem_size560_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/cby_6__config_group_mem_size560_segments.txt
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_12__config_group_mem_size315_tcl_buf_prog_reset.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_12__config_group_mem_size315_tcl_buf_prog_clk.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_12__config_group_mem_size315_tcl_del.tcl
+INFO: Generate: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/sdc/ccff_buf/sb_12__config_group_mem_size315_segments.txt
+INFO: 
+Generated ccff chain buffer tcls and segments
+Done
+Run netlist synthesis...
+INFO: Use the custom PDK settings provided by users
+INFO: Num. synth. tasks is 5
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_0_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.009895
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_1_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007238
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_2_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007236
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_3_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007088
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_4_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007377
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_5_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007547
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_6_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007268
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_0_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007089
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_1_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007369
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_2_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007054
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_3_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.006995
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_4_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.008349
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_5_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007073
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_6_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007189
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_clb_grid_clb/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007193
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_grid_io_leftL_left/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007060
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_grid_io_rightL_right/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.006965
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_grid_io_topL_top/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007180
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_dchain_grid_io_bottomL_bottom/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007134
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_0_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.006994
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_10_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007171
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_11_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007064
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_12_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007091
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_1_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007200
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_2_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.006981
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_3_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007126
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_4_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007069
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_6_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007008
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_7_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007207
+INFO: Writing tcl file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_8_/run_dc.tcl'...
+INFO: Including netlist files under '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp'
+INFO: Found and included 109 netlist files'
+INFO: Write tcl took 0:00:00.007257
+INFO: cb_cbx_0_ start at.................................. 2025-09-05T14:34:41.623435
+INFO: cb_cbx_1_ start at.................................. 2025-09-05T14:34:42.624953
+INFO: cb_cbx_2_ start at.................................. 2025-09-05T14:34:43.626446
+INFO: cb_cbx_3_ start at.................................. 2025-09-05T14:34:44.627909
+INFO: cb_cbx_4_ start at.................................. 2025-09-05T14:34:45.628785
+INFO: cb_cbx_5_ start at.................................. 2025-09-05T14:34:46.630183
+INFO: cb_cbx_6_ start at.................................. 2025-09-05T14:34:47.631503
+INFO: cb_cby_0_ start at.................................. 2025-09-05T14:34:48.632913
+INFO: cb_cby_1_ start at.................................. 2025-09-05T14:34:49.634405
+INFO: cb_cby_2_ start at.................................. 2025-09-05T14:34:50.635867
+INFO: cb_cby_3_ start at.................................. 2025-09-05T14:34:51.637356
+INFO: cb_cby_4_ start at.................................. 2025-09-05T14:34:52.638996
+INFO: cb_cby_5_ start at.................................. 2025-09-05T14:34:53.640658
+INFO: cb_cby_6_ start at.................................. 2025-09-05T14:34:54.642320
+INFO: clb_grid_clb start at............................... 2025-09-05T14:34:55.644003
+INFO: io_grid_io_leftL_left start at...................... 2025-09-05T14:34:56.645693
+INFO: io_grid_io_rightL_right start at.................... 2025-09-05T14:34:57.647230
+INFO: io_grid_io_topL_top start at........................ 2025-09-05T14:34:58.648830
+INFO: io_dchain_grid_io_bottomL_bottom start at........... 2025-09-05T14:34:59.650429
+INFO: sb_sb_0_ start at................................... 2025-09-05T14:35:00.651864
+INFO: sb_sb_10_ start at.................................. 2025-09-05T14:35:01.653404
+INFO: sb_sb_11_ start at.................................. 2025-09-05T14:35:02.655120
+INFO: sb_sb_12_ start at.................................. 2025-09-05T14:35:03.656790
+INFO: sb_sb_1_ start at................................... 2025-09-05T14:35:04.658271
+INFO: sb_sb_2_ start at................................... 2025-09-05T14:35:05.658936
+INFO: sb_sb_3_ start at................................... 2025-09-05T14:35:06.659878
+INFO: sb_sb_4_ start at................................... 2025-09-05T14:35:07.660956
+INFO: sb_sb_6_ start at................................... 2025-09-05T14:35:08.662618
+INFO: sb_sb_7_ start at................................... 2025-09-05T14:35:09.664179
+INFO: sb_sb_8_ start at................................... 2025-09-05T14:35:10.664936
+INFO: cb_cbx_0_ ends  at.................................. 2025-09-05T14:35:53.898376
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_0_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.022329
+INFO: cb_cby_0_ ends  at.................................. 2025-09-05T14:36:00.998785
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_0_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.021452
+INFO: cb_cbx_1_ ends  at.................................. 2025-09-05T14:36:05.037347
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_1_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.020253
+INFO: cb_cbx_2_ ends  at.................................. 2025-09-05T14:36:19.229096
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_2_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.015052
+INFO: cb_cby_2_ ends  at.................................. 2025-09-05T14:36:27.961291
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_2_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.032079
+INFO: cb_cbx_6_ ends  at.................................. 2025-09-05T14:36:55.017419
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_6_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.034784
+INFO: cb_cby_1_ ends  at.................................. 2025-09-05T14:36:55.529397
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_1_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.034414
+INFO: cb_cbx_3_ ends  at.................................. 2025-09-05T14:36:57.413366
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_3_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.025126
+INFO: sb_sb_12_ ends  at.................................. 2025-09-05T14:36:59.864127
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_12_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.022418
+INFO: cb_cbx_5_ ends  at.................................. 2025-09-05T14:37:03.802184
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_5_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.032803
+INFO: cb_cbx_4_ ends  at.................................. 2025-09-05T14:37:04.296407
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cbx_4_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.021783
+INFO: sb_sb_0_ ends  at................................... 2025-09-05T14:37:08.783698
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_0_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.021892
+INFO: sb_sb_4_ ends  at................................... 2025-09-05T14:37:08.897502
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_4_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.020019
+INFO: sb_sb_3_ ends  at................................... 2025-09-05T14:37:12.696303
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_3_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.040549
+INFO: sb_sb_1_ ends  at................................... 2025-09-05T14:37:13.140340
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_1_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.027853
+INFO: sb_sb_2_ ends  at................................... 2025-09-05T14:37:15.574179
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_2_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.026293
+INFO: sb_sb_10_ ends  at.................................. 2025-09-05T14:37:18.761808
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_10_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.022798
+INFO: sb_sb_6_ ends  at................................... 2025-09-05T14:37:21.643985
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_6_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.022289
+INFO: sb_sb_8_ ends  at................................... 2025-09-05T14:37:24.205994
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_8_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.024304
+INFO: sb_sb_7_ ends  at................................... 2025-09-05T14:37:24.945902
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_7_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.023785
+INFO: sb_sb_11_ ends  at.................................. 2025-09-05T14:37:26.508897
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_sb_sb_11_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.024703
+INFO: cb_cby_3_ ends  at.................................. 2025-09-05T14:38:09.906997
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_3_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.028411
+INFO: cb_cby_4_ ends  at.................................. 2025-09-05T14:38:33.533932
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_4_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.027143
+INFO: cb_cby_5_ ends  at.................................. 2025-09-05T14:38:42.350309
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_5_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.036442
+INFO: cb_cby_6_ ends  at.................................. 2025-09-05T14:39:16.848863
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_cb_cby_6_/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.034873
+INFO: io_dchain_grid_io_bottomL_bottom ends  at........... 2025-09-05T14:39:54.351484
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_dchain_grid_io_bottomL_bottom/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.017445
+INFO: io_grid_io_topL_top ends  at........................ 2025-09-05T14:40:14.120039
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_grid_io_topL_top/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.016649
+INFO: io_grid_io_rightL_right ends  at.................... 2025-09-05T14:40:44.607745
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_grid_io_rightL_right/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.016001
+INFO: io_grid_io_leftL_left ends  at...................... 2025-09-05T14:40:48.353421
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_io_grid_io_leftL_left/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.015743
+INFO: clb_grid_clb ends  at............................... 2025-09-05T14:40:49.971000
+INFO: Checking DC log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/_work_clb_grid_clb/dc_run.log'...
+INFO: Checking DC log file took 0:00:00.018453
+INFO: cb_cbx_0_ ..................................................................... [Pass]
+INFO: cb_cbx_0_.................................................. took 0:01:12.274940
+INFO: cb_cbx_1_ ..................................................................... [Pass]
+INFO: cb_cbx_1_.................................................. took 0:01:22.412394
+INFO: cb_cbx_2_ ..................................................................... [Pass]
+INFO: cb_cbx_2_.................................................. took 0:01:35.602650
+INFO: cb_cbx_3_ ..................................................................... [Pass]
+INFO: cb_cbx_3_.................................................. took 0:02:12.785457
+INFO: cb_cbx_4_ ..................................................................... [Pass]
+INFO: cb_cbx_4_.................................................. took 0:02:18.667623
+INFO: cb_cbx_5_ ..................................................................... [Pass]
+INFO: cb_cbx_5_.................................................. took 0:02:17.172001
+INFO: cb_cbx_6_ ..................................................................... [Pass]
+INFO: cb_cbx_6_.................................................. took 0:02:07.385916
+INFO: cb_cby_0_ ..................................................................... [Pass]
+INFO: cb_cby_0_.................................................. took 0:01:12.365871
+INFO: cb_cby_1_ ..................................................................... [Pass]
+INFO: cb_cby_1_.................................................. took 0:02:05.894992
+INFO: cb_cby_2_ ..................................................................... [Pass]
+INFO: cb_cby_2_.................................................. took 0:01:37.325424
+INFO: cb_cby_3_ ..................................................................... [Pass]
+INFO: cb_cby_3_.................................................. took 0:03:18.269641
+INFO: cb_cby_4_ ..................................................................... [Pass]
+INFO: cb_cby_4_.................................................. took 0:03:40.894936
+INFO: cb_cby_5_ ..................................................................... [Pass]
+INFO: cb_cby_5_.................................................. took 0:03:48.709651
+INFO: cb_cby_6_ ..................................................................... [Pass]
+INFO: cb_cby_6_.................................................. took 0:04:22.206543
+INFO: clb_grid_clb .................................................................. [Pass]
+INFO: clb_grid_clb............................................... took 0:05:54.326997
+INFO: io_grid_io_leftL_left ......................................................... [Pass]
+INFO: io_grid_io_leftL_left...................................... took 0:05:51.707728
+INFO: io_grid_io_rightL_right ....................................................... [Pass]
+INFO: io_grid_io_rightL_right.................................... took 0:05:46.960515
+INFO: io_grid_io_topL_top ........................................................... [Pass]
+INFO: io_grid_io_topL_top........................................ took 0:05:15.471209
+INFO: io_dchain_grid_io_bottomL_bottom .............................................. [Pass]
+INFO: io_dchain_grid_io_bottomL_bottom........................... took 0:04:54.701056
+INFO: sb_sb_0_ ...................................................................... [Pass]
+INFO: sb_sb_0_................................................... took 0:02:08.131835
+INFO: sb_sb_10_ ..................................................................... [Pass]
+INFO: sb_sb_10_.................................................. took 0:02:17.108404
+INFO: sb_sb_11_ ..................................................................... [Pass]
+INFO: sb_sb_11_.................................................. took 0:02:23.853777
+INFO: sb_sb_12_ ..................................................................... [Pass]
+INFO: sb_sb_12_.................................................. took 0:01:56.207338
+INFO: sb_sb_1_ ...................................................................... [Pass]
+INFO: sb_sb_1_................................................... took 0:02:08.482069
+INFO: sb_sb_2_ ...................................................................... [Pass]
+INFO: sb_sb_2_................................................... took 0:02:09.915243
+INFO: sb_sb_3_ ...................................................................... [Pass]
+INFO: sb_sb_3_................................................... took 0:02:06.036426
+INFO: sb_sb_4_ ...................................................................... [Pass]
+INFO: sb_sb_4_................................................... took 0:02:01.236546
+INFO: sb_sb_6_ ...................................................................... [Pass]
+INFO: sb_sb_6_................................................... took 0:02:12.981367
+INFO: sb_sb_7_ ...................................................................... [Pass]
+INFO: sb_sb_7_................................................... took 0:02:15.281723
+INFO: sb_sb_8_ ...................................................................... [Pass]
+INFO: sb_sb_8_................................................... took 0:02:13.541058
+INFO: Finished 30 synthesis jobs
+INFO: 	Passed 30
+INFO: 	Failed 0
+INFO: DC job finished successfully
+INFO: Running Design Compiler flow took 0:06:08.626595
+Done
+Warning 119: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Warning 120: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Warning 121: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Warning 122: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Importing external PDK netlists...
+Warning 123: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp/techsrc' already exists. Will overwrite contents
+Warning 124: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp/techsrc' already exists. Will overwrite contents
+Warning 125: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp/techsrc' already exists. Will overwrite contents
+Done
+Warning 126: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 127: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 128: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 129: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 130: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Importing external PDK netlists...
+Warning 131: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate/techsrc' already exists. Will overwrite contents
+Warning 132: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate/techsrc' already exists. Will overwrite contents
+Warning 133: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate/techsrc' already exists. Will overwrite contents
+Done
+
+Command line to execute: show_dashboard
+
+Confirm selected options when call command 'show_dashboard':
+--verbosity: off
+Dashboard of tapeout project 'alkaid_ex'
+Step     	Substep                 	Status        	Latest Run	Frozen	
+arch     	N/A                     	success       	iter0     	N     
+arch     	arch_creation           	success       	iter0     	N     
+arch     	arch_setup              	success       	iter0     	N     
+arch     	arch_init_module_names  	success       	iter0     	N     
+arch     	arch_init_fabric_key    	success       	iter0     	N     
+arch     	arch_io_coordinate      	success       	iter0     	N     
+arch     	arch_pin_table          	success       	iter0     	N     
+bitstream	N/A                     	success       	iter0     	N     
+bitstream	arch_eval               	success       	iter0     	N     
+netlist  	N/A                     	fresh         	iter0     	N     
+netlist  	netlist_generation      	success       	iter0     	N     
+netlist  	netlist_optimization    	success       	iter0     	N     
+pd       	N/A                     	fresh         	N/A       	N/A   
+so       	N/A                     	fresh         	N/A       	N/A   
+dv       	N/A                     	fresh         	N/A       	N/A   
+[Tapeout progress] 33.33%
+
+Command line to execute: setup_design_verification --jobs 32
+
+Confirm selected options when call command 'setup_design_verification':
+--run: off
+--corner: off
+--bitstream_run: off
+--netlist_run: off
+--pd_run: off
+--dryrun: off
+--jobs: 32
+--new_thread_wait_time: off
+--sim_start_wait_time: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Automatically use the latest run 'iter0' of bitstream as default
+Automatically use the latest run 'iter0' of netlist as default
+Warning 134: The selected run of 'iter0' of netlist is not succeed. This will cause failures in downstream development! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.3 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.3 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.3 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.3 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.3 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 135: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 136: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 137: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl' already exists. Will overwrite contents
+Generating testbenches...
+Initializing design verification workspace...
+Warning 138: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0' already exists. Will overwrite contents
+Warning 139: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0' already exists. Will overwrite contents
+Warning 140: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv' already exists. Will overwrite contents
+Warning 141: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv' already exists. Will overwrite contents
+Done
+Generating preconfigured testbenchesRunning bitstream generation for suite 'checkin'...
+Warning 142: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 143: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 144: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2/tt_25C_v1p1' already exists. Will overwrite contents
+INFO: Found 1 tasks to create symbolic links
+INFO: Parsing verilog file: and2
+Generating LALR tables
+WARNING: 183 shift/reduce conflicts
+INFO: Parsing verilog file: and2..............................................................................................Done
+INFO: Writing bus group file:bus_group.xml
+INFO: Writing bus group file:bus_group.xml....................................................................................Done
+INFO: Created 1 bus group files
+Warning 145: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 146: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 147: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+INFO: Found 1 tasks to create symbolic links
+INFO: Parsing verilog file: and2_latch
+Generating LALR tables
+WARNING: 183 shift/reduce conflicts
+INFO: Parsing verilog file: and2_latch........................................................................................Done
+INFO: Writing bus group file:bus_group.xml
+INFO: Writing bus group file:bus_group.xml....................................................................................Done
+INFO: Created 1 bus group files
+Warning 148: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 149: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 150: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+INFO: Found 1 tasks to create symbolic links
+INFO: Parsing verilog file: and2_or2
+Generating LALR tables
+WARNING: 183 shift/reduce conflicts
+INFO: Parsing verilog file: and2_or2..........................................................................................Done
+INFO: Writing bus group file:bus_group.xml
+INFO: Writing bus group file:bus_group.xml....................................................................................Done
+INFO: Created 1 bus group files
+Warning 151: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 152: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 153: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+INFO: Found 1 tasks to create symbolic links
+INFO: Parsing verilog file: local_clk_test
+Generating LALR tables
+WARNING: 183 shift/reduce conflicts
+INFO: Parsing verilog file: local_clk_test....................................................................................Done
+INFO: Writing bus group file:bus_group.xml
+INFO: Writing bus group file:bus_group.xml....................................................................................Done
+INFO: Created 1 bus group files
+Done
+Setup simulation environment...
+Generating cocotb task for suite 'checkin'...
+Succeed to create directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/tasks'
+Done
+Setup cocotb workspace for suite 'checkin'...
+INFO: Selected 4/4 jobs
+INFO: Selected job 'and2'
+INFO: Selected job 'and2_latch'
+INFO: Selected job 'and2_or2'
+INFO: Selected job 'local_clk_test'
+INFO: and2 start at....................................... 2025-09-05T14:42:30.991315
+INFO: Created directory links ../../../../../netlist/rtl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/rtl
+INFO: Created directory links ../../../../../netlist/gl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/gl
+INFO: Created directory links ../../../../../netlist/pl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/pl
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/fabric_bitstream_base.xml
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/and2/tt_25C_v1p1/fabric_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/fabric_bitstream.xml
+INFO: Created file links /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/cocotb_force_bitstream.py
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/Makefile ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/Makefile
+INFO: Converted makefile 'Makefile'................................[Done]
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/test_and2.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/test_and2.py
+INFO: Converted cocotb testbench 'test_and2.py'............................[Done]
+INFO: and2 ends at....................................... 2025-09-05T14:42:31.010506
+INFO: and2_latch start at................................. 2025-09-05T14:42:31.992696
+INFO: Created directory links ../../../../../netlist/rtl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/rtl
+INFO: Created directory links ../../../../../netlist/gl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/gl
+INFO: Created directory links ../../../../../netlist/pl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/pl
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/fabric_bitstream_base.xml
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/and2_latch/tt_25C_v1p1/fabric_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/fabric_bitstream.xml
+INFO: Created file links /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/cocotb_force_bitstream.py
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_latch/Makefile ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/Makefile
+INFO: Converted makefile 'Makefile'................................[Done]
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_latch/test_and2_latch.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/test_and2_latch.py
+INFO: Converted cocotb testbench 'test_and2_latch.py'......................[Done]
+INFO: and2_latch ends at................................. 2025-09-05T14:42:32.010210
+INFO: and2_or2 start at................................... 2025-09-05T14:42:32.994162
+INFO: Created directory links ../../../../../netlist/rtl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/rtl
+INFO: Created directory links ../../../../../netlist/gl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/gl
+INFO: Created directory links ../../../../../netlist/pl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/pl
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream_base.xml
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream.xml
+INFO: Created file links /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/cocotb_force_bitstream.py
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_or2/Makefile ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/Makefile
+INFO: Converted makefile 'Makefile'................................[Done]
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_or2/test_and2_or2.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/test_and2_or2.py
+INFO: Converted cocotb testbench 'test_and2_or2.py'........................[Done]
+INFO: and2_or2 ends at................................... 2025-09-05T14:42:33.010985
+INFO: local_clk_test start at............................. 2025-09-05T14:42:33.995568
+INFO: Created directory links ../../../../../netlist/rtl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/rtl
+INFO: Created directory links ../../../../../netlist/gl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/gl
+INFO: Created directory links ../../../../../netlist/pl ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/pl
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/fabric_bitstream_base.xml
+INFO: Created file links /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/local_clk_test/tt_25C_v1p1/fabric_bitstream.xml ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/fabric_bitstream.xml
+INFO: Created file links /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/cocotb_force_bitstream.py
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/checkin/local_clk/Makefile ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/Makefile
+INFO: Converted makefile 'Makefile'................................[Done]
+INFO: Copied /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/checkin/local_clk/test_local_clk_test.py ----> /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/test_local_clk_test.py
+INFO: Converted cocotb testbench 'test_local_clk_test.py'..................[Done]
+INFO: local_clk_test ends at............................. 2025-09-05T14:42:34.012691
+INFO: and2 .......................................................................... [Pass]
+INFO: and2....................................................... took 0:00:00.019190
+INFO: and2_latch .................................................................... [Pass]
+INFO: and2_latch................................................. took 0:00:00.017514
+INFO: and2_or2 ...................................................................... [Pass]
+INFO: and2_or2................................................... took 0:00:00.016823
+INFO: local_clk_test ................................................................ [Pass]
+INFO: local_clk_test............................................. took 0:00:00.017123
+INFO: Cocotb setup job finished successfully
+INFO: User selects to skip running simulation.
+INFO: Running Cocotb flow took 0:00:04.025239
+Done
+Done
+Done
+
+Command line to execute: run_preconfigured_simulation --jobs 32
+
+Confirm selected options when call command 'run_preconfigured_simulation':
+--run: off
+--corner: off
+--jobs: 32
+--new_thread_wait_time: off
+--sim_start_wait_time: off
+--log_check_wait_time: off
+--simulator: off
+--netlist_type: off
+--dump_waveform: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.4 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 154: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 155: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 156: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl' already exists. Will overwrite contents
+Run preconfigured simulation...
+Run preconfigured simulation for suite 'checkin'...
+INFO: Selected 4/4 jobs
+INFO: Selected job 'and2'
+INFO: Selected job 'and2_latch'
+INFO: Selected job 'and2_or2'
+INFO: Selected job 'local_clk_test'
+INFO: and2 start at....................................... 2025-09-05T14:42:35.102040
+INFO: Clean up previous run before simulation
+INFO: and2_latch start at................................. 2025-09-05T14:42:36.103464
+INFO: Clean up previous run before simulation
+INFO: Changed to directory: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1
+INFO: Running the following command for job 'and2':
+	make  SIM=vcs NETLIST_TYPE=rtl MAKEFILE_INC_HOME=/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_makeinc
+May use for debugging
+INFO: For job 'and2': Redirect output to /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/cocotb_sim.log
+INFO: and2_or2 start at................................... 2025-09-05T14:42:37.105010
+INFO: Clean up previous run before simulation
+INFO: Changed to directory: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1
+INFO: Running the following command for job 'and2_latch':
+	make  SIM=vcs NETLIST_TYPE=rtl MAKEFILE_INC_HOME=/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_makeinc
+May use for debugging
+INFO: For job 'and2_latch': Redirect output to /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/cocotb_sim.log
+INFO: local_clk_test start at............................. 2025-09-05T14:42:38.105854
+INFO: Clean up previous run before simulation
+INFO: Changed to directory: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1
+INFO: Running the following command for job 'and2_or2':
+	make  SIM=vcs NETLIST_TYPE=rtl MAKEFILE_INC_HOME=/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_makeinc
+May use for debugging
+INFO: For job 'and2_or2': Redirect output to /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/cocotb_sim.log
+INFO: Changed to directory: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1
+INFO: Running the following command for job 'local_clk_test':
+	make  SIM=vcs NETLIST_TYPE=rtl MAKEFILE_INC_HOME=/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_makeinc
+May use for debugging
+INFO: For job 'local_clk_test': Redirect output to /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/cocotb_sim.log
+INFO: and2 ends at....................................... 2025-09-05T14:43:03.029387
+INFO: and2_latch ends at................................. 2025-09-05T14:43:03.598292
+INFO: and2_or2 ends at................................... 2025-09-05T14:43:04.473681
+INFO: local_clk_test ends at............................. 2025-09-05T14:43:05.340664
+INFO: Checking Cocotb log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/results.xml'...
+INFO: Checking Cocotb log file took 0:00:00.000741
+INFO: Checking Cocotb log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/results.xml'...
+ERROR:       <failure />
+
+INFO: Checking Cocotb log file took 0:00:00.000420
+INFO: Checking Cocotb log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/results.xml'...
+INFO: Checking Cocotb log file took 0:00:00.000391
+INFO: Checking Cocotb log file '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/results.xml'...
+INFO: Checking Cocotb log file took 0:00:00.000277
+INFO: and2 .......................................................................... [Pass]
+INFO: and2....................................................... took 0:00:27.927346
+INFO: and2_latch .................................................................... [Fail]
+INFO: and2_latch................................................. took 0:00:27.494828
+INFO: and2_or2 ...................................................................... [Pass]
+INFO: and2_or2................................................... took 0:00:27.368670
+INFO: local_clk_test ................................................................ [Pass]
+INFO: local_clk_test............................................. took 0:00:27.234810
+INFO: Cocotb simulation job finished with 1 errors
+INFO: Running Cocotb flow took 0:00:30.260570
+Error 1: Cocotb preconfigured simulation run failed with errors for benchmark suite 'checkin'!
+Fatal error occurred!
+Enter interactive mode
+[?2004hArkAngel> 
