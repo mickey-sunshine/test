@@ -1,5 +1,4 @@
-name: cccccc
-
+name: upload document
 on:
   workflow_run:
     workflows: ["Create release package"]
