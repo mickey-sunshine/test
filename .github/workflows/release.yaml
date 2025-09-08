@@ -1,4 +1,10 @@
 
+name: Create release package
+
+on:
+  release:
+    types:
+      - created
 jobs:
   build_ubuntu2204:
     runs-on: latest
