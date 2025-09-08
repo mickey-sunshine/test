@@ -1,0 +1,13 @@
+create_tapeout --config_file project.xml
+create_arch 
+setup_arch
+set_arch --type module_names
+set_arch --type crafted_fabric_key 
+set_arch --type io_pin_table_naming_rules 
+eval_arch
+generate_netlist
+optimize_netlist --jobs 32
+show_dashboard
+setup_design_verification --jobs 32
+run_preconfigured_simulation --jobs 32
+
