@@ -1,7 +1,7 @@
 
 jobs:
   build_ubuntu2204:
-    runs-on: [self-hosted, Linux, X64, eda_us_machine0]
+    runs-on: latest
     permissions:
       contents: write
     env:
