@@ -1,0 +1,16 @@
+
+jobs:
+  build_ubuntu2204:
+    runs-on: [self-hosted, Linux, X64, eda_us_machine0]
+    permissions:
+      contents: write
+    env:
+      GITHUB_TOKEN: 
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: false
+          token: ${{ github.token }}
+          persist-credentials: false
