@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- Just an example, may not work in practical cases! -->
+<!-- A number of suite with unique name can be defined.
+     Each suite contains a number of benchmarks.
+     Each benchmark requires a list of files
+     Reserved keywords when defining the paths include: 
+     - ${PWD} represents the absolute path where Arkangel is called
+     - ${PROJ_PATH} represents the absolute path of the home directory of the project as defined by syntax 'path'
+     - ${ROOT_PATH} represents the absolute path of Arkangel installed binaries
+ -->
+<benchmark_suite>
+  <stamp>
+    <author>RapidFlex</author>
+    <dates>
+      <created>Sat Dec 31 03:14:41 PM PST 2022</created>
+      <last_modified>Sat Dec 31 03:14:41 PM PST 2022</last_modified>
+    </dates>
+    <tool_version>0.0.15-dev+023fa82</tool_version>
+  </stamp>
+  <benchmark name="c2k_sr_pwm" suite="C2000">
+    <!-- Design sources can be verilog -->
+    <design>
+      <file type="verilog">${PWD}/data/src/clb_case_top.v</file>
+      <!-- <file type="verilog">${PWD}/data/src/key_debounce.v</file> -->
+      <file type="verilog">${PWD}/data/src/rf_pulse_gen.v</file>
+      <!-- <file type="verilog">${PWD}/data/src/simple_pcnt.v</file> -->
+      <file type="verilog">${PWD}/data/src/sr_fsm.v</file>
+      <file type="verilog">${PWD}/data/src/top_wrapper.v</file>
+      <file type="blif">${ROOT_PATH}/etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/and2.blif</file>
+    </design>
+    <!-- Only 1 top module is allowed, corresponding to the design source files -->
+    <top_module>clb_case_top</top_module>
+    <!-- Files to be used when running cocotb. 
+         'source' is the non-top python scripts.
+         'top' is the top-level python script which will be adapt later in dv
+         'makefile' is the makefile which runs cocotb
+      -->
+    <cocotb>
+      <file type="top">${ROOT_PATH}/etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/test_and2.py</file>
+      <file type="makefile">${ROOT_PATH}/etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/Makefile</file>
+    </cocotb>
+    <!-- Design constraints can be 
+        'sdc' is the design constraints when running bitgen flow
+        'pcf' is the clock constreaints (To be auto-generated during bitgen flow)
+      -->
+    <constraints>
+      <file type="pcf_gclk">${PWD}/data/pcf_gclk.xml</file>
+    </constraints>
+  </benchmark>
+  <!-- <benchmark name="and2_latch" suite="checkin">
+    <design>
+      <file type="verilog">${ROOT_PATH}/etc/benchmarks/alkaid_benchmark/checkin/and2_latch/and2_latch.v</file>
+    </design>
+    <cocotb>
+      <file type="top">${ROOT_PATH}/etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_latch/test_and2_latch.py</file>
+      <file type="makefile">${ROOT_PATH}/etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_latch/Makefile</file>
+    </cocotb>
+    <top_module>and2_latch</top_module>
+    <constraints>
+      <file type="pcf_gclk">${ROOT_PATH}/etc/benchmarks/alkaid_benchmark/checkin/and2_latch/pcf_gclk.xml</file>
+    </constraints>
+  </benchmark> -->
+</benchmark_suite>

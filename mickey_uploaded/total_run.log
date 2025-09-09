@@ -1,0 +1,753 @@
+
+
+                        _                                        _ 
+         /\            | |        /\                            | |
+        /  \     _ __  | | __    /  \     _ __     __ _    ___  | |
+       / /\ \   | '__| | |/ /   / /\ \   | '_ \   / _` |  / _ \ | |
+      / ____ \  | |    |   <   / ____ \  | | | | | (_| | |  __/ | |
+     /_/    \_\ |_|    |_|\_\ /_/    \_\ |_| |_|  \__, |  \___| |_|     
+                                                   __/ |           
+                                                  |___/            
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                        ArkAngel FPGA Design Tool Suites
+                               Engineering Edition
+                                 Version 2024R1
+             Copyright (C) 2023-2024 by Rapid Flex Shanghai Limited
+                              ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Rapid Flex Shanghai
+Limited and its affiliates and may be used and disclosed only as authorized in a
+license agreement which controls such use and disclosure. The licensed product
+may be delivered with software that is subject to open-source licensing terms.
+The open-source software is provided on an "AS IS" basis:
+
+ANY WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY DISCLAIMED
+AS: RAPID FLEX SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED TO PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES, LOSS OF USE OR DATA OR PROFITS, OR BUSINESS
+INTERRUPTION, NO MATTER HOW THEY ARE CAUSED IN USING OF THIS SOFRWARE, ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+This software and the associated documentation are proprietary to Rapid Flex
+Shanghai Limited and its affiliates. This software may only be used in
+accordance with the terms and conditions of a written license agreement with
+Rapid Flex. All other use, reproduction, or distribution of this software is
+strictly prohibited.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Initializing...
+Booting...
+# Read Boot Configuration File
+# Read Boot Configuration File took 0.00 seconds (max_rss 16.6 MiB, delta_rss +1.3 MiB)
+Done
+Initializing... took 0.00 seconds (max_rss 16.6 MiB, delta_rss +1.3 MiB)
+Reading script file run.arkangel...
+
+Command line to execute: create_tapeout --config_file project.xml
+
+Confirm selected options when call command 'create_tapeout':
+--config_file: project.xml
+--verbosity: off
+Reading configuration file 'project.xml'...
+Read tapeout project file
+# Read architecture template for project file
+# Read architecture template for project file took 0.00 seconds (max_rss 16.9 MiB, delta_rss +0.0 MiB)
+Read tapeout project file took 0.00 seconds (max_rss 16.9 MiB, delta_rss +0.3 MiB)
+Read PDK file
+Read PDK file took 0.00 seconds (max_rss 17.0 MiB, delta_rss +0.1 MiB)
+Validating configuration file...
+Read benchmark file
+Warning 1: The benchmark suite name 'checkin' already exist. Benchmarks will be automatically appended to the existing one!
+Warning 2: The benchmark suite name 'checkin' already exist. Benchmarks will be automatically appended to the existing one!
+Warning 3: The benchmark suite name 'checkin' already exist. Benchmarks will be automatically appended to the existing one!
+Read benchmark file took 0.00 seconds (max_rss 17.1 MiB, delta_rss +0.1 MiB)
+Done
+Initializing tapeout project 'alkaid_ex'...
+
+Command line to execute: create_arch
+
+Confirm selected options when call command 'create_arch':
+--run: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.2 MiB, delta_rss +0.1 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.2 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Initializing arch directory...
+Warning 4: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 5: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 6: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 7: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 8: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 9: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 10: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 11: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 12: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 13: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 14: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 15: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 16: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Done
+
+Command line to execute: setup_arch
+
+Confirm selected options when call command 'setup_arch':
+--run: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.2 MiB, delta_rss +0.1 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.2 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 17: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 18: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 19: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v0p9' already exists. Will overwrite contents
+Warning 20: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v0p9' already exists. Will overwrite contents
+Warning 21: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p0' already exists. Will overwrite contents
+Warning 22: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p0' already exists. Will overwrite contents
+Warning 23: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 24: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 25: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 26: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 27: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 28: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.7 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.7 MiB, delta_rss +0.0 MiB)
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.7 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.7 MiB, delta_rss +0.0 MiB)
+Done
+
+Command line to execute: set_arch --type module_names
+
+Confirm selected options when call command 'set_arch':
+--type: module_names
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read module rename rules
+Read module rename rules took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Generating custom module names...
+Adding custom module name 'tile_0__EMPTY_id7_'
+Adding custom module name 'tile_10__io_bottomL_bottom_id5_'
+Adding custom module name 'tile_11__clb_id14_'
+Adding custom module name 'tile_12__clb_id15_'
+Adding custom module name 'tile_13__EMPTY_id4_'
+Adding custom module name 'tile_14__io_rightL_right_id3_'
+Adding custom module name 'tile_15__io_rightL_right_id2_'
+Adding custom module name 'tile_1__io_leftL_left_id8_'
+Adding custom module name 'tile_2__io_leftL_left_id9_'
+Adding custom module name 'tile_3__io_leftL_left_id10_'
+Adding custom module name 'tile_4__io_leftL_left_id11_'
+Adding custom module name 'tile_5__EMPTY_id0_'
+Adding custom module name 'tile_6__io_bottomL_bottom_id6_'
+Adding custom module name 'tile_7__clb_id12_'
+Adding custom module name 'tile_8__clb_id13_'
+Adding custom module name 'tile_9__io_topL_top_id1_'
+Write module renaming rules
+Write module renaming rules took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.01 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read module rename rules
+Read module rename rules took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Generating custom module names...
+Adding custom module name 'tile_0__EMPTY_id7_'
+Adding custom module name 'tile_10__io_bottomL_bottom_id5_'
+Adding custom module name 'tile_11__clb_id14_'
+Adding custom module name 'tile_12__clb_id15_'
+Adding custom module name 'tile_13__EMPTY_id4_'
+Adding custom module name 'tile_14__io_rightL_right_id3_'
+Adding custom module name 'tile_15__io_rightL_right_id2_'
+Adding custom module name 'tile_1__io_leftL_left_id8_'
+Adding custom module name 'tile_2__io_leftL_left_id9_'
+Adding custom module name 'tile_3__io_leftL_left_id10_'
+Adding custom module name 'tile_4__io_leftL_left_id11_'
+Adding custom module name 'tile_5__EMPTY_id0_'
+Adding custom module name 'tile_6__io_bottomL_bottom_id6_'
+Adding custom module name 'tile_7__clb_id12_'
+Adding custom module name 'tile_8__clb_id13_'
+Adding custom module name 'tile_9__io_topL_top_id1_'
+Write module renaming rules
+Write module renaming rules took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Warning 29: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 30: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 31: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 32: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+
+Command line to execute: set_arch --type crafted_fabric_key
+
+Confirm selected options when call command 'set_arch':
+--type: crafted_fabric_key
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 33: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 34: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 35: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 36: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+[ARKANGEL INFO] Parent process pid: 72514, child process pid: 74995, parent process has run
+
+Command line to execute: set_arch --type crafted_fabric_key
+
+Confirm selected options when call command 'set_arch':
+--type: crafted_fabric_key
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 33: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 34: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 35: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 36: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+[ARKANGEL INFO] Parent process pid: 72514, child process pid: 74995, child process has run
+[ARKANGEL INFO] Parent process received: child process has run
+[ARKANGEL INFO] Waiting for process with pid: 74995
+
+Confirm selected options when call command 'fabric_key_assistant':
+--reference: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/reference_fabric_key.xml
+--input: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/crafted_fabric_key.xml
+--output: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/fabric_key.xml
+--verbose: off
+--help: off
+Read the reference fabric key from an XML file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/reference_fabric_key.xml.
+Read Fabric Key
+Read Fabric Key took 0.00 seconds (max_rss 5.7 MiB, delta_rss +0.0 MiB)
+Read the hand-crafted fabric key from an XML file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/crafted_fabric_key.xml.
+Read Fabric Key
+Read Fabric Key took 0.00 seconds (max_rss 5.7 MiB, delta_rss +0.0 MiB)
+Checking key alias in reference key...
+Checking key alias in reference key... [Pass]
+Checking key names and values in reference key...
+Checking key names and valus in reference key... [Pass]
+Checking key alias in input key...
+Checking key alias in input key... [Pass]
+Checking key alias matching between reference key and input keys...
+Checking key alias matching between reference key and input keys... [Pass]
+Pairing key alias between reference key and input keys...
+Write the final fabric key to an XML file: /home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/fabric_key.xml.
+Write Fabric Key
+Write Fabric Key took 0.00 seconds (max_rss 5.7 MiB, delta_rss +0.0 MiB)
+[ARKANGEL INFO] Process 74995 finished with status: 0
+Warning 37: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 38: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+
+Command line to execute: set_arch --type io_pin_table_naming_rules
+
+Confirm selected options when call command 'set_arch':
+--type: io_pin_table_naming_rules
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 39: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Read I/O coordinate File
+Read I/O coordinate File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Write pin table naming rules to file
+Warning 40: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Write pin table naming rules to file took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Done
+
+Command line to execute: eval_arch
+
+Confirm selected options when call command 'eval_arch':
+--run: off
+--arch_run: off
+--corner: off
+--report_qor: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Automatically use the latest run 'iter0' of arch as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.9 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 17.9 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Generating golden bitstream and reports...
+Initializing bitstream generation workspace...
+Warning 41: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Warning 42: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Done
+Running bitstream generation for suite 'checkin' for corner 'tt_25C_v1p1'...
+Warning 43: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 44: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 45: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 46: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.7 MiB, delta_rss +0.0 MiB)
+The number of available global ports is: 32
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.7 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.7 MiB, delta_rss +0.8 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.7 MiB, delta_rss +0.0 MiB)
+Warning 47: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 48: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 49: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 50: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Global signal clk is constrained to port clk[0:0]
+Global signal OPEN is constrained to port clk[1:1]
+Global signal OPEN is constrained to port clk[2:2]
+Global signal OPEN is constrained to port clk[3:3]
+Global signal OPEN is constrained to port clk[4:4]
+Global signal OPEN is constrained to port clk[5:5]
+Global signal OPEN is constrained to port clk[6:6]
+Global signal OPEN is constrained to port clk[7:7]
+Global signal OPEN is constrained to port reset[0:0]
+Global signal OPEN is constrained to port reset[1:1]
+The number of available global ports is: 22
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Warning 51: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 52: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 53: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 54: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+The number of available global ports is: 32
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Warning 55: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 56: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Warning 57: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 58: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Global signal clk_i is constrained to port clk[0:0]
+Global signal OPEN is constrained to port clk[1:1]
+Global signal OPEN is constrained to port clk[2:2]
+Global signal OPEN is constrained to port clk[3:3]
+Global signal OPEN is constrained to port clk[4:4]
+Global signal OPEN is constrained to port clk[5:5]
+Global signal OPEN is constrained to port clk[6:6]
+Global signal OPEN is constrained to port clk[7:7]
+Global signal rst_ni is constrained to port reset[0:0]
+Global signal OPEN is constrained to port reset[1:1]
+The number of available global ports is: 22
+Ckbuf net rst_local_ckbuf is constraint to port reset[1:1] 
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.01 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Done
+Warning 59: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Done
+
+Command line to execute: generate_netlist
+
+Confirm selected options when call command 'generate_netlist':
+--run: off
+--arch_run: off
+--netlist_makeup: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Automatically use the latest run 'iter0' of arch as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Initializing netlist directory...
+Warning 60: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0' already exists. Will overwrite contents
+Warning 61: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0' already exists. Will overwrite contents
+Generating RTL netlists
+Warning 62: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/dp/generate_fabric' already exists. Will overwrite contents
+Warning 63: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/dp/generate_fabric' already exists. Will overwrite contents
+Importing external IP netlists...
+Warning 64: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 65: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 66: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 67: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 68: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 69: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 70: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 71: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 72: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 73: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 74: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 75: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 76: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 77: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 78: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 79: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 80: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 81: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 82: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 83: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 84: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 85: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 86: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 87: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 88: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 89: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 90: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Done
+Importing external PDK netlists...
+Warning 91: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 92: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Warning 93: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/custom_modules' already exists. Will overwrite contents
+Done
+Creating include files for external netlists...
+Done
+Appending flags to netlist '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/dp/fpga_defines.v'...
+Appended 1 flags
+Done
+Warning 94: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl' already exists. Will overwrite contents
+Netlist makeup is skipped
+Done
+Warning 95: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_fabric' already exists. Will overwrite contents
+Warning 96: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_fabric' already exists. Will overwrite contents
+Importing external IP netlists...
+Warning 97: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 98: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 99: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 100: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 101: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 102: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 103: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 104: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 105: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 106: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 107: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 108: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 109: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 110: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 111: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 112: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 113: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 114: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 115: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 116: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 117: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 118: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 119: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 120: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 121: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 122: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 123: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Done
+Importing external PDK netlists...
+Warning 124: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 125: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Warning 126: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/custom_modules' already exists. Will overwrite contents
+Done
+Creating include files for external netlists...
+Done
+Appending flags to netlist '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/raw_rtl/ultimate/fpga_defines.v'...
+Appended 1 flags
+Done
+Warning 127: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl' already exists. Will overwrite contents
+Netlist makeup is skipped
+Done
+Generating base bitstream
+Warning 128: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_base_bitstream' already exists. Will overwrite contents
+Warning 129: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/openfpga_tasks/ultimate/generate_base_bitstream' already exists. Will overwrite contents
+
+Command line to execute: optimize_netlist --jobs 32
+
+Confirm selected options when call command 'optimize_netlist':
+--run: off
+--stage: off
+--strategy: off
+--corner: off
+--dryrun: off
+--jobs: 32
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+allInitializing SDC files for netlist synthesis
+Warning 130: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth' already exists. Will overwrite contents
+Done
+Generating PDK configuration to '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/pdk/synth_pdk_config.xml'
+Write synthesis-oriented pdk data to file
+Warning 131: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/pdk' already exists. Will overwrite contents
+Write synthesis-oriented pdk data to file took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Done
+Generating synthesis task configuration to '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/config/synth_task.yaml'
+Read Synthesis Strategy File
+Read Synthesis Strategy File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to find sub-blocks under tiles
+Read fabric hierarchy file to find sub-blocks under tiles took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Warning 132: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/synth/config' already exists. Will overwrite contents
+Done
+Apply CCFF makeup...
+Done
+Run netlist synthesis...
+Done
+Warning 133: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Warning 134: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Warning 135: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Warning 136: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp' already exists. Will overwrite contents
+Importing external PDK netlists...
+Warning 137: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp/techsrc' already exists. Will overwrite contents
+Warning 138: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp/techsrc' already exists. Will overwrite contents
+Warning 139: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp/techsrc' already exists. Will overwrite contents
+Done
+Warning 140: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 141: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 142: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 143: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Warning 144: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate' already exists. Will overwrite contents
+Importing external PDK netlists...
+Warning 145: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate/techsrc' already exists. Will overwrite contents
+Warning 146: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate/techsrc' already exists. Will overwrite contents
+Warning 147: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/ultimate/techsrc' already exists. Will overwrite contents
+Done
+
+Command line to execute: show_dashboard
+
+Confirm selected options when call command 'show_dashboard':
+--verbosity: off
+Dashboard of tapeout project 'alkaid_ex'
+Step     	Substep                 	Status        	Latest Run	Frozen	
+arch     	N/A                     	success       	iter0     	N     
+arch     	arch_creation           	success       	iter0     	N     
+arch     	arch_setup              	success       	iter0     	N     
+arch     	arch_init_module_names  	success       	iter0     	N     
+arch     	arch_init_fabric_key    	success       	iter0     	N     
+arch     	arch_io_coordinate      	success       	iter0     	N     
+arch     	arch_pin_table          	success       	iter0     	N     
+bitstream	N/A                     	success       	iter0     	N     
+bitstream	arch_eval               	success       	iter0     	N     
+netlist  	N/A                     	fresh         	iter0     	N     
+netlist  	netlist_generation      	success       	iter0     	N     
+netlist  	netlist_optimization    	success       	iter0     	N     
+pd       	N/A                     	fresh         	N/A       	N/A   
+so       	N/A                     	fresh         	N/A       	N/A   
+dv       	N/A                     	fresh         	N/A       	N/A   
+[Tapeout progress] 33.33%
+
+Command line to execute: setup_design_verification --jobs 32
+
+Confirm selected options when call command 'setup_design_verification':
+--run: off
+--corner: off
+--bitstream_run: off
+--netlist_run: off
+--pd_run: off
+--dryrun: off
+--jobs: 32
+--new_thread_wait_time: off
+--sim_start_wait_time: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Automatically use the latest run 'iter0' of bitstream as default
+Automatically use the latest run 'iter0' of netlist as default
+Warning 148: The selected run of 'iter0' of netlist is not succeed. This will cause failures in downstream development! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 149: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 150: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 151: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl' already exists. Will overwrite contents
+Generating testbenches...
+Initializing design verification workspace...
+Warning 152: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0' already exists. Will overwrite contents
+Warning 153: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0' already exists. Will overwrite contents
+Warning 154: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv' already exists. Will overwrite contents
+Warning 155: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv' already exists. Will overwrite contents
+Done
+Generating preconfigured testbenchesRunning bitstream generation for suite 'checkin'...
+Warning 156: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 157: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 158: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 159: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 160: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 161: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_latch/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 162: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 163: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 164: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/and2_or2/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 165: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 166: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 167: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/openfpga_tasks/preconfig_tb_gen/local_clk_test/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+Setup simulation environment...
+Generating cocotb task for suite 'checkin'...
+Warning 168: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/tasks' already exists. Will overwrite contents
+Done
+Setup cocotb workspace for suite 'checkin'...
+Done
+Done
+Done
+
+Command line to execute: run_preconfigured_simulation --jobs 32
+
+Confirm selected options when call command 'run_preconfigured_simulation':
+--run: off
+--corner: off
+--jobs: 32
+--new_thread_wait_time: off
+--sim_start_wait_time: off
+--log_check_wait_time: off
+--simulator: off
+--netlist_type: off
+--dump_waveform: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.08 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.04 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.02 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.04 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.04 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.02 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.02 seconds (max_rss 18.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 169: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 170: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist' already exists. Will overwrite contents
+Warning 171: Directory '/home/yhjiang/Desktop/test_project/to_Mickey/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl' already exists. Will overwrite contents
+Run preconfigured simulation...
+Run preconfigured simulation for suite 'checkin'...
+Fatal error occurred!
+Enter interactive mode
+[?2004hArkAngel> 

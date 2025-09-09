@@ -1,0 +1,9 @@
+create_tapeout --config_file project.xml
+analyze_logic_resource \
+#   --run run0 \
+#   --min_lut_size 4 \ 
+#   --max_lut_size 6 \
+#   --verbosity 1 \
+    --report_qor qor.csv
+exit
+
