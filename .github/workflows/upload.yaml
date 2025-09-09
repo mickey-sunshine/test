@@ -1,7 +1,7 @@
 name: upload document
 on:
   workflow_run:
-    workflows: ["Create release package"]
+    workflows: ["Create release package1"]
     types: [completed]
 
 jobs:
@@ -12,6 +12,7 @@ jobs:
     permissions:
       actions: read
       contents: write
+
 
     steps:
       - name: Print workflow_run conclusion
