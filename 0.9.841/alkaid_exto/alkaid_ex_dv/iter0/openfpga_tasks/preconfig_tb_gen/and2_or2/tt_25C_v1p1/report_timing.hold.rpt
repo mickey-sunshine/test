@@ -1,0 +1,89 @@
+#Timing report of worst 2 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: b.inpad[0] (.input at (2, 0, 0) clocked by virtual_io_clock)
+Endpoint  : out:c.outpad[0] (.output at (2, 0, 0) clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+b.inpad[0] (.input at (2, 0, 0))                                 0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (OPIN:248 side: (TOP,) (2,0,0))                                0.000     0.000
+| (CHANX:4042 L2x length:2 (2,0,0 -> (3,0,0))                    1.103     1.103
+| (CHANY:5038 L1y length:1 (2,1,0 -> (2,1,0))                    0.907     2.010
+| (IPIN:950 side: (RIGHT,) (2,1,0))                              0.693     2.704
+| (intra 'clb' routing)                                          0.000     2.704
+c.in[0] (.names at (2, 1, 0))                                    0.000     2.704
+| (primitive '.names' combinational delay)                       0.607     3.311
+c.out[0] (.names at (2, 1, 0))                                   0.000     3.311
+| (intra 'clb' routing)                                          0.000     3.311
+| (OPIN:851 side: (TOP,) (2,1,0))                                0.000     3.311
+| (CHANX:4165 L2x length:2 (2,1,0 -> (1,1,0))                    1.103     4.414
+| (CHANY:4837 L1y length:1 (1,1,0 -> (1,1,0))                    0.907     5.321
+| (CHANX:4034 L1x length:1 (2,0,0 -> (2,0,0))                    0.907     6.228
+| (IPIN:278 side: (TOP,) (2,0,0))                                0.693     6.921
+| (intra 'io_po' routing)                                        0.207     7.128
+out:c.outpad[0] (.output at (2, 0, 0))                          -0.000     7.128
+data arrival time                                                          7.128
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          7.128
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.128
+
+
+#Path 2
+Startpoint: b.inpad[0] (.input at (2, 0, 0) clocked by virtual_io_clock)
+Endpoint  : out:d.outpad[0] (.output at (2, 0, 0) clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+b.inpad[0] (.input at (2, 0, 0))                                 0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (OPIN:248 side: (TOP,) (2,0,0))                                0.000     0.000
+| (CHANX:4042 L2x length:2 (2,0,0 -> (3,0,0))                    1.103     1.103
+| (CHANY:5038 L1y length:1 (2,1,0 -> (2,1,0))                    0.907     2.010
+| (IPIN:950 side: (RIGHT,) (2,1,0))                              0.693     2.704
+| (intra 'clb' routing)                                          0.000     2.704
+d.in[0] (.names at (2, 1, 0))                                    0.000     2.704
+| (primitive '.names' combinational delay)                       0.607     3.311
+d.out[0] (.names at (2, 1, 0))                                   0.000     3.311
+| (intra 'clb' routing)                                          0.000     3.311
+| (OPIN:850 side: (TOP,) (2,1,0))                                0.000     3.311
+| (CHANX:4185 L1x length:1 (2,1,0 -> (2,1,0))                    0.907     4.217
+| (CHANY:4791 L2y length:2 (1,1,0 -> (1,0,0))                    1.103     5.321
+| (CHANX:4032 L1x length:1 (2,0,0 -> (2,0,0))                    0.907     6.228
+| (IPIN:276 side: (TOP,) (2,0,0))                                0.693     6.921
+| (intra 'io_po' routing)                                        0.207     7.128
+out:d.outpad[0] (.output at (2, 0, 0))                          -0.000     7.128
+data arrival time                                                          7.128
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          7.128
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.128
+
+
+#End of timing report

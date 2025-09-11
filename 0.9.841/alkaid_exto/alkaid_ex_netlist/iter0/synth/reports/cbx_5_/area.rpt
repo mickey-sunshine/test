@@ -1,0 +1,158 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : reference
+Design : cbx_5_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+   td - set_target_library_subset -dont_use somewhere in design
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       1     0.744800
+AND3V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      11    10.241000
+AND3V4_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       2     2.234400
+AND4V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       4     4.468800
+AO1B2V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       9    10.054800
+AO1B2V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       1     1.489600
+AO12V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       5     4.655000
+AO13V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       1     1.117200
+AO22V4_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       1     1.489600
+AOAI211V2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200      16    17.875200
+AOAI211V4_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.862000      24    44.688000
+AOI21BV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       2     2.234400
+AOI21BV4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800       1     1.675800
+AOI21V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800      54    40.219198
+AOI21V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400      17    22.157801
+AOI22BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       9    11.730600
+AOI22BBV4_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     2.048200       1     2.048200
+AOI22V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      38    35.378000
+AOI22V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800       2     3.351600
+AOI31V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      27    25.137000
+AOI31V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.862000       1     1.862000
+AOI32V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200      14    15.640800
+AOI211V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       1     0.931000
+AOI222V4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     2.606800       1     2.606800
+BUFV4_7TR40        scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       9     6.703200
+BUFV6_7TR40        scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000     130   121.029999 td
+CLKAND2V2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800      47    35.005599
+CLKBUFV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600       1     0.558600
+CLKBUFV4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       8     5.958400
+CLKINV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400     264    98.313596
+CLKINV4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600      15     8.379000
+INV2_7TR40         scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400      52    19.364799
+INV4_7TR40         scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600      74    41.336401
+MUX2NV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600      28    41.708798
+MUX2V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800       1     1.675800
+NAND2V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600     265   148.029002
+NAND2V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      16    14.896000
+NAND2XBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      38    35.378000
+NAND2XBV4_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       2     2.606800
+NAND3BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       9    10.054800
+NAND3CV4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       6     8.937600
+NAND3V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800      85    63.307998
+NAND3XXBV2_7TR40   scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       8     8.937600
+NAND3XXBV4_7TR40   scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.862000       5     9.310000
+NAND4BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       2     2.606800
+NAND4CV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      26    24.206000
+NAND4V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      18    16.758000
+NAND4XXXBV2_7TR40  scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       4     5.213600
+NAND4XXXBV4_7TR40  scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     2.234400       1     2.234400
+NOR2CV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600      81    45.246601
+NOR2CV4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      36    33.516000
+NOR2V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600      60    33.516001
+NOR2V4_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      11    10.241000
+NOR2XBV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       6     5.586000
+NOR3BBV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       2     2.234400
+NOR3CV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       2     1.489600
+NOR3V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       1     0.744800
+NOR3XXBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       3     3.351600
+NOR4BBV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       1     1.303400
+NOR4V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       2     1.862000
+OA1B2V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       2     2.234400
+OA1B2V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       1     1.489600
+OA12V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      11    10.241000
+OA12V4_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       5     5.586000
+OA13V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       1     1.117200
+OA22V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       8    10.427200
+OA221V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       1     1.489600
+OA222V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.862000       1     1.862000
+OAI21BV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200      18    20.109600
+OAI21BV4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800       7    11.730600
+OAI21V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800      68    50.646398
+OAI21V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400      20    26.068001
+OAI22BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       6     7.820400
+OAI22BBV4_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     2.048200       1     2.048200
+OAI22V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      20    18.620000
+OAI22V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800       5     8.379000
+OAI31V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       4     3.724000
+OAI31V4_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.862000       1     1.862000
+OAI211V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000      57    53.067000
+OAI211V4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800      19    31.840199
+OAI212V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200      60    67.032001
+OAI212V4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     2.234400       4     8.937600
+OAI222V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       1     1.489600
+OAOI211V2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       1     1.117200
+OR2V2_7TR40        scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800      24    17.875199
+OR3V2_7TR40        scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       5     4.655000
+cbx_5__config_group_mem_size174   890.594613       1   890.594613 h, n
+-----------------------------------------------------------------------------
+Total 87 references                                  2397.697403
+
+****************************************
+Design: cbx_5__config_group_mem_size174 
+****************************************
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFV1_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.558600     181   101.106602
+CLKBUFV4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800      14    10.427200
+CLKINV2_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.372400     177    65.914797
+DRQV1_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     3.537800     174   615.577213 n
+INV2_7TH40         scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+NAND2V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.558600     174    97.196401
+-----------------------------------------------------------------------------
+Total 6 references                                    890.594613
+ 
+****************************************
+Report : area
+Design : cbx_5_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/1.1v/scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic.db)
+    scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic.db)
+
+Number of ports:                          672
+Number of nets:                          2967
+Number of cells:                         2635
+Number of combinational cells:           2460
+Number of sequential cells:               174
+Number of macros/black boxes:               0
+Number of buf/inv:                        926
+Number of references:                      87
+
+Combinational area:               1782.120190
+Buf/Inv area:                      479.464994
+Noncombinational area:             615.577213
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  2397.697403
+Total area:                 undefined
+1

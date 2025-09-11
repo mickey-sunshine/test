@@ -1,0 +1,43 @@
+{
+   "creator": "Yosys 0.51+17 (git sha1 42ca75b6b, g++ 11.4.0-13 -fPIC -O3)",
+   "invocation": "stat -json -top local_clk_test ",
+   "modules": {
+      "\\local_clk_test": {
+         "num_wires":         9,
+         "num_wire_bits":     9,
+         "num_pub_wires":     9,
+         "num_pub_wire_bits": 9,
+         "num_ports":         7,
+         "num_port_bits":     7,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         5,
+         "num_cells_by_type": {
+            "$lut": 1,
+            "ckbuf": 1,
+            "dffnrn": 1,
+            "dffrn": 2
+         }
+      }
+   },
+      "design": {
+         "num_wires":         9,
+         "num_wire_bits":     9,
+         "num_pub_wires":     9,
+         "num_pub_wire_bits": 9,
+         "num_ports":         7,
+         "num_port_bits":     7,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         5,
+         "num_cells_by_type": {
+            "$lut": 1,
+            "ckbuf": 1,
+            "dffnrn": 1,
+            "dffrn": 2
+         }
+      }
+}
+

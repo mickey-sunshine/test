@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cbx_1_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Operating Conditions: tt_v1p1_25c   Library: scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic
+Wire Load Model Mode: top
+
+  Startpoint: chanx_right_in[0]
+              (input port clocked by vCLK)
+  Endpoint: chanx_left_out[0]
+            (output port clocked by vCLK)
+  Path Group: vCLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vCLK (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 f
+  chanx_right_in[0] (in)                   0.00       0.00 f
+  pass_thru_bufb/Z (BUFV6_7TR40)           0.03       0.03 f
+  pass_thru_bufa/Z (BUFV6_7TR40)           0.04       0.07 f
+  chanx_left_out[0] (out)                  0.00       0.07 f
+  data arrival time                                   0.07
+
+  clock vCLK (rise edge)                   4.00       4.00
+  clock network delay (ideal)              0.00       4.00
+  clock uncertainty                       -0.02       3.98
+  output external delay                    0.00       3.98
+  data required time                                  3.98
+  -----------------------------------------------------------
+  data required time                                  3.98
+  data arrival time                                  -0.07
+  -----------------------------------------------------------
+  slack (MET)                                         3.91
+
+
+1

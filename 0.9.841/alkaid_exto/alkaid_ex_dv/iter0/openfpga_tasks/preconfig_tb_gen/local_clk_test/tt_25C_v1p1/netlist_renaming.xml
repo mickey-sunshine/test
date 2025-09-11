@@ -1,0 +1,10 @@
+<!-- Netlist naming fix-up report --> 
+<netlist>
+	<blocks>
+		<block previous="out:C_o" current="out_C_o"/>
+		<block previous="out:C_local_clk_o" current="out_C_local_clk_o"/>
+		<block previous="out:C_local_rst_o" current="out_C_local_rst_o"/>
+	</blocks>
+	<nets>
+	</nets>
+</netlist>

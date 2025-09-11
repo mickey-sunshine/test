@@ -1,0 +1,91 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cby_5_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Operating Conditions: tt_v1p1_25c   Library: scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic
+Wire Load Model Mode: top
+
+  Startpoint: ccff_head[0]
+              (input port clocked by PROG_CLK)
+  Endpoint: cby_5__config_group_mem_size560/mem_left_ipin_0_EFPGA_CCFF_0__q_reg_reg
+            (rising edge-triggered flip-flop clocked by PROG_CLK)
+  Path Group: PROG_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock PROG_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   10.00      10.00 r
+  ccff_head[0] (in)                                       0.00      10.00 r
+  cby_5__config_group_mem_size560/ccff_head[0] (cby_5__config_group_mem_size560)
+                                                          0.00      10.00 r
+  cby_5__config_group_mem_size560/mem_left_ipin_0_del1/Z (BUFV1_7TH40)
+                                                          0.04      10.04 r
+  cby_5__config_group_mem_size560/mem_left_ipin_0_del2/Z (BUFV1_7TH40)
+                                                          0.06      10.10 r
+  cby_5__config_group_mem_size560/mem_left_ipin_0_del3_0/Z (BUFV1_7TH40)
+                                                          0.06      10.16 r
+  cby_5__config_group_mem_size560/mem_left_ipin_0_EFPGA_CCFF_0__q_reg_reg/D (DRQV1_7TH40)
+                                                          0.00      10.16 r
+  data arrival time                                                 10.16
+
+  clock PROG_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.02      19.98
+  cby_5__config_group_mem_size560/mem_left_ipin_0_EFPGA_CCFF_0__q_reg_reg/CK (DRQV1_7TH40)
+                                                          0.00      19.98 r
+  library setup time                                     -0.11      19.87
+  data required time                                                19.87
+  --------------------------------------------------------------------------
+  data required time                                                19.87
+  data arrival time                                                -10.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        9.71
+
+
+  Startpoint: chany_top_in[57]
+              (input port clocked by vCLK)
+  Endpoint: left_grid_right_width_0_height_0_subtile_0__pin_I3_1_[0]
+            (output port clocked by vCLK)
+  Path Group: vCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  chany_top_in[57] (in)                                   0.00       0.00 r
+  cb_mux_buf_b_100_0/Z (BUFV6_7TR40)                      0.03       0.03 r
+  U7036/ZN (CLKINV4_7TR40)                                0.04       0.07 f
+  U4944/ZN (NOR2CV2_7TR40)                                0.04       0.11 r
+  U7012/ZN (NOR2CV4_7TR40)                                0.02       0.13 f
+  U5018/ZN (OAI211V2_7TR40)                               0.03       0.16 r
+  U7011/ZN (AOI21V4_7TR40)                                0.03       0.19 f
+  U7531/ZN (NAND2V2_7TR40)                                0.03       0.22 r
+  U5128/ZN (NAND2V4_7TR40)                                0.02       0.24 f
+  U7611/ZN (NOR2V4_7TR40)                                 0.04       0.28 r
+  U7610/ZN (OAI21V4_7TR40)                                0.02       0.30 f
+  U8119/ZN (NAND2V4_7TR40)                                0.04       0.34 r
+  left_grid_right_width_0_height_0_subtile_0__pin_I3_1_[0] (out)
+                                                          0.00       0.34 r
+  data arrival time                                                  0.34
+
+  max_delay                                               0.30       0.30
+  clock uncertainty                                      -0.02       0.28
+  output external delay                                   0.00       0.28
+  data required time                                                 0.28
+  --------------------------------------------------------------------------
+  data required time                                                 0.28
+  data arrival time                                                 -0.34
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.06
+
+
+1

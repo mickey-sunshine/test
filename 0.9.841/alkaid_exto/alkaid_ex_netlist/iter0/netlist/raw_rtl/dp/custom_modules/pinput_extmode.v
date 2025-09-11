@@ -1,0 +1,1 @@
+/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_pio/rtl/pinput_extmode.v

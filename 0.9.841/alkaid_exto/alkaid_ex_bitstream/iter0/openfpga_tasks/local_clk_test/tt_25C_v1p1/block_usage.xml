@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block_usage_report>
+  <nets num="6"></nets>
+  <blocks num="9">
+    <block type="EMPTY" usage="0"></block>
+    <block type="ckbuf" usage="1"></block>
+    <block type="clb" usage="1"></block>
+    <block type="io_pi" usage="4"></block>
+    <block type="io_pi_pdc_ecb1" usage="0"></block>
+    <block type="io_po" usage="3"></block>
+    <block type="io_po_cko" usage="0"></block>
+    <block type="pcnt" usage="0"></block>
+  </blocks>
+  <input_pins num="4"></input_pins>
+  <output_pins num="9"></output_pins>
+</block_usage_report>

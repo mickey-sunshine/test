@@ -1,0 +1,48 @@
+#Timing report of worst 1 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: b.inpad[0] (.input at (2, 0, 0) clocked by virtual_io_clock)
+Endpoint  : out:c.outpad[0] (.output at (2, 0, 0) clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+b.inpad[0] (.input at (2, 0, 0))                                 0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (OPIN:246 side: (TOP,) (2,0,0))                                0.000     0.000
+| (CHANX:4040 L2x length:2 (2,0,0 -> (3,0,0))                    1.103     1.103
+| (CHANY:5036 L1y length:1 (2,1,0 -> (2,1,0))                    0.907     2.010
+| (CHANY:5064 L1y length:1 (2,2,0 -> (2,2,0))                    0.907     2.917
+| (IPIN:1773 side: (RIGHT,) (2,2,0))                             0.693     3.611
+| (intra 'clb' routing)                                          0.000     3.611
+c.in[0] (.names at (2, 2, 0))                                    0.000     3.611
+| (primitive '.names' combinational delay)                       0.607     4.217
+c.out[0] (.names at (2, 2, 0))                                   0.000     4.217
+| (intra 'clb' routing)                                          0.000     4.217
+| (OPIN:1675 side: (TOP,) (2,2,0))                               0.000     4.217
+| (CHANX:4269 L4x length:3 (2,2,0 -> (0,2,0))                    1.662     5.879
+| (CHANY:4845 L2y length:2 (1,2,0 -> (1,1,0))                    1.103     6.983
+| (CHANX:4042 L2x length:2 (2,0,0 -> (3,0,0))                    1.103     8.086
+| (IPIN:276 side: (TOP,) (2,0,0))                                0.694     8.779
+| (intra 'io_po' routing)                                        0.207     8.986
+out:c.outpad[0] (.output at (2, 0, 0))                          -0.000     8.986
+data arrival time                                                          8.986
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -8.986
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -8.986
+
+
+#End of timing report

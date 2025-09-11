@@ -1,0 +1,135 @@
+sb_0_:
+  - sb_mux_size6
+  - sb_mux_size5
+  - sb_mux_size4
+  - sb_mux_size3
+  - sb_mux_size2
+  - clk_mux_size3
+sb_1_:
+  - sb_mux_size11
+  - sb_mux_size9
+  - sb_mux_size7
+  - clk_mux_size3
+  - sb_mux_size10
+  - sb_mux_size8
+sb_2_:
+  - sb_mux_size11
+  - sb_mux_size9
+  - sb_mux_size7
+  - clk_mux_size3
+  - sb_mux_size10
+  - sb_mux_size8
+sb_3_:
+  - sb_mux_size11
+  - sb_mux_size9
+  - sb_mux_size7
+  - clk_mux_size3
+  - sb_mux_size10
+  - sb_mux_size8
+sb_4_:
+  - clk_mux_size3
+  - sb_mux_size6
+  - sb_mux_size5
+  - sb_mux_size3
+  - sb_mux_size2
+sb_6_:
+  - sb_mux_size10
+  - sb_mux_size9
+  - sb_mux_size7
+  - sb_mux_size8
+  - clk_mux_size3
+  - sb_mux_size11
+sb_7_:
+  - sb_mux_size13
+  - sb_mux_size11
+  - sb_mux_size9
+  - sb_mux_size15
+  - clk_mux_size3
+  - sb_mux_size17
+sb_8_:
+  - sb_mux_size10
+  - sb_mux_size9
+  - sb_mux_size7
+  - sb_mux_size8
+  - clk_mux_size3
+  - sb_mux_size17
+  - sb_mux_size15
+  - sb_mux_size13
+  - sb_mux_size23
+  - sb_mux_size21
+sb_10_:
+  - sb_mux_size11
+  - sb_mux_size9
+  - sb_mux_size8
+  - sb_mux_size13
+  - sb_mux_size12
+  - sb_mux_size10
+  - clk_mux_size3
+  - sb_mux_size6
+  - sb_mux_size7
+sb_11_:
+  - sb_mux_size15
+  - sb_mux_size13
+  - sb_mux_size11
+  - sb_mux_size21
+  - sb_mux_size19
+  - clk_mux_size3
+  - sb_mux_size10
+  - sb_mux_size8
+  - sb_mux_size9
+sb_12_:
+  - sb_mux_size8
+  - sb_mux_size7
+  - sb_mux_size6
+  - sb_mux_size11
+  - sb_mux_size10
+  - sb_mux_size9
+  - clk_mux_size3
+  - sb_mux_size5
+  - sb_mux_size4
+  - sb_mux_size2
+cbx_2_:
+  - cb_mux_size8
+cbx_3_:
+  - cb_mux_size26
+  - cb_mux_size8
+cbx_4_:
+  - cb_mux_size8
+  - cb_mux_size26
+cbx_5_:
+  - cb_mux_size26
+  - cb_mux_size8
+cbx_6_:
+  - cb_mux_size8
+  - cb_mux_size26
+cby_1_:
+  - cb_mux_size48
+  - cb_mux_size16
+  - cb_mux_size56
+cby_2_:
+  - cb_mux_size48
+  - cb_mux_size16
+cby_3_:
+  - cb_mux_size76
+  - cb_mux_size48
+  - cb_mux_size16
+  - cb_mux_size56
+  - cb_mux_size8
+cby_4_:
+  - cb_mux_size76
+  - cb_mux_size48
+  - cb_mux_size16
+  - cb_mux_size56
+  - cb_mux_size8
+cby_5_:
+  - cb_mux_size48
+  - cb_mux_size16
+  - cb_mux_size56
+  - cb_mux_size76
+  - cb_mux_size8
+cby_6_:
+  - cb_mux_size48
+  - cb_mux_size16
+  - cb_mux_size56
+  - cb_mux_size76
+  - cb_mux_size8

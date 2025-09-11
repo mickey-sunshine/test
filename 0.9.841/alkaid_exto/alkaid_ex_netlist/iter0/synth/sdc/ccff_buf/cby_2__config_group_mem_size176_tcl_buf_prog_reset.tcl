@@ -1,0 +1,8 @@
+clean_buffer_tree -from "prog_reset*"
+insert_buffer -new_cell_names mem_right_ipin_5_rd_buf2 [get_pins { "mem_right_ipin_0/*/RD" "mem_right_ipin_1/*/RD" "mem_right_ipin_2/*/RD" "mem_right_ipin_3/*/RD" "mem_right_ipin_4/*/RD" "mem_right_ipin_5/*/RD"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_right_ipin_11_rd_buf2 [get_pins { "mem_right_ipin_6/*/RD" "mem_right_ipin_7/*/RD" "mem_right_ipin_8/*/RD" "mem_right_ipin_9/*/RD" "mem_right_ipin_10/*/RD" "mem_right_ipin_11/*/RD"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_right_ipin_17_rd_buf2 [get_pins { "mem_right_ipin_12/*/RD" "mem_right_ipin_13/*/RD" "mem_right_ipin_14/*/RD" "mem_right_ipin_15/*/RD" "mem_right_ipin_16/*/RD" "mem_right_ipin_17/*/RD"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_right_ipin_22_rd_buf2 [get_pins { "mem_right_ipin_18/*/RD" "mem_right_ipin_19/*/RD" "mem_right_ipin_20/*/RD" "mem_right_ipin_21/*/RD" "mem_right_ipin_22/*/RD"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_right_ipin_27_rd_buf2 [get_pins { "mem_right_ipin_23/*/RD" "mem_right_ipin_24/*/RD" "mem_right_ipin_25/*/RD" "mem_right_ipin_26/*/RD" "mem_right_ipin_27/*/RD"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_right_ipin_31_rd_buf2 [get_pins { "mem_right_ipin_28/*/RD" "mem_right_ipin_29/*/RD" "mem_right_ipin_30/*/RD" "mem_right_ipin_31/*/RD"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_right_ipin_31_rd_buf1 [get_pins { "mem_right_ipin_5_rd_buf2/I" "mem_right_ipin_11_rd_buf2/I" "mem_right_ipin_17_rd_buf2/I" "mem_right_ipin_22_rd_buf2/I" "mem_right_ipin_27_rd_buf2/I" "mem_right_ipin_31_rd_buf2/I"}] [get_lib_cells */CLKBUFV4_7TR40]

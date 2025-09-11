@@ -1,0 +1,1 @@
+/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/custom_modules/efpga_ccff.v

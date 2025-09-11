@@ -1,0 +1,5 @@
+task:
+  source:
+    - name: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/checkin/local_clk/local_clk_test.v
+  top_module: local_clk_test
+  bus_group_file: bus_group.xml

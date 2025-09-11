@@ -1,0 +1,6 @@
+plugin -i rf-alkaid
+plugin -i slang
+# Reserved lines for read benchmark files (design sources in verilog format)
+read_verilog /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/checkin/local_clk/local_clk_test.v
+synth_rf_alkaid -family alkaidC -blif /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/local_clk_test/tt_25C_v1p1/post_synth.blif -top local_clk_test -insert_clock_buffer -verilog /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/local_clk_test/tt_25C_v1p1/post_synth.v -cell_map_file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/local_clk_test/tt_25C_v1p1/ckbuf_cell_map.xml
+tee -o /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/local_clk_test/tt_25C_v1p1/stats.json stat -json -top local_clk_test

@@ -1,0 +1,52 @@
+# This script is designed to generate fabric Verilog netlists
+# with a fixed device layout
+# It will only output netlists to be used by backend tools,
+# i.e., Synopsys ICC2, including
+#   - Verilog netlists
+#   - fabric hierarchy description for ICC2's hierarchical flow
+#
+vpr /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1/vpr_arch.xml /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/and2.blif \
+  --clock_modeling ideal \
+  --device dp \
+  --route_chan_width 64 \
+  --place_delay_model delta \
+  --read_placement_delay_lookup /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/tt_25C_v1p1_placement_delay_lookup.bin \
+  --read_router_lookahead /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/tt_25C_v1p1_router_lookahead.bin \
+  --read_rr_graph /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/tt_25C_v1p1_rr_graph.bin \
+  --skip_sync_clustering_and_routing_results on \
+  --absorb_buffer_luts off
+
+# Read OpenFPGA architecture definition
+read_openfpga_arch -f /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1/openfpga_arch.xml
+
+# Read OpenFPGA simulation settings
+read_openfpga_simulation_setting -f /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/openfpga_settings/efpga_fix_sim_openfpga.xml
+
+# Read OpenFPGA clock architecture
+read_openfpga_clock_arch -f /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/openfpga_global_network.xml
+
+# Append clock network to vpr's routing resource graph
+append_clock_rr_graph
+
+# Annotate the OpenFPGA architecture to VPR data base
+# to debug use --verbose options
+link_openfpga_arch --sort_gsb_chan_node_in_edges
+
+# Build the module graph
+#  - Enabled compression on routing architecture modules
+#  - Disable pin duplication on grid modules due to our PD strategy
+#  - Please do not use the naming here, because fabric key relies on the original names!!!
+build_fabric --compress_routing --group_tile /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/openfpga_settings/tile_config.xml --group_config_block #--name_module_using_index  #--verbose
+write_fabric_key --file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/reference_fabric_key.xml 
+# Add a fpga core between fpga top and the underlying modules
+add_fpga_core_to_fabric --instance_name fpga_core_inst --verbose
+#rename_modules --file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/module_names.xml
+
+# Output references
+#report_reference --file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/tile_reference.yaml --module fpga_core --no_time_stamp --verbose
+
+# Write the fabric hierarchy of module graph to a file, used by auto module renaming for tiles
+#write_fabric_hierarchy --file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/dp/fabric_hierarchy.yaml --depth 3
+
+# Finish and exit OpenFPGA
+exit

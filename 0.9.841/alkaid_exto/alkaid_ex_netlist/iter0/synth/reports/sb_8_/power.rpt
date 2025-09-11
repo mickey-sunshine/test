@@ -1,0 +1,42 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : sb_8_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+
+Library(s) Used:
+
+    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/1.1v/scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic.db)
+    scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_LVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic.db)
+    scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic.db)
+
+
+Operating Conditions: tt_v1p1_25c   Library: scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1uW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+sb_8_                                  3.15e-02    0.123    0.322    0.155 100.0
+  sb_8__config_group_mem_size360 (sb_8__config_group_mem_size360)
+                                       2.22e-02    0.101 2.64e-02    0.123  79.6
+1

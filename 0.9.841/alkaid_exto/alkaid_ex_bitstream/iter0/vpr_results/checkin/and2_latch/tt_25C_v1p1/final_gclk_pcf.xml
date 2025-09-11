@@ -1,0 +1,12 @@
+<pin_constraints>
+	<set_io pin="clk[0:0]" net="clk" default_value="0"/>
+	<set_io pin="clk[1:1]" net="OPEN" default_value="0"/>
+	<set_io pin="clk[2:2]" net="OPEN" default_value="0"/>
+	<set_io pin="clk[3:3]" net="OPEN" default_value="0"/>
+	<set_io pin="clk[4:4]" net="OPEN" default_value="0"/>
+	<set_io pin="clk[5:5]" net="OPEN" default_value="0"/>
+	<set_io pin="clk[6:6]" net="OPEN" default_value="0"/>
+	<set_io pin="clk[7:7]" net="OPEN" default_value="0"/>
+	<set_io pin="reset[0:0]" net="OPEN" default_value="0"/>
+	<set_io pin="reset[1:1]" net="OPEN" default_value="0"/>
+</pin_constraints>

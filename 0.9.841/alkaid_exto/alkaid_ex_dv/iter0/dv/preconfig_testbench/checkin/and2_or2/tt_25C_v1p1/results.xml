@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1757562918" />
+    <testcase name="test_and2_or2" classname="test_and2_or2" file="/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/test_and2_or2.py" lineno="15" time="2.269665002822876" sim_time_ns="4.001" ratio_time="1.7628152150312013" />
+  </testsuite>
+</testsuites>

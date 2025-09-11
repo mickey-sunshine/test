@@ -1,0 +1,5 @@
+task:
+  source:
+    - name: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/checkin/and2/and2.v
+  top_module: and2
+  bus_group_file: bus_group.xml

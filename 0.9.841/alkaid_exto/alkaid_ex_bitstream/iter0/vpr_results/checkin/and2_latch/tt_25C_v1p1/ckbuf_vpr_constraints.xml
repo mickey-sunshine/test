@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<vpr_constraints>
+	<global_route_constraints>
+		<set_global_signal name="clk" route_model="ideal" />
+	</global_route_constraints>
+</vpr_constraints>

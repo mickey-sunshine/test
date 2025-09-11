@@ -1,0 +1,79 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : reference
+Design : cbx_2_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+   td - set_target_library_subset -dont_use somewhere in design
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AOI22BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       8    10.427200
+AOI31V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       5     4.655000
+AOI32V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200      11    12.289200
+BUFV6_7TR40        scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000     108   100.547999 td
+CLKINV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400      30    11.172000
+OA22V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       3     3.910200
+OA221V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       5     7.448000
+OAI212V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200      16    17.875200
+cbx_2__config_group_mem_size32   165.345602       1   165.345602  h, n
+-----------------------------------------------------------------------------
+Total 9 references                                    333.670402
+
+****************************************
+Design: cbx_2__config_group_mem_size32 
+****************************************
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFV1_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.558600      34    18.992400
+CLKBUFV4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       4     2.979200
+CLKINV2_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.372400      33    12.289200
+DRQV1_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     3.537800      32   113.209602 n
+NAND2V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.558600      32    17.875200
+-----------------------------------------------------------------------------
+Total 5 references                                    165.345602
+ 
+****************************************
+Report : area
+Design : cbx_2_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/1.1v/scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic.db)
+    scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic.db)
+
+Number of ports:                          338
+Number of nets:                           490
+Number of cells:                          322
+Number of combinational cells:            289
+Number of sequential cells:                32
+Number of macros/black boxes:               0
+Number of buf/inv:                        209
+Number of references:                       9
+
+Combinational area:                220.460800
+Buf/Inv area:                      145.980799
+Noncombinational area:             113.209602
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   333.670402
+Total area:                 undefined
+1

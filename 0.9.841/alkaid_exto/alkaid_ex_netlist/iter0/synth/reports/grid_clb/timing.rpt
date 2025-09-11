@@ -1,0 +1,145 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : grid_clb
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Operating Conditions: tt_v1p1_25c   Library: scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic
+Wire Load Model Mode: top
+
+  Startpoint: logical_tile_pcnt_mode_pcnt__3/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt_0_pcnt_wrapper_0__core_breg_inst_cnt_reg_reg_28_
+              (rising edge-triggered flip-flop clocked by CLK0')
+  Endpoint: logical_tile_pcnt_mode_pcnt__3/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt_0_pcnt_wrapper_0__core_breg_inst_cnt_reg_reg_0_
+            (rising edge-triggered flip-flop clocked by CLK0)
+  Path Group: CLK0
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK0' (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  logical_tile_pcnt_mode_pcnt__3/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt_0_pcnt_wrapper_0__core_breg_inst_cnt_reg_reg_28_/CK (DRQV2_7TR40)
+                                                          0.00      10.00 r
+  logical_tile_pcnt_mode_pcnt__3/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt_0_pcnt_wrapper_0__core_breg_inst_cnt_reg_reg_28_/Q (DRQV2_7TR40)
+                                                          0.20      10.20 r
+  logical_tile_pcnt_mode_pcnt__3/U1433/ZN (NAND2V2_7TR40)
+                                                          0.07      10.27 f
+  logical_tile_pcnt_mode_pcnt__3/U1435/ZN (OAI21V2_7TR40)
+                                                          0.07      10.34 r
+  logical_tile_pcnt_mode_pcnt__3/U1439/ZN (AOI21V2_7TR40)
+                                                          0.04      10.38 f
+  logical_tile_pcnt_mode_pcnt__3/U1028/ZN (OAI21V2_7TR40)
+                                                          0.03      10.41 r
+  logical_tile_pcnt_mode_pcnt__3/U1458/ZN (AOI21V4_7TR40)
+                                                          0.04      10.45 f
+  logical_tile_pcnt_mode_pcnt__3/U1574/ZN (OAI21V4_7TR40)
+                                                          0.05      10.50 r
+  logical_tile_pcnt_mode_pcnt__3/U1579/ZN (AOI21V4_7TR40)
+                                                          0.04      10.54 f
+  logical_tile_pcnt_mode_pcnt__3/U1583/ZN (OAI21V4_7TR40)
+                                                          0.05      10.59 r
+  logical_tile_pcnt_mode_pcnt__3/U1588/ZN (AOI21V4_7TR40)
+                                                          0.04      10.63 f
+  logical_tile_pcnt_mode_pcnt__3/U1592/ZN (OAI21V4_7TR40)
+                                                          0.05      10.68 r
+  logical_tile_pcnt_mode_pcnt__3/U1027/ZN (AOI21V4_7TR40)
+                                                          0.04      10.72 f
+  logical_tile_pcnt_mode_pcnt__3/U1015/ZN (OAI21V4_7TR40)
+                                                          0.05      10.77 r
+  logical_tile_pcnt_mode_pcnt__3/U1026/ZN (AOI21V4_7TR40)
+                                                          0.04      10.82 f
+  logical_tile_pcnt_mode_pcnt__3/U1733/ZN (OAI21V8_7TR40)
+                                                          0.05      10.87 r
+  logical_tile_pcnt_mode_pcnt__3/U1738/ZN (AOI21V8_7TR40)
+                                                          0.03      10.90 f
+  logical_tile_pcnt_mode_pcnt__3/U1911/ZN (OAI21V8_7TR40)
+                                                          0.04      10.94 r
+  logical_tile_pcnt_mode_pcnt__3/U1916/ZN (AOI21V8_7TR40)
+                                                          0.03      10.98 f
+  logical_tile_pcnt_mode_pcnt__3/U1920/ZN (OAI21V8_7TR40)
+                                                          0.04      11.02 r
+  logical_tile_pcnt_mode_pcnt__3/U1925/ZN (AOI21V4_7TR40)
+                                                          0.03      11.05 f
+  logical_tile_pcnt_mode_pcnt__3/U1929/ZN (OAI21V4_7TR40)
+                                                          0.05      11.10 r
+  logical_tile_pcnt_mode_pcnt__3/U1934/ZN (AOI21V4_7TR40)
+                                                          0.04      11.14 f
+  logical_tile_pcnt_mode_pcnt__3/U1938/ZN (OAI21V4_7TR40)
+                                                          0.05      11.19 r
+  logical_tile_pcnt_mode_pcnt__3/U1942/ZN (AOI21V4_7TR40)
+                                                          0.04      11.23 f
+  logical_tile_pcnt_mode_pcnt__3/U1945/ZN (OAI21V8_7TR40)
+                                                          0.04      11.28 r
+  logical_tile_pcnt_mode_pcnt__3/U1949/ZN (AOI21V4_7TR40)
+                                                          0.03      11.31 f
+  logical_tile_pcnt_mode_pcnt__3/U2481/ZN (OAI21V2_7TR40)
+                                                          0.05      11.36 r
+  logical_tile_pcnt_mode_pcnt__3/U2486/ZN (XNOR2CV2_7TR40)
+                                                          0.06      11.42 r
+  logical_tile_pcnt_mode_pcnt__3/U2501/ZN (AOI211V2_7TR40)
+                                                          0.03      11.45 f
+  logical_tile_pcnt_mode_pcnt__3/U2503/ZN (MUX2NV2_7TR40)
+                                                          0.05      11.50 r
+  logical_tile_pcnt_mode_pcnt__3/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt_0_pcnt_wrapper_0__core_breg_inst_cnt_reg_reg_0_/D (DRQV2_7TR40)
+                                                          0.00      11.50 r
+  data arrival time                                                 11.50
+
+  clock CLK0 (rise edge)                                 20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.02      19.98
+  logical_tile_pcnt_mode_pcnt__3/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt_0_pcnt_wrapper_0__core_breg_inst_cnt_reg_reg_0_/CK (DRQV2_7TR40)
+                                                          0.00      19.98 r
+  library setup time                                     -0.08      19.90
+  data required time                                                19.90
+  --------------------------------------------------------------------------
+  data required time                                                19.90
+  data arrival time                                                -11.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.40
+
+
+  Startpoint: grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_1__EFPGA_CCFF_106__q_reg_reg
+              (rising edge-triggered flip-flop clocked by PROG_CLK)
+  Endpoint: grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_2__EFPGA_CCFF_0__q_reg_reg
+            (rising edge-triggered flip-flop clocked by PROG_CLK)
+  Path Group: PROG_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock PROG_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_1__EFPGA_CCFF_106__q_reg_reg/CK (DRQV1_7TH40)
+                                                          0.00       0.00 r
+  grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_1__EFPGA_CCFF_106__q_reg_reg/Q (DRQV1_7TH40)
+                                                          0.21       0.21 r
+  grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_2__del1/Z (BUFV1_7TH40)
+                                                          0.07       0.27 r
+  grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_2__del2_0/Z (BUFV1_7TH40)
+                                                          0.06       0.33 r
+  grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_2__del3_0/Z (BUFV1_7TH40)
+                                                          0.06       0.39 r
+  grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_2__EFPGA_CCFF_0__q_reg_reg/D (DRQV1_7TH40)
+                                                          0.00       0.39 r
+  data arrival time                                                  0.39
+
+  clock PROG_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.02      19.98
+  grid_clb_config_group_mem_size885/pcnt_wrapper_EFPGA_CCFF_mem_2__EFPGA_CCFF_0__q_reg_reg/CK (DRQV1_7TH40)
+                                                          0.00      19.98 r
+  library setup time                                     -0.11      19.87
+  data required time                                                19.87
+  --------------------------------------------------------------------------
+  data required time                                                19.87
+  data arrival time                                                 -0.39
+  --------------------------------------------------------------------------
+  slack (MET)                                                       19.48
+
+
+1

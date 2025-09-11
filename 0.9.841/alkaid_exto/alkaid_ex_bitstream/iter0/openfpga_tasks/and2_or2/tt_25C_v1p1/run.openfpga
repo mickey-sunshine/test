@@ -1,0 +1,87 @@
+# Convert .pcf to a .place file that VPR can accept
+pcf2place --pcf /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/openfpga_settings/pcf_dummy.pcf --blif /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/post_synth.blif --pin_table /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/efpga_io_pin_table.csv --fpga_io_map /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/io_coordinate.xml --fpga_fix_pins fix_pins.place.user --pin_table_direction_convention explicit
+
+# This script is designed to generate bitstream files with 
+# - a fixed device layout
+# - a fixed routing channel width
+# - packing, placement and routing results as a reference for debugging bitstream files
+vpr /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1/vpr_arch.xml /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/post_synth.blif \
+  --clock_modeling ideal \
+  --device ultimate \
+  --route_chan_width 64 \ 
+  --fix_clusters fix_pins.place.user \
+  --circuit_format eblif \
+  --max_router_iterations 400 \
+  --read_vpr_constraints /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/ckbuf_vpr_constraints.xml \
+  --target_ext_pin_util clb:1.00,1.00 io_pi:1.00,1.00 io_po:1.00,1.00 \
+  --write_block_usage /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1/block_usage.xml \
+  --place_delay_model delta \
+  --read_placement_delay_lookup /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/tt_25C_v1p1_placement_delay_lookup.bin \
+  --read_router_lookahead /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/tt_25C_v1p1_router_lookahead.bin \
+  --read_rr_graph /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/tt_25C_v1p1_rr_graph.bin \
+  --net_file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/vpr.net \
+  --place_file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/vpr.place \
+  --route_file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/vpr.route \
+  --sdc_file /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/openfpga_settings/vpr_dummy.sdc \
+  --full_stats on \
+  --absorb_buffer_luts on \
+  --timing_report_detail detailed \
+  --timing_report_npaths 100 \
+  --skip_sync_clustering_and_routing_results on \
+  --constant_net_method route 
+
+# Read OpenFPGA architecture definition
+read_openfpga_arch -f /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/and2_or2/tt_25C_v1p1/openfpga_arch.xml
+
+# Read OpenFPGA simulation settings
+read_openfpga_simulation_setting -f /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/openfpga_settings/efpga_fix_sim_openfpga.xml
+
+# Read OpenFPGA bitstream settings
+read_openfpga_bitstream_setting -f /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/openfpga_settings/bitstream_settings.xml
+
+# Read OpenFPGA clock architecture
+read_openfpga_clock_arch -f /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/openfpga_global_network.xml
+
+# Append clock network to vpr's routing resource graph
+append_clock_rr_graph
+
+# Annotate the OpenFPGA architecture to VPR data base
+# to debug use --verbose options
+link_openfpga_arch --sort_gsb_chan_node_in_edges 
+
+# Apply fix-up to clustering nets based on routing results
+pb_pin_fixup --verbose #--map_global_net_to_msb
+
+# Route clock based on clock network definition
+route_clock_rr_graph --disable_unused_trees --disable_unused_spines --pin_constraints_file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/final_gclk_pcf.xml
+
+# Apply fix-up to Look-Up Table truth tables based on packing results
+lut_truth_table_fixup
+
+# Build the module graph
+#  - Enabled compression on routing architecture modules
+#  - Disable pin duplication on grid modules due to PD strategy
+build_fabric --compress_routing --load_fabric_key /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/fabric_key.xml --frame_view --group_tile /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/openfpga_settings/tile_config.xml --group_config_block --name_module_using_index #--verbose
+# Rename modules with a given rule
+rename_modules --file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/arch/module_names.xml
+
+# Repack the netlist to physical pbs
+# This must be done before bitstream generator and testbench generation
+# Strongly recommend it is done after all the fix-up have been applied
+repack #--design_constraints ${OPENFPGA_REPACK_CONSTRAINTS_FILE} --ignore_global_nets_on_pins clb.I[0:25]
+
+# Skip architecture bitstream output because it is mainly for debugging
+# The file is very large, which will cause extra I/O time
+build_architecture_bitstream #--write_file arch_bitstream.xml
+
+# Do NOT output any time stamp in output files, which is eaiser for version control
+build_fabric_bitstream
+write_fabric_bitstream --format plain_text --file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/bitstream/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream.bit --no_time_stamp
+write_fabric_bitstream --format xml --file /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/bitstream/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream.xml --no_time_stamp --trim_path --value_only --filter_value 0
+write_io_mapping -f /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/bitstream/checkin/and2_or2/tt_25C_v1p1/PinMapping.xml --no_time_stamp
+
+# Finish and exit OpenFPGA
+exit
+
+# Note :
+# To run verification at the end of the flow maintain source in ./SRC directory

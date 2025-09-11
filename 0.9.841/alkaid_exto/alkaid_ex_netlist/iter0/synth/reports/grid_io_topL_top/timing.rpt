@@ -1,0 +1,96 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : grid_io_topL_top
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Operating Conditions: tt_v1p1_25c   Library: scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic
+Wire Load Model Mode: top
+
+  Startpoint: gfpga_pad_pinput_extmode_A2F[0]
+              (input port clocked by CLK0)
+  Endpoint: bottom_width_0_height_0_subtile_0__pin_a2f_o_0_[0]
+            (output port clocked by CLK0)
+  Path Group: CLK0
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  gfpga_pad_pinput_extmode_A2F[0] (in)                    0.00       0.00 f
+  logical_tile_io_pi_mode_io_pi__0/gfpga_pad_pinput_extmode_A2F[0] (grid_io_topL_top_logical_tile_io_pi_mode_io_pi_)
+                                                          0.00       0.00 f
+  logical_tile_io_pi_mode_io_pi__0/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_0_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi_0/p_io_scffi_p_io_scffi_D[0] (grid_io_topL_top_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi)
+                                                          0.00       0.00 f
+  logical_tile_io_pi_mode_io_pi__0/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_0_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi_0/U39/ZN (CLKINV2_7TR40)
+                                                          0.08       0.08 r
+  logical_tile_io_pi_mode_io_pi__0/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_0_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi_0/U40/ZN (AOI22BBV2_7TR40)
+                                                          0.09       0.17 r
+  logical_tile_io_pi_mode_io_pi__0/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_0_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi_0/U47/ZN (OAI21V2_7TR40)
+                                                          0.04       0.21 f
+  logical_tile_io_pi_mode_io_pi__0/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_0_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi_0/p_io_scffi_p_io_scffi_Q[0] (grid_io_topL_top_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi)
+                                                          0.00       0.21 f
+  logical_tile_io_pi_mode_io_pi__0/U6/ZN (AOI22BBV2_7TR40)
+                                                          0.05       0.26 f
+  logical_tile_io_pi_mode_io_pi__0/io_pi_a2f_o[0] (grid_io_topL_top_logical_tile_io_pi_mode_io_pi_)
+                                                          0.00       0.26 f
+  bottom_width_0_height_0_subtile_0__pin_a2f_o_0_[0] (out)
+                                                          0.00       0.26 f
+  data arrival time                                                  0.26
+
+  max_delay                                               0.30       0.30
+  clock uncertainty                                      -0.02       0.28
+  output external delay                                   0.00       0.28
+  data required time                                                 0.28
+  --------------------------------------------------------------------------
+  data required time                                                 0.28
+  data arrival time                                                 -0.26
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: ccff_head[0]
+              (input port clocked by PROG_CLK)
+  Endpoint: grid_io_topL_top_config_group_mem_size136/pinput_extmode_EFPGA_CCFF_mem_EFPGA_CCFF_0__q_reg_reg
+            (rising edge-triggered flip-flop clocked by PROG_CLK)
+  Path Group: PROG_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock PROG_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   10.00      10.00 r
+  ccff_head[0] (in)                                       0.00      10.00 r
+  grid_io_topL_top_config_group_mem_size136/ccff_head[0] (grid_io_topL_top_config_group_mem_size136)
+                                                          0.00      10.00 r
+  grid_io_topL_top_config_group_mem_size136/pinput_extmode_EFPGA_CCFF_mem_del1/Z (BUFV1_7TH40)
+                                                          0.04      10.04 r
+  grid_io_topL_top_config_group_mem_size136/pinput_extmode_EFPGA_CCFF_mem_del2/Z (BUFV1_7TH40)
+                                                          0.06      10.10 r
+  grid_io_topL_top_config_group_mem_size136/pinput_extmode_EFPGA_CCFF_mem_del3_0/Z (BUFV1_7TH40)
+                                                          0.06      10.16 r
+  grid_io_topL_top_config_group_mem_size136/pinput_extmode_EFPGA_CCFF_mem_EFPGA_CCFF_0__q_reg_reg/D (DRQV1_7TH40)
+                                                          0.00      10.16 r
+  data arrival time                                                 10.16
+
+  clock PROG_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.02      19.98
+  grid_io_topL_top_config_group_mem_size136/pinput_extmode_EFPGA_CCFF_mem_EFPGA_CCFF_0__q_reg_reg/CK (DRQV1_7TH40)
+                                                          0.00      19.98 r
+  library setup time                                     -0.11      19.87
+  data required time                                                19.87
+  --------------------------------------------------------------------------
+  data required time                                                19.87
+  data arrival time                                                -10.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        9.71
+
+
+1

@@ -1,0 +1,9 @@
+<!--
+	- I/O mapping
+-->
+
+<io_mapping>
+	<io name="gfpga_pad_pinput_extmode_A2F[53:53]" net="a" dir="input"/>
+	<io name="gfpga_pad_pinput_extmode_A2F[50:50]" net="b" dir="input"/>
+	<io name="gfpga_pad_poutput_F2A[50:50]" net="c" dir="output"/>
+</io_mapping>

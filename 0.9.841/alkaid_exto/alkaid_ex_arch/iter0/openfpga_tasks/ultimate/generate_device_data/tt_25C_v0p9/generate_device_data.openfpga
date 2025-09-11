@@ -1,0 +1,16 @@
+# This script is designed to generate device data which can be reused many times by other flows
+#
+vpr /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v0p9/vpr_arch.xml /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/and2.blif \
+  --clock_modeling ideal \
+  --device ultimate \
+  --route_chan_width 64 \
+  --place_delay_model delta \
+  --write_placement_delay_lookup /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/tt_25C_v0p9_placement_delay_lookup.bin \
+  --router_lookahead map \
+  --write_router_lookahead /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/tt_25C_v0p9_router_lookahead.bin \
+  --write_rr_graph /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/tt_25C_v0p9_rr_graph.bin \
+  --skip_sync_clustering_and_routing_results on \
+  --absorb_buffer_luts off
+
+# Finish and exit OpenFPGA
+exit

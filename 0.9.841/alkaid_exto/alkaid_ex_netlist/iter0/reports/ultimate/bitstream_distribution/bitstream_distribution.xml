@@ -1,0 +1,44 @@
+<!-- 
+	- Report Bitstream Distribution
+--> 
+
+<bitstream_distribution>
+	<regions>
+		<region id="0" number_of_bits="953">
+		</region>
+	</regions>
+	<regions>
+		<region id="1" number_of_bits="820">
+		</region>
+	</regions>
+	<regions>
+		<region id="2" number_of_bits="3730">
+		</region>
+	</regions>
+	<regions>
+		<region id="3" number_of_bits="1472">
+		</region>
+	</regions>
+	<regions>
+		<region id="4" number_of_bits="3730">
+		</region>
+	</regions>
+	<regions>
+		<region id="5" number_of_bits="272">
+		</region>
+	</regions>
+	<regions>
+		<region id="6" number_of_bits="3730">
+		</region>
+	</regions>
+	<regions>
+		<region id="7" number_of_bits="5821">
+		</region>
+	</regions>
+	<blocks>
+		<block name="fpga_top" number_of_bits="20528">
+			<block name="fpga_core_inst" number_of_bits="20528">
+			</block>
+		</block>
+	</blocks>
+</bitstream_distribution>

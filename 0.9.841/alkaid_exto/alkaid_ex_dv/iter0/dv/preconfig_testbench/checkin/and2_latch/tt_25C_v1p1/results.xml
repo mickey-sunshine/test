@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1757562917" />
+    <testcase name="test_and2_latch" classname="test_and2_latch" file="/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/test_and2_latch.py" lineno="15" time="2.183649778366089" sim_time_ns="75.001" ratio_time="34.346624968459615">
+      <failure />
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+clean_buffer_tree -from "prog_clk*"
+insert_buffer -new_cell_names mem_top_ipin_5_ck_buf2 [get_pins { "mem_top_ipin_0/*/CK" "mem_top_ipin_1/*/CK" "mem_top_ipin_2/*/CK" "mem_top_ipin_3/*/CK" "mem_top_ipin_4/*/CK" "mem_top_ipin_5/*/CK"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_top_ipin_11_ck_buf2 [get_pins { "mem_top_ipin_6/*/CK" "mem_top_ipin_7/*/CK" "mem_top_ipin_8/*/CK" "mem_top_ipin_9/*/CK" "mem_top_ipin_10/*/CK" "mem_top_ipin_11/*/CK"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_top_ipin_17_ck_buf2 [get_pins { "mem_top_ipin_12/*/CK" "mem_top_ipin_13/*/CK" "mem_top_ipin_14/*/CK" "mem_top_ipin_15/*/CK" "mem_top_ipin_16/*/CK" "mem_top_ipin_17/*/CK"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_top_ipin_22_ck_buf2 [get_pins { "mem_top_ipin_18/*/CK" "mem_top_ipin_19/*/CK" "mem_top_ipin_20/*/CK" "mem_top_ipin_21/*/CK" "mem_top_ipin_22/*/CK"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_top_ipin_28_ck_buf2 [get_pins { "mem_top_ipin_23/*/CK" "mem_top_ipin_24/*/CK" "mem_top_ipin_25/*/CK" "mem_top_ipin_26/*/CK" "mem_top_ipin_27/*/CK" "mem_top_ipin_28/*/CK"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_top_ipin_35_ck_buf2 [get_pins { "mem_top_ipin_29/*/CK" "mem_top_ipin_30/*/CK" "mem_top_ipin_31/*/CK" "mem_top_ipin_32/*/CK" "mem_top_ipin_33/*/CK" "mem_top_ipin_34/*/CK" "mem_top_ipin_35/*/CK"}] [get_lib_cells */CLKBUFV4_7TR40]
+insert_buffer -new_cell_names mem_top_ipin_35_ck_buf1 [get_pins { "mem_top_ipin_5_ck_buf2/I" "mem_top_ipin_11_ck_buf2/I" "mem_top_ipin_17_ck_buf2/I" "mem_top_ipin_22_ck_buf2/I" "mem_top_ipin_28_ck_buf2/I" "mem_top_ipin_35_ck_buf2/I"}] [get_lib_cells */CLKBUFV4_7TR40]

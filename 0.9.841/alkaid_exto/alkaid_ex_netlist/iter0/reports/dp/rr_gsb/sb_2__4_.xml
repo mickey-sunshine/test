@@ -1,0 +1,1114 @@
+<rr_sb x="2" y="4" num_sides="4">
+	<CHANY side="top" index="0" node_id="5148" segment_id="3" segment_name="L1y" mux_size="8" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="0" node_id="3536" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="6" node_id="3548" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="12" node_id="3334" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_4_"/>
+		<driver_node type="OPIN" side="bottom" index="18" node_id="3340" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_10_"/>
+		<driver_node type="CHANY" side="bottom" index="0" node_id="5120" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="0" node_id="4592" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="28" node_id="4554" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="56" node_id="4618" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="2" node_id="5150" segment_id="3" segment_name="L1y" mux_size="7" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="1" node_id="3538" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="7" node_id="3550" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="13" node_id="3335" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_5_"/>
+		<driver_node type="OPIN" side="bottom" index="19" node_id="3341" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_11_"/>
+		<driver_node type="CHANY" side="bottom" index="2" node_id="5122" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="26" node_id="4552" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="54" node_id="4580" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="4" node_id="5152" segment_id="3" segment_name="L1y" mux_size="7" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="2" node_id="3540" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="8" node_id="3330" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_0_"/>
+		<driver_node type="OPIN" side="bottom" index="14" node_id="3336" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_6_"/>
+		<driver_node type="OPIN" side="bottom" index="20" node_id="3342" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_1__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="4" node_id="5124" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="24" node_id="4610" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="52" node_id="4578" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="6" node_id="5154" segment_id="3" segment_name="L1y" mux_size="7" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="3" node_id="3542" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="9" node_id="3331" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_1_"/>
+		<driver_node type="OPIN" side="bottom" index="15" node_id="3337" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_7_"/>
+		<driver_node type="OPIN" side="bottom" index="21" node_id="3343" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_2__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="6" node_id="5126" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="22" node_id="4548" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="50" node_id="4576" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="8" node_id="5156" segment_id="3" segment_name="L1y" mux_size="7" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="4" node_id="3544" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="10" node_id="3332" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_2_"/>
+		<driver_node type="OPIN" side="bottom" index="16" node_id="3338" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_8_"/>
+		<driver_node type="OPIN" side="bottom" index="22" node_id="3344" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_3__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="8" node_id="5128" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="20" node_id="4608" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="48" node_id="4616" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="10" node_id="5158" segment_id="3" segment_name="L1y" mux_size="6" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="5" node_id="3546" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="11" node_id="3333" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_3_"/>
+		<driver_node type="OPIN" side="bottom" index="17" node_id="3339" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_9_"/>
+		<driver_node type="CHANY" side="bottom" index="10" node_id="5130" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="18" node_id="4544" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="46" node_id="4572" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="12" node_id="5160" segment_id="4" segment_name="L2y" mux_size="11" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="0" node_id="3536" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="3" node_id="3542" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="6" node_id="3548" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="9" node_id="3331" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_1_"/>
+		<driver_node type="OPIN" side="bottom" index="12" node_id="3334" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_4_"/>
+		<driver_node type="OPIN" side="bottom" index="15" node_id="3337" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_7_"/>
+		<driver_node type="OPIN" side="bottom" index="18" node_id="3340" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_10_"/>
+		<driver_node type="OPIN" side="bottom" index="21" node_id="3343" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_2__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="14" node_id="5104" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="16" node_id="4606" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="44" node_id="4570" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="14" node_id="5132" segment_id="4" segment_name="L2y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="12" node_id="5132" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="16" node_id="5162" segment_id="4" segment_name="L2y" mux_size="11" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="1" node_id="3538" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="4" node_id="3544" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="7" node_id="3550" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="10" node_id="3332" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_2_"/>
+		<driver_node type="OPIN" side="bottom" index="13" node_id="3335" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_5_"/>
+		<driver_node type="OPIN" side="bottom" index="16" node_id="3338" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_8_"/>
+		<driver_node type="OPIN" side="bottom" index="19" node_id="3341" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_11_"/>
+		<driver_node type="OPIN" side="bottom" index="22" node_id="3344" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_3__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="18" node_id="5106" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="14" node_id="4540" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="42" node_id="4568" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="18" node_id="5134" segment_id="4" segment_name="L2y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="16" node_id="5134" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="20" node_id="5164" segment_id="4" segment_name="L2y" mux_size="10" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="2" node_id="3540" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="5" node_id="3546" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="8" node_id="3330" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_0_"/>
+		<driver_node type="OPIN" side="bottom" index="11" node_id="3333" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_3_"/>
+		<driver_node type="OPIN" side="bottom" index="14" node_id="3336" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_6_"/>
+		<driver_node type="OPIN" side="bottom" index="17" node_id="3339" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_9_"/>
+		<driver_node type="OPIN" side="bottom" index="20" node_id="3342" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_1__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="22" node_id="5108" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="12" node_id="4604" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="40" node_id="4614" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="22" node_id="5136" segment_id="4" segment_name="L2y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="20" node_id="5136" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="24" node_id="5166" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="0" node_id="3536" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="5" node_id="3546" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="10" node_id="3332" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_2_"/>
+		<driver_node type="OPIN" side="bottom" index="15" node_id="3337" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_7_"/>
+		<driver_node type="OPIN" side="bottom" index="20" node_id="3342" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_1__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="30" node_id="5054" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="10" node_id="4602" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="38" node_id="4564" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="26" node_id="5138" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="24" node_id="5138" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="28" node_id="5110" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="26" node_id="5110" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="30" node_id="5082" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="28" node_id="5082" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="32" node_id="5168" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="1" node_id="3538" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="6" node_id="3548" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="11" node_id="3333" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_3_"/>
+		<driver_node type="OPIN" side="bottom" index="16" node_id="3338" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_8_"/>
+		<driver_node type="OPIN" side="bottom" index="21" node_id="3343" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_2__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="38" node_id="5056" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="8" node_id="4600" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="36" node_id="4562" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="34" node_id="5140" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="32" node_id="5140" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="36" node_id="5112" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="34" node_id="5112" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="38" node_id="5084" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="36" node_id="5084" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="40" node_id="5170" segment_id="5" segment_name="L4y" mux_size="9" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="2" node_id="3540" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="7" node_id="3550" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="12" node_id="3334" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_4_"/>
+		<driver_node type="OPIN" side="bottom" index="17" node_id="3339" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_9_"/>
+		<driver_node type="OPIN" side="bottom" index="22" node_id="3344" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_3__pin_match0_o_0_"/>
+		<driver_node type="CHANY" side="bottom" index="46" node_id="5058" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="6" node_id="4598" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="34" node_id="4560" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="62" node_id="4588" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="42" node_id="5142" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="40" node_id="5142" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="44" node_id="5114" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="42" node_id="5114" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="46" node_id="5086" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="44" node_id="5086" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="48" node_id="5172" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="3" node_id="3542" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="8" node_id="3330" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_0_"/>
+		<driver_node type="OPIN" side="bottom" index="13" node_id="3335" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_5_"/>
+		<driver_node type="OPIN" side="bottom" index="18" node_id="3340" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_10_"/>
+		<driver_node type="CHANY" side="bottom" index="54" node_id="5060" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="4" node_id="4596" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="32" node_id="4612" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="60" node_id="4586" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="50" node_id="5144" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="48" node_id="5144" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="52" node_id="5116" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="50" node_id="5116" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="54" node_id="5088" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="52" node_id="5088" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="56" node_id="5174" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_top_out">
+		<driver_node type="OPIN" side="bottom" index="4" node_id="3544" grid_side="left" sb_module_pin_name="top_right_grid_left_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="9" node_id="3331" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_1_"/>
+		<driver_node type="OPIN" side="bottom" index="14" node_id="3336" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_6_"/>
+		<driver_node type="OPIN" side="bottom" index="19" node_id="3341" grid_side="right" sb_module_pin_name="top_left_grid_right_width_0_height_0_subtile_0__pin_O_11_"/>
+		<driver_node type="CHANY" side="bottom" index="62" node_id="5062" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="2" node_id="4594" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="30" node_id="4556" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="58" node_id="4584" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="58" node_id="5146" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="56" node_id="5146" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="60" node_id="5118" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="58" node_id="5118" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="62" node_id="5090" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANY" side="bottom" index="60" node_id="5090" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+	</CHANY>
+	<CHANY side="top" index="64" node_id="7544" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="1" node_id="6393" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="64" node_id="7480" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="64" node_id="6328" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="66" node_id="7546" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="3" node_id="6395" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="66" node_id="7482" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="66" node_id="6330" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="68" node_id="7548" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="5" node_id="6397" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="68" node_id="7484" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="68" node_id="6332" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="70" node_id="7550" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="7" node_id="6399" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="70" node_id="7486" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="70" node_id="6334" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="72" node_id="7552" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="9" node_id="6401" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="72" node_id="7488" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="72" node_id="6336" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="74" node_id="7554" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="11" node_id="6403" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="74" node_id="7490" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="74" node_id="6338" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="76" node_id="7556" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="13" node_id="6405" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="76" node_id="7492" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="76" node_id="6340" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="78" node_id="7558" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="15" node_id="6407" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="78" node_id="7494" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="78" node_id="6342" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="80" node_id="7560" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="17" node_id="6409" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="80" node_id="7496" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="80" node_id="6344" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="82" node_id="7562" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="19" node_id="6411" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="82" node_id="7498" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="82" node_id="6346" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="84" node_id="7564" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="21" node_id="6413" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="84" node_id="7500" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="84" node_id="6348" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="86" node_id="7566" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="23" node_id="6415" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="86" node_id="7502" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="86" node_id="6350" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="88" node_id="7568" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="25" node_id="6417" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="88" node_id="7504" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="88" node_id="6352" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="90" node_id="7570" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="27" node_id="6419" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="90" node_id="7506" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="90" node_id="6354" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="92" node_id="7572" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="29" node_id="6421" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="92" node_id="7508" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="92" node_id="6356" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="94" node_id="7574" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="31" node_id="6423" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="94" node_id="7510" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="94" node_id="6358" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="96" node_id="7576" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="33" node_id="6425" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="96" node_id="7512" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="96" node_id="6360" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="98" node_id="7578" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="35" node_id="6427" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="98" node_id="7514" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="98" node_id="6362" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="100" node_id="7580" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="37" node_id="6429" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="100" node_id="7516" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="100" node_id="6364" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="102" node_id="7582" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="39" node_id="6431" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="102" node_id="7518" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="102" node_id="6366" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="104" node_id="7584" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="41" node_id="6433" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="104" node_id="7520" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="104" node_id="6368" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="106" node_id="7586" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="43" node_id="6435" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="106" node_id="7522" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="106" node_id="6370" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="108" node_id="7588" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="45" node_id="6437" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="108" node_id="7524" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="108" node_id="6372" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="110" node_id="7590" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="47" node_id="6439" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="110" node_id="7526" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="110" node_id="6374" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="112" node_id="7592" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="49" node_id="6441" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="112" node_id="7528" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="112" node_id="6376" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="114" node_id="7594" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="51" node_id="6443" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="114" node_id="7530" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="114" node_id="6378" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="116" node_id="7596" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="53" node_id="6445" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="116" node_id="7532" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="116" node_id="6380" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="118" node_id="7598" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="55" node_id="6447" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="118" node_id="7534" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="118" node_id="6382" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="120" node_id="7600" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="57" node_id="6449" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="120" node_id="7536" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="120" node_id="6384" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="122" node_id="7602" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="59" node_id="6451" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="122" node_id="7538" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="122" node_id="6386" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="124" node_id="7604" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="61" node_id="6453" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="124" node_id="7540" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="124" node_id="6388" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="top" index="126" node_id="7606" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_top_out">
+		<driver_node type="CHANX" side="right" index="63" node_id="6455" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANY" side="bottom" index="126" node_id="7542" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANX" side="left" index="126" node_id="6390" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANX side="right" index="0" node_id="6392" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="64" node_id="6328" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="2" node_id="6394" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="66" node_id="6330" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="4" node_id="6396" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="68" node_id="6332" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="6" node_id="6398" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="70" node_id="6334" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="8" node_id="6400" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="72" node_id="6336" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="10" node_id="6402" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="74" node_id="6338" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="12" node_id="6404" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="76" node_id="6340" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="14" node_id="6406" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="78" node_id="6342" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="16" node_id="6408" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="80" node_id="6344" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="18" node_id="6410" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="82" node_id="6346" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="20" node_id="6412" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="84" node_id="6348" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="22" node_id="6414" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="86" node_id="6350" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="24" node_id="6416" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="88" node_id="6352" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="26" node_id="6418" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="90" node_id="6354" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="28" node_id="6420" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="92" node_id="6356" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="30" node_id="6422" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="94" node_id="6358" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="32" node_id="6424" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="96" node_id="6360" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="34" node_id="6426" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="98" node_id="6362" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="36" node_id="6428" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="100" node_id="6364" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="38" node_id="6430" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="102" node_id="6366" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="40" node_id="6432" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="104" node_id="6368" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="42" node_id="6434" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="106" node_id="6370" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="44" node_id="6436" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="108" node_id="6372" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="46" node_id="6438" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="110" node_id="6374" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="48" node_id="6440" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="112" node_id="6376" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="50" node_id="6442" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="114" node_id="6378" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="52" node_id="6444" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="116" node_id="6380" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="54" node_id="6446" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="118" node_id="6382" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="56" node_id="6448" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="120" node_id="6384" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="58" node_id="6450" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="122" node_id="6386" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="60" node_id="6452" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="124" node_id="6388" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANX side="right" index="62" node_id="6454" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_right_out">
+		<driver_node type="CHANX" side="left" index="126" node_id="6390" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANX>
+	<CHANY side="bottom" index="1" node_id="5121" segment_id="3" segment_name="L1y" mux_size="8" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="1" node_id="5149" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="0" node_id="3536" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="6" node_id="3548" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="12" node_id="3334" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_4_"/>
+		<driver_node type="OPIN" side="bottom" index="18" node_id="3340" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_10_"/>
+		<driver_node type="CHANX" side="left" index="2" node_id="4594" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="30" node_id="4556" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="58" node_id="4584" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="3" node_id="5123" segment_id="3" segment_name="L1y" mux_size="8" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="3" node_id="5151" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="1" node_id="3538" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="7" node_id="3550" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="13" node_id="3335" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_5_"/>
+		<driver_node type="OPIN" side="bottom" index="19" node_id="3341" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_11_"/>
+		<driver_node type="CHANX" side="left" index="4" node_id="4596" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="32" node_id="4612" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="60" node_id="4586" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="5" node_id="5125" segment_id="3" segment_name="L1y" mux_size="8" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="5" node_id="5153" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="2" node_id="3540" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="8" node_id="3330" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_0_"/>
+		<driver_node type="OPIN" side="bottom" index="14" node_id="3336" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_6_"/>
+		<driver_node type="OPIN" side="bottom" index="20" node_id="3342" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_1__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="6" node_id="4598" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="34" node_id="4560" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="62" node_id="4588" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="7" node_id="5127" segment_id="3" segment_name="L1y" mux_size="7" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="7" node_id="5155" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="3" node_id="3542" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="9" node_id="3331" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_1_"/>
+		<driver_node type="OPIN" side="bottom" index="15" node_id="3337" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_7_"/>
+		<driver_node type="OPIN" side="bottom" index="21" node_id="3343" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_2__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="8" node_id="4600" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="36" node_id="4562" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="9" node_id="5129" segment_id="3" segment_name="L1y" mux_size="7" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="9" node_id="5157" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="4" node_id="3544" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="10" node_id="3332" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_2_"/>
+		<driver_node type="OPIN" side="bottom" index="16" node_id="3338" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_8_"/>
+		<driver_node type="OPIN" side="bottom" index="22" node_id="3344" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_3__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="10" node_id="4602" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="38" node_id="4564" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="11" node_id="5131" segment_id="3" segment_name="L1y" mux_size="6" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="11" node_id="5159" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="5" node_id="3546" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="11" node_id="3333" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_3_"/>
+		<driver_node type="OPIN" side="bottom" index="17" node_id="3339" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_9_"/>
+		<driver_node type="CHANX" side="left" index="12" node_id="4604" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="40" node_id="4614" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="13" node_id="5105" segment_id="4" segment_name="L2y" mux_size="11" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="15" node_id="5161" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="0" node_id="3536" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="3" node_id="3542" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="6" node_id="3548" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="9" node_id="3331" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_1_"/>
+		<driver_node type="OPIN" side="bottom" index="12" node_id="3334" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_4_"/>
+		<driver_node type="OPIN" side="bottom" index="15" node_id="3337" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_7_"/>
+		<driver_node type="OPIN" side="bottom" index="18" node_id="3340" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_10_"/>
+		<driver_node type="OPIN" side="bottom" index="21" node_id="3343" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_2__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="14" node_id="4540" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="42" node_id="4568" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="15" node_id="5133" segment_id="4" segment_name="L2y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="13" node_id="5133" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="17" node_id="5107" segment_id="4" segment_name="L2y" mux_size="11" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="19" node_id="5163" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="1" node_id="3538" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="4" node_id="3544" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="7" node_id="3550" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="10" node_id="3332" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_2_"/>
+		<driver_node type="OPIN" side="bottom" index="13" node_id="3335" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_5_"/>
+		<driver_node type="OPIN" side="bottom" index="16" node_id="3338" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_8_"/>
+		<driver_node type="OPIN" side="bottom" index="19" node_id="3341" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_11_"/>
+		<driver_node type="OPIN" side="bottom" index="22" node_id="3344" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_3__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="16" node_id="4606" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="44" node_id="4570" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="19" node_id="5135" segment_id="4" segment_name="L2y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="17" node_id="5135" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="21" node_id="5109" segment_id="4" segment_name="L2y" mux_size="10" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="23" node_id="5165" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="2" node_id="3540" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="5" node_id="3546" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="8" node_id="3330" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_0_"/>
+		<driver_node type="OPIN" side="bottom" index="11" node_id="3333" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_3_"/>
+		<driver_node type="OPIN" side="bottom" index="14" node_id="3336" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_6_"/>
+		<driver_node type="OPIN" side="bottom" index="17" node_id="3339" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_9_"/>
+		<driver_node type="OPIN" side="bottom" index="20" node_id="3342" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_1__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="18" node_id="4544" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="46" node_id="4572" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="23" node_id="5137" segment_id="4" segment_name="L2y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="21" node_id="5137" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="25" node_id="5055" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="31" node_id="5167" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="0" node_id="3536" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="5" node_id="3546" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="10" node_id="3332" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_2_"/>
+		<driver_node type="OPIN" side="bottom" index="15" node_id="3337" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_7_"/>
+		<driver_node type="OPIN" side="bottom" index="20" node_id="3342" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_1__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="20" node_id="4608" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="48" node_id="4616" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="27" node_id="5083" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="25" node_id="5083" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="29" node_id="5111" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="27" node_id="5111" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="31" node_id="5139" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="29" node_id="5139" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="33" node_id="5057" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="39" node_id="5169" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="1" node_id="3538" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="6" node_id="3548" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="11" node_id="3333" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_3_"/>
+		<driver_node type="OPIN" side="bottom" index="16" node_id="3338" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_8_"/>
+		<driver_node type="OPIN" side="bottom" index="21" node_id="3343" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_2__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="22" node_id="4548" segment_id="1" segment_name="L2x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="50" node_id="4576" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="35" node_id="5085" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="33" node_id="5085" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="37" node_id="5113" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="35" node_id="5113" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="39" node_id="5141" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="37" node_id="5141" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="41" node_id="5059" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="47" node_id="5171" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="2" node_id="3540" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="7" node_id="3550" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="12" node_id="3334" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_4_"/>
+		<driver_node type="OPIN" side="bottom" index="17" node_id="3339" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_9_"/>
+		<driver_node type="OPIN" side="bottom" index="22" node_id="3344" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_3__pin_match0_o_0_"/>
+		<driver_node type="CHANX" side="left" index="24" node_id="4610" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="52" node_id="4578" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="43" node_id="5087" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="41" node_id="5087" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="45" node_id="5115" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="43" node_id="5115" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="47" node_id="5143" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="45" node_id="5143" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="49" node_id="5061" segment_id="5" segment_name="L4y" mux_size="7" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="55" node_id="5173" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="3" node_id="3542" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="8" node_id="3330" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_0_"/>
+		<driver_node type="OPIN" side="bottom" index="13" node_id="3335" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_5_"/>
+		<driver_node type="OPIN" side="bottom" index="18" node_id="3340" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_10_"/>
+		<driver_node type="CHANX" side="left" index="26" node_id="4552" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="54" node_id="4580" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="51" node_id="5089" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="49" node_id="5089" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="53" node_id="5117" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="51" node_id="5117" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="55" node_id="5145" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="53" node_id="5145" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="57" node_id="5063" segment_id="5" segment_name="L4y" mux_size="8" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="63" node_id="5175" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="bottom" index="4" node_id="3544" grid_side="left" sb_module_pin_name="bottom_right_grid_left_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="bottom" index="9" node_id="3331" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_1_"/>
+		<driver_node type="OPIN" side="bottom" index="14" node_id="3336" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_6_"/>
+		<driver_node type="OPIN" side="bottom" index="19" node_id="3341" grid_side="right" sb_module_pin_name="bottom_left_grid_right_width_0_height_0_subtile_0__pin_O_11_"/>
+		<driver_node type="CHANX" side="left" index="0" node_id="4592" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="28" node_id="4554" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+		<driver_node type="CHANX" side="left" index="56" node_id="4618" segment_id="2" segment_name="L4x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="59" node_id="5091" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="57" node_id="5091" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="61" node_id="5119" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="59" node_id="5119" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="63" node_id="5147" segment_id="5" segment_name="L4y" mux_size="0" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="61" node_id="5147" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="65" node_id="7481" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="65" node_id="7545" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="1" node_id="6393" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="64" node_id="6328" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="67" node_id="7483" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="67" node_id="7547" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="3" node_id="6395" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="66" node_id="6330" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="69" node_id="7485" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="69" node_id="7549" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="5" node_id="6397" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="68" node_id="6332" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="71" node_id="7487" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="71" node_id="7551" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="7" node_id="6399" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="70" node_id="6334" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="73" node_id="7489" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="73" node_id="7553" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="9" node_id="6401" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="72" node_id="6336" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="75" node_id="7491" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="75" node_id="7555" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="11" node_id="6403" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="74" node_id="6338" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="77" node_id="7493" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="77" node_id="7557" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="13" node_id="6405" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="76" node_id="6340" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="79" node_id="7495" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="79" node_id="7559" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="15" node_id="6407" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="78" node_id="6342" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="81" node_id="7497" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="81" node_id="7561" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="17" node_id="6409" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="80" node_id="6344" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="83" node_id="7499" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="83" node_id="7563" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="19" node_id="6411" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="82" node_id="6346" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="85" node_id="7501" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="85" node_id="7565" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="21" node_id="6413" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="84" node_id="6348" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="87" node_id="7503" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="87" node_id="7567" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="23" node_id="6415" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="86" node_id="6350" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="89" node_id="7505" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="89" node_id="7569" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="25" node_id="6417" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="88" node_id="6352" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="91" node_id="7507" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="91" node_id="7571" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="27" node_id="6419" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="90" node_id="6354" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="93" node_id="7509" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="93" node_id="7573" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="29" node_id="6421" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="92" node_id="6356" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="95" node_id="7511" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="95" node_id="7575" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="31" node_id="6423" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="94" node_id="6358" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="97" node_id="7513" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="97" node_id="7577" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="33" node_id="6425" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="96" node_id="6360" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="99" node_id="7515" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="99" node_id="7579" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="35" node_id="6427" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="98" node_id="6362" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="101" node_id="7517" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="101" node_id="7581" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="37" node_id="6429" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="100" node_id="6364" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="103" node_id="7519" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="103" node_id="7583" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="39" node_id="6431" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="102" node_id="6366" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="105" node_id="7521" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="105" node_id="7585" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="41" node_id="6433" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="104" node_id="6368" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="107" node_id="7523" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="107" node_id="7587" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="43" node_id="6435" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="106" node_id="6370" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="109" node_id="7525" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="109" node_id="7589" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="45" node_id="6437" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="108" node_id="6372" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="111" node_id="7527" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="111" node_id="7591" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="47" node_id="6439" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="110" node_id="6374" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="113" node_id="7529" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="113" node_id="7593" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="49" node_id="6441" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="112" node_id="6376" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="115" node_id="7531" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="115" node_id="7595" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="51" node_id="6443" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="114" node_id="6378" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="117" node_id="7533" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="117" node_id="7597" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="53" node_id="6445" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="116" node_id="6380" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="119" node_id="7535" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="119" node_id="7599" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="55" node_id="6447" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="118" node_id="6382" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="121" node_id="7537" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="121" node_id="7601" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="57" node_id="6449" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="120" node_id="6384" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="123" node_id="7539" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="123" node_id="7603" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="59" node_id="6451" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="122" node_id="6386" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="125" node_id="7541" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="125" node_id="7605" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="61" node_id="6453" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="124" node_id="6388" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANY side="bottom" index="127" node_id="7543" segment_id="0" segment_name="L1x" mux_size="3" sb_module_pin_name="chany_bottom_out">
+		<driver_node type="CHANY" side="top" index="127" node_id="7607" segment_id="0" segment_name="L1x" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANX" side="right" index="63" node_id="6455" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+		<driver_node type="CHANX" side="left" index="126" node_id="6390" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_left_in"/>
+	</CHANY>
+	<CHANX side="left" index="1" node_id="4593" segment_id="0" segment_name="L1x" mux_size="8" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="1" node_id="5149" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="top" index="13" node_id="5133" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="12" node_id="5132" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="0" node_id="3856" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="6" node_id="3868" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="12" node_id="3316" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_16_"/>
+		<driver_node type="OPIN" side="left" index="18" node_id="3322" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_22_"/>
+		<driver_node type="OPIN" side="left" index="24" node_id="3328" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_3__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="3" node_id="4595" segment_id="0" segment_name="L1x" mux_size="8" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="17" node_id="5135" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="0" node_id="5120" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="16" node_id="5134" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="1" node_id="3858" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="7" node_id="3870" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="13" node_id="3317" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_17_"/>
+		<driver_node type="OPIN" side="left" index="19" node_id="3323" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_23_"/>
+		<driver_node type="OPIN" side="left" index="25" node_id="3329" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_3__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="5" node_id="4597" segment_id="0" segment_name="L1x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="21" node_id="5137" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="2" node_id="5122" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="20" node_id="5136" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="2" node_id="3860" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="8" node_id="3312" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_12_"/>
+		<driver_node type="OPIN" side="left" index="14" node_id="3318" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_18_"/>
+		<driver_node type="OPIN" side="left" index="20" node_id="3324" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_1__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="7" node_id="4599" segment_id="0" segment_name="L1x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="25" node_id="5083" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="4" node_id="5124" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="24" node_id="5138" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="3" node_id="3862" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="9" node_id="3313" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_13_"/>
+		<driver_node type="OPIN" side="left" index="15" node_id="3319" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_19_"/>
+		<driver_node type="OPIN" side="left" index="21" node_id="3325" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_1__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="9" node_id="4601" segment_id="0" segment_name="L1x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="27" node_id="5111" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="6" node_id="5126" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="26" node_id="5110" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="4" node_id="3864" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="10" node_id="3314" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_14_"/>
+		<driver_node type="OPIN" side="left" index="16" node_id="3320" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_20_"/>
+		<driver_node type="OPIN" side="left" index="22" node_id="3326" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_2__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="11" node_id="4603" segment_id="0" segment_name="L1x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="29" node_id="5139" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="8" node_id="5128" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="28" node_id="5082" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="5" node_id="3866" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="11" node_id="3315" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_15_"/>
+		<driver_node type="OPIN" side="left" index="17" node_id="3321" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_21_"/>
+		<driver_node type="OPIN" side="left" index="23" node_id="3327" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_2__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="13" node_id="4543" segment_id="1" segment_name="L2x" mux_size="8" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="33" node_id="5085" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="10" node_id="5130" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="32" node_id="5140" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="0" node_id="3856" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="6" node_id="3868" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="12" node_id="3316" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_16_"/>
+		<driver_node type="OPIN" side="left" index="18" node_id="3322" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_22_"/>
+		<driver_node type="OPIN" side="left" index="24" node_id="3328" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_3__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="15" node_id="4605" segment_id="1" segment_name="L2x" mux_size="8" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="35" node_id="5113" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="14" node_id="5104" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="34" node_id="5112" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="1" node_id="3858" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="7" node_id="3870" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="13" node_id="3317" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_17_"/>
+		<driver_node type="OPIN" side="left" index="19" node_id="3323" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_23_"/>
+		<driver_node type="OPIN" side="left" index="25" node_id="3329" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_3__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="17" node_id="4547" segment_id="1" segment_name="L2x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="37" node_id="5141" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="18" node_id="5106" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="36" node_id="5084" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="2" node_id="3860" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="8" node_id="3312" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_12_"/>
+		<driver_node type="OPIN" side="left" index="14" node_id="3318" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_18_"/>
+		<driver_node type="OPIN" side="left" index="20" node_id="3324" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_1__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="19" node_id="4607" segment_id="1" segment_name="L2x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="41" node_id="5087" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="22" node_id="5108" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="40" node_id="5142" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="3" node_id="3862" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="9" node_id="3313" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_13_"/>
+		<driver_node type="OPIN" side="left" index="15" node_id="3319" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_19_"/>
+		<driver_node type="OPIN" side="left" index="21" node_id="3325" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_1__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="21" node_id="4551" segment_id="1" segment_name="L2x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="43" node_id="5115" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="30" node_id="5054" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="42" node_id="5114" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="4" node_id="3864" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="10" node_id="3314" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_14_"/>
+		<driver_node type="OPIN" side="left" index="16" node_id="3320" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_20_"/>
+		<driver_node type="OPIN" side="left" index="22" node_id="3326" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_2__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="23" node_id="4609" segment_id="1" segment_name="L2x" mux_size="7" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="45" node_id="5143" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="38" node_id="5056" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="44" node_id="5086" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="5" node_id="3866" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="11" node_id="3315" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_15_"/>
+		<driver_node type="OPIN" side="left" index="17" node_id="3321" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_21_"/>
+		<driver_node type="OPIN" side="left" index="23" node_id="3327" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_2__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="25" node_id="4555" segment_id="2" segment_name="L4x" mux_size="5" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="49" node_id="5089" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="46" node_id="5058" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="48" node_id="5144" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="0" node_id="3856" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_0__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="20" node_id="3324" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_1__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="27" node_id="4557" segment_id="2" segment_name="L4x" mux_size="5" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="51" node_id="5117" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="50" node_id="5116" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="54" node_id="5060" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="1" node_id="3858" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_1__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="21" node_id="3325" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_1__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="29" node_id="4559" segment_id="2" segment_name="L4x" mux_size="5" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="53" node_id="5145" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="52" node_id="5088" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="CHANY" side="bottom" index="62" node_id="5062" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="2" node_id="3860" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_2__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="22" node_id="3326" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_2__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="31" node_id="4611" segment_id="2" segment_name="L4x" mux_size="4" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="57" node_id="5091" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="56" node_id="5146" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="3" node_id="3862" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_3__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="23" node_id="3327" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_2__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="33" node_id="4563" segment_id="2" segment_name="L4x" mux_size="4" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="59" node_id="5119" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="58" node_id="5118" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="4" node_id="3864" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_4__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="24" node_id="3328" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_3__pin_match1_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="35" node_id="4565" segment_id="2" segment_name="L4x" mux_size="4" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="61" node_id="5147" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="CHANY" side="bottom" index="60" node_id="5090" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_bottom_in"/>
+		<driver_node type="OPIN" side="left" index="5" node_id="3866" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_5__pin_a2f_o_0_"/>
+		<driver_node type="OPIN" side="left" index="25" node_id="3329" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_3__pin_zero_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="37" node_id="4567" segment_id="2" segment_name="L4x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="OPIN" side="left" index="6" node_id="3868" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_6__pin_a2f_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="39" node_id="4613" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="63" node_id="5175" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="7" node_id="3870" grid_side="bottom" sb_module_pin_name="left_top_grid_bottom_width_0_height_0_subtile_7__pin_a2f_o_0_"/>
+	</CHANX>
+	<CHANX side="left" index="41" node_id="4571" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="55" node_id="5173" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="8" node_id="3312" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_12_"/>
+	</CHANX>
+	<CHANX side="left" index="43" node_id="4573" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="47" node_id="5171" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="9" node_id="3313" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_13_"/>
+	</CHANX>
+	<CHANX side="left" index="45" node_id="4575" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="39" node_id="5169" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="10" node_id="3314" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_14_"/>
+	</CHANX>
+	<CHANX side="left" index="47" node_id="4615" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="31" node_id="5167" segment_id="5" segment_name="L4y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="11" node_id="3315" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_15_"/>
+	</CHANX>
+	<CHANX side="left" index="49" node_id="4579" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="23" node_id="5165" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="12" node_id="3316" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_16_"/>
+	</CHANX>
+	<CHANX side="left" index="51" node_id="4581" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="19" node_id="5163" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="13" node_id="3317" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_17_"/>
+	</CHANX>
+	<CHANX side="left" index="53" node_id="4583" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="15" node_id="5161" segment_id="4" segment_name="L2y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="14" node_id="3318" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_18_"/>
+	</CHANX>
+	<CHANX side="left" index="55" node_id="4617" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="11" node_id="5159" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="15" node_id="3319" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_19_"/>
+	</CHANX>
+	<CHANX side="left" index="57" node_id="4587" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="9" node_id="5157" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="16" node_id="3320" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_20_"/>
+	</CHANX>
+	<CHANX side="left" index="59" node_id="4589" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="7" node_id="5155" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="17" node_id="3321" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_21_"/>
+	</CHANX>
+	<CHANX side="left" index="61" node_id="4591" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="5" node_id="5153" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="18" node_id="3322" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_22_"/>
+	</CHANX>
+	<CHANX side="left" index="63" node_id="4619" segment_id="2" segment_name="L4x" mux_size="2" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANY" side="top" index="3" node_id="5151" segment_id="3" segment_name="L1y" sb_module_pin_name="chany_top_in"/>
+		<driver_node type="OPIN" side="left" index="19" node_id="3323" grid_side="top" sb_module_pin_name="left_bottom_grid_top_width_0_height_0_subtile_0__pin_O_23_"/>
+	</CHANX>
+	<CHANX side="left" index="65" node_id="6329" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="1" node_id="6393" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="67" node_id="6331" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="3" node_id="6395" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="69" node_id="6333" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="5" node_id="6397" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="71" node_id="6335" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="7" node_id="6399" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="73" node_id="6337" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="9" node_id="6401" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="75" node_id="6339" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="11" node_id="6403" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="77" node_id="6341" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="13" node_id="6405" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="79" node_id="6343" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="15" node_id="6407" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="81" node_id="6345" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="17" node_id="6409" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="83" node_id="6347" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="19" node_id="6411" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="85" node_id="6349" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="21" node_id="6413" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="87" node_id="6351" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="23" node_id="6415" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="89" node_id="6353" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="25" node_id="6417" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="91" node_id="6355" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="27" node_id="6419" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="93" node_id="6357" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="29" node_id="6421" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="95" node_id="6359" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="31" node_id="6423" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="97" node_id="6361" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="33" node_id="6425" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="99" node_id="6363" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="35" node_id="6427" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="101" node_id="6365" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="37" node_id="6429" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="103" node_id="6367" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="39" node_id="6431" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="105" node_id="6369" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="41" node_id="6433" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="107" node_id="6371" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="43" node_id="6435" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="109" node_id="6373" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="45" node_id="6437" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="111" node_id="6375" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="47" node_id="6439" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="113" node_id="6377" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="49" node_id="6441" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="115" node_id="6379" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="51" node_id="6443" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="117" node_id="6381" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="53" node_id="6445" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="119" node_id="6383" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="55" node_id="6447" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="121" node_id="6385" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="57" node_id="6449" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="123" node_id="6387" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="59" node_id="6451" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="125" node_id="6389" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="61" node_id="6453" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+	<CHANX side="left" index="127" node_id="6391" segment_id="0" segment_name="L1x" mux_size="1" sb_module_pin_name="chanx_left_out">
+		<driver_node type="CHANX" side="right" index="63" node_id="6455" segment_id="0" segment_name="L1x" sb_module_pin_name="chanx_right_in"/>
+	</CHANX>
+</rr_sb>

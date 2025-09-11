@@ -1,0 +1,11 @@
+Netlist_File: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/vpr_results/checkin/and2_latch/tt_25C_v1p1/vpr.net Netlist_ID: SHA256:cd955814d8a2a37e536d5dcd04c7646379bacd5299fddebdf6206789c10fe7e8
+Array size: 4 x 6 logic blocks
+
+#block name	x	y	subblk	layer	block number
+#----------	--	--	------	-----	------------
+c		2	1	0	0	#0
+d		2	0	9	0	#1
+out:c		2	0	11	0	#2
+a		2	0	5	0	#3
+b		2	0	4	0	#4
+clk		2	0	3	0	#5

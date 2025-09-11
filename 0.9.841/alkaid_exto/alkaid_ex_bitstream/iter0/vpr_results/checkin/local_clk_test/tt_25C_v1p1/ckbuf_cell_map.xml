@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ckbuf_cell_map>
+	<ckbuf input_net="rst_local" cell="rst_local_ckbuf" type="reset" />
+</ckbuf_cell_map>

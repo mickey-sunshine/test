@@ -1,0 +1,334 @@
+#Timing report of worst 9 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: rst_ni.inpad[0] (.input at (1, 0, 0) clocked by clk_i)
+Endpoint  : C_local_clk_o.RN[0] (dffnrn at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+rst_ni.inpad[0] (.input at (1, 0, 0))                            0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_local_clk_o.RN[0] (dffnrn at (2, 0, 0))                        0.000     0.000
+data arrival time                                                          0.000
+
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                             0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_local_clk_o.C[0] (dffnrn at (2, 0, 0))                         0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.117     0.117
+data required time                                                         0.117
+--------------------------------------------------------------------------------
+data required time                                                        -0.117
+data arrival time                                                          0.000
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.117
+
+
+#Path 2
+Startpoint: rst_ni.inpad[0] (.input at (1, 0, 0) clocked by clk_i)
+Endpoint  : C_o.RN[0] (dffrn at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+rst_ni.inpad[0] (.input at (1, 0, 0))                            0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_o.RN[0] (dffrn at (2, 0, 0))                                   0.000     0.000
+data arrival time                                                          0.000
+
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                             0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_o.C[0] (dffrn at (2, 0, 0))                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.117     0.117
+data required time                                                         0.117
+--------------------------------------------------------------------------------
+data required time                                                        -0.117
+data arrival time                                                          0.000
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.117
+
+
+#Path 3
+Startpoint: C_local_clk_o.Q[0] (dffnrn at (2, 0, 0) clocked by clk_i)
+Endpoint  : out:C_local_clk_o.outpad[0] (.output at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                                     Incr      Path
+----------------------------------------------------------------------------------------
+clock clk_i (rise edge)                                                  0.000     0.000
+clock source latency                                                     0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                                     0.000     0.000
+| (intra 'io_pi' routing)                                                0.000     0.000
+| (inter-block routing:global net)                                       0.000     0.000
+| (intra 'io_po' routing)                                                0.000     0.000
+C_local_clk_o.C[0] (dffnrn at (2, 0, 0))                                 0.000     0.000
+| (primitive 'dffnrn' Tcq_min)                                           0.096     0.096
+C_local_clk_o.Q[0] (dffnrn at (2, 0, 0)) [clock-to-output]               0.000     0.096
+| (intra 'io_po' routing)                                                0.526     0.622
+out:C_local_clk_o.outpad[0] (.output at (2, 0, 0))                       0.000     0.622
+data arrival time                                                                  0.622
+
+clock clk_i (rise edge)                                                  0.000     0.000
+clock source latency                                                     0.000     0.000
+clock uncertainty                                                        0.000     0.000
+output external delay                                                    0.000     0.000
+data required time                                                                 0.000
+----------------------------------------------------------------------------------------
+data required time                                                                -0.000
+data arrival time                                                                  0.622
+----------------------------------------------------------------------------------------
+slack (MET)                                                                        0.622
+
+
+#Path 4
+Startpoint: C_local_rst_o.Q[0] (dffrn at (2, 0, 0) clocked by clk_i)
+Endpoint  : out:C_local_rst_o.outpad[0] (.output at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                                     Incr      Path
+----------------------------------------------------------------------------------------
+clock clk_i (rise edge)                                                  0.000     0.000
+clock source latency                                                     0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                                     0.000     0.000
+| (intra 'io_pi' routing)                                                0.000     0.000
+| (inter-block routing:global net)                                       0.000     0.000
+| (intra 'io_po' routing)                                                0.000     0.000
+C_local_rst_o.C[0] (dffrn at (2, 0, 0))                                  0.000     0.000
+| (primitive 'dffrn' Tcq_min)                                            0.096     0.096
+C_local_rst_o.Q[0] (dffrn at (2, 0, 0)) [clock-to-output]                0.000     0.096
+| (intra 'io_po' routing)                                                0.526     0.622
+out:C_local_rst_o.outpad[0] (.output at (2, 0, 0))                       0.000     0.622
+data arrival time                                                                  0.622
+
+clock clk_i (rise edge)                                                  0.000     0.000
+clock source latency                                                     0.000     0.000
+clock uncertainty                                                        0.000     0.000
+output external delay                                                    0.000     0.000
+data required time                                                                 0.000
+----------------------------------------------------------------------------------------
+data required time                                                                -0.000
+data arrival time                                                                  0.622
+----------------------------------------------------------------------------------------
+slack (MET)                                                                        0.622
+
+
+#Path 5
+Startpoint: C_o.Q[0] (dffrn at (2, 0, 0) clocked by clk_i)
+Endpoint  : out:C_o.outpad[0] (.output at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                             0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_o.C[0] (dffrn at (2, 0, 0))                                    0.000     0.000
+| (primitive 'dffrn' Tcq_min)                                    0.096     0.096
+C_o.Q[0] (dffrn at (2, 0, 0)) [clock-to-output]                  0.000     0.096
+| (intra 'io_po' routing)                                        0.526     0.622
+out:C_o.outpad[0] (.output at (2, 0, 0))                         0.000     0.622
+data arrival time                                                          0.622
+
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                          0.622
+--------------------------------------------------------------------------------
+slack (MET)                                                                0.622
+
+
+#Path 6
+Startpoint: A_i.inpad[0] (.input at (2, 0, 0) clocked by clk_i)
+Endpoint  : C_local_clk_o.D[0] (dffnrn at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+A_i.inpad[0] (.input at (2, 0, 0))                               0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (OPIN:246 side: (TOP,) (2,0,0))                                0.000     0.000
+| (CHANX:4035 L1x length:1 (2,0,0 -> (2,0,0))                    0.907     0.907
+| (IPIN:278 side: (TOP,) (2,0,0))                                0.693     1.600
+| (intra 'io_po' routing)                                        0.463     2.063
+C_local_clk_o.D[0] (dffnrn at (2, 0, 0))                         0.000     2.063
+data arrival time                                                          2.063
+
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                             0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_local_clk_o.C[0] (dffnrn at (2, 0, 0))                         0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.117     0.117
+data required time                                                         0.117
+--------------------------------------------------------------------------------
+data required time                                                        -0.117
+data arrival time                                                          2.063
+--------------------------------------------------------------------------------
+slack (MET)                                                                1.946
+
+
+#Path 7
+Startpoint: rst_ni.inpad[0] (.input at (1, 0, 0) clocked by clk_i)
+Endpoint  : C_local_rst_o.RN[0] (dffrn at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                              Incr      Path
+---------------------------------------------------------------------------------
+clock clk_i (rise edge)                                           0.000     0.000
+clock source latency                                              0.000     0.000
+input external delay                                              0.000     0.000
+rst_ni.inpad[0] (.input at (1, 0, 0))                             0.000     0.000
+| (intra 'io_pi' routing)                                         0.000     0.000
+| (inter-block routing:global net)                                0.000     0.000
+| (intra 'clb' routing)                                           0.000     0.000
+rst_local.in[1] (.names at (1, 3, 0))                             0.000     0.000
+| (primitive '.names' combinational delay)                        0.607     0.607
+rst_local.out[0] (.names at (1, 3, 0))                            0.000     0.607
+| (intra 'clb' routing)                                           0.000     0.607
+| (OPIN:2247 side: (TOP,) (1,3,0))                                0.000     0.607
+| (CHANX:4460 L2x length:2 (1,3,0 -> (2,3,0))                     1.103     1.710
+| (CHANY:4893 L1y length:1 (1,3,0 -> (1,3,0))                     0.907     2.617
+| (IPIN:2369 side: (RIGHT,) (1,3,0))                              0.693     3.311
+| (intra 'ckbuf' routing)                                         0.000     3.311
+rst_local_ckbuf.in[0] (ckbuf at (1, 3, 0))                        0.000     3.311
+| (primitive 'ckbuf' combinational delay)                         0.020     3.331
+rst_local_ckbuf.out[0] (ckbuf at (1, 3, 0))                       0.000     3.331
+| (intra 'ckbuf' routing)                                         0.000     3.331
+| (inter-block routing:global net)                                0.000     3.331
+| (intra 'io_po' routing)                                         0.000     3.331
+C_local_rst_o.RN[0] (dffrn at (2, 0, 0))                          0.000     3.331
+data arrival time                                                           3.331
+
+clock clk_i (rise edge)                                           0.000     0.000
+clock source latency                                              0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                              0.000     0.000
+| (intra 'io_pi' routing)                                         0.000     0.000
+| (inter-block routing:global net)                                0.000     0.000
+| (intra 'io_po' routing)                                         0.000     0.000
+C_local_rst_o.C[0] (dffrn at (2, 0, 0))                           0.000     0.000
+clock uncertainty                                                 0.000     0.000
+cell hold time                                                    0.117     0.117
+data required time                                                          0.117
+---------------------------------------------------------------------------------
+data required time                                                         -0.117
+data arrival time                                                           3.331
+---------------------------------------------------------------------------------
+slack (MET)                                                                 3.214
+
+
+#Path 8
+Startpoint: A_i.inpad[0] (.input at (2, 0, 0) clocked by clk_i)
+Endpoint  : C_o.D[0] (dffrn at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+A_i.inpad[0] (.input at (2, 0, 0))                               0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (OPIN:246 side: (TOP,) (2,0,0))                                0.000     0.000
+| (CHANX:4013 L2x length:2 (2,0,0 -> (1,0,0))                    1.103     1.103
+| (CHANY:4630 L1y length:1 (0,1,0 -> (0,1,0))                    0.907     2.010
+| (CHANX:4162 L2x length:2 (1,1,0 -> (2,1,0))                    1.103     3.114
+| (CHANY:4835 L1y length:1 (1,1,0 -> (1,1,0))                    0.907     4.020
+| (CHANX:4032 L1x length:1 (2,0,0 -> (2,0,0))                    0.907     4.927
+| (IPIN:276 side: (TOP,) (2,0,0))                                0.693     5.621
+| (intra 'io_po' routing)                                        0.463     6.084
+C_o.D[0] (dffrn at (2, 0, 0))                                    0.000     6.084
+data arrival time                                                          6.084
+
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                             0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_o.C[0] (dffrn at (2, 0, 0))                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.117     0.117
+data required time                                                         0.117
+--------------------------------------------------------------------------------
+data required time                                                        -0.117
+data arrival time                                                          6.084
+--------------------------------------------------------------------------------
+slack (MET)                                                                5.967
+
+
+#Path 9
+Startpoint: A_i.inpad[0] (.input at (2, 0, 0) clocked by clk_i)
+Endpoint  : C_local_rst_o.D[0] (dffrn at (2, 0, 0) clocked by clk_i)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+A_i.inpad[0] (.input at (2, 0, 0))                               0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (OPIN:246 side: (TOP,) (2,0,0))                                0.000     0.000
+| (CHANX:4035 L1x length:1 (2,0,0 -> (2,0,0))                    0.907     0.907
+| (CHANY:4836 L1y length:1 (1,1,0 -> (1,1,0))                    0.907     1.814
+| (CHANX:4155 L1x length:1 (1,1,0 -> (1,1,0))                    0.907     2.721
+| (CHANY:4645 L4y length:1 (0,1,0 -> (0,1,0))                    1.662     4.382
+| (CHANX:4026 L4x length:3 (1,0,0 -> (3,0,0))                    1.662     6.044
+| (IPIN:280 side: (TOP,) (2,0,0))                                0.693     6.737
+| (intra 'io_po' routing)                                        0.463     7.200
+C_local_rst_o.D[0] (dffrn at (2, 0, 0))                          0.000     7.200
+data arrival time                                                          7.200
+
+clock clk_i (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clk_i.inpad[0] (.input at (1, 0, 0))                             0.000     0.000
+| (intra 'io_pi' routing)                                        0.000     0.000
+| (inter-block routing:global net)                               0.000     0.000
+| (intra 'io_po' routing)                                        0.000     0.000
+C_local_rst_o.C[0] (dffrn at (2, 0, 0))                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.117     0.117
+data required time                                                         0.117
+--------------------------------------------------------------------------------
+data required time                                                        -0.117
+data arrival time                                                          7.200
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.083
+
+
+#End of timing report

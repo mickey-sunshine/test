@@ -1,0 +1,158 @@
+technology:
+  name: s40ulp
+  root: ${PDK_ROOT}
+  corner: tt_v1p1
+netlist:
+  input: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_netlist/iter0/netlist/rtl/dp
+  exclude:
+    - fabric_netlists.v
+    - efpga_circuits.v
+    - scc40ulp_uhdc40_hvt.v
+    - scc40ulp_uhdc40_lvt.v
+    - scc40ulp_uhdc40_rvt.v
+  output: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_netlist/iter0/netlist/gl/dp/subblock
+synth_tasks:
+  - name: cb
+    current_design:
+      - cbx_0_
+      - cbx_1_
+      - cbx_2_
+      - cbx_3_
+      - cbx_4_
+      - cbx_5_
+      - cbx_6_
+      - cby_0_
+      - cby_1_
+      - cby_2_
+      - cby_3_
+      - cby_4_
+      - cby_5_
+      - cby_6_
+    compile:
+      type: ultra
+      optimization: area
+      effort: high
+    target_library:
+      - uhdc40_hvt_v0.2
+      - uhdc40_lvt_v0.2
+      - uhdc40_rvt_v0.2
+    sdc:
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/constants.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/dont_use_cell.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/cb/area.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/cb/timing.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/cb/power.tcl
+    report_area:
+      file: ./reports/[current_design]/area.rpt
+    report_timing:
+      file: ./reports/[current_design]/timing.rpt
+    report_power:
+      file: ./reports/[current_design]/power.rpt
+      hierarchy: 2
+  - name: clb
+    current_design:
+      - grid_clb
+    compile:
+      type: ultra
+      optimization: area
+      effort: high
+    target_library:
+      - uhdc40_hvt_v0.2
+      - uhdc40_lvt_v0.2
+      - uhdc40_rvt_v0.2
+    sdc:
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/constants.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/dont_use_cell.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/clb/area.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/clb/timing.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/clb/power.tcl
+    report_area:
+      file: ./reports/[current_design]/area.rpt
+    report_timing:
+      file: ./reports/[current_design]/timing.rpt
+    report_power:
+      file: ./reports/[current_design]/power.rpt
+      hierarchy: 2
+  - name: io
+    current_design:
+      - grid_io_leftL_left
+      - grid_io_rightL_right
+      - grid_io_topL_top
+    compile:
+      type: ultra
+      optimization: area
+      effort: high
+    target_library:
+      - uhdc40_hvt_v0.2
+      - uhdc40_lvt_v0.2
+      - uhdc40_rvt_v0.2
+    sdc:
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/constants.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/dont_use_cell.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/io/area.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/io/timing.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/io/power.tcl
+    report_area:
+      file: ./reports/[current_design]/area.rpt
+    report_timing:
+      file: ./reports/[current_design]/timing.rpt
+    report_power:
+      file: ./reports/[current_design]/power.rpt
+      hierarchy: 2
+  - name: io_dchain
+    current_design:
+      - grid_io_bottomL_bottom
+    compile:
+      type: ultra
+      optimization: area
+      effort: high
+    target_library:
+      - uhdc40_hvt_v0.2
+      - uhdc40_rvt_v0.2
+    sdc:
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/constants.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/dont_use_cell.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/io/area_dchain.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/io/timing.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/io/power.tcl
+    report_area:
+      file: ./reports/[current_design]/area.rpt
+    report_timing:
+      file: ./reports/[current_design]/timing.rpt
+    report_power:
+      file: ./reports/[current_design]/power.rpt
+      hierarchy: 2
+  - name: sb
+    current_design:
+      - sb_0_
+      - sb_10_
+      - sb_11_
+      - sb_12_
+      - sb_1_
+      - sb_2_
+      - sb_3_
+      - sb_4_
+      - sb_6_
+      - sb_7_
+      - sb_8_
+    compile:
+      type: ultra
+      optimization: area
+      effort: high
+    target_library:
+      - uhdc40_hvt_v0.2
+      - uhdc40_lvt_v0.2
+      - uhdc40_rvt_v0.2
+    sdc:
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/constants.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/common/dont_use_cell.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/sb/area.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/sb/timing.tcl
+      - /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/synth/sdc/sb/power.tcl
+    report_area:
+      file: ./reports/[current_design]/area.rpt
+    report_timing:
+      file: ./reports/[current_design]/timing.rpt
+    report_power:
+      file: ./reports/[current_design]/power.rpt
+      hierarchy: 2

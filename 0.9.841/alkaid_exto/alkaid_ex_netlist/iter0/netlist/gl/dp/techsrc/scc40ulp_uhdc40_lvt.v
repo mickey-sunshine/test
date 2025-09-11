@@ -1,0 +1,1 @@
+/eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_LVT/V0p2/verilog/scc40ulp_uhdc40_lvt.v

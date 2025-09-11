@@ -1,0 +1,84 @@
+#the instance names are given during netlist generation
+references:
+- module: tile_5__EMPTY_id0_
+  count: 1
+  instances:
+    - tile_0__5_
+- module: tile_9__io_topL_top_id1_
+  count: 2
+  instances:
+    - tile_1__5_
+    - tile_2__5_
+- module: tile_15__io_rightL_right_id2_
+  count: 1
+  instances:
+    - tile_3__4_
+- module: tile_14__io_rightL_right_id3_
+  count: 3
+  instances:
+    - tile_3__3_
+    - tile_3__2_
+    - tile_3__1_
+- module: tile_13__EMPTY_id4_
+  count: 1
+  instances:
+    - tile_3__0_
+- module: tile_10__io_bottomL_bottom_id5_
+  count: 1
+  instances:
+    - tile_2__0_
+- module: tile_6__io_bottomL_bottom_id6_
+  count: 1
+  instances:
+    - tile_1__0_
+- module: tile_0__EMPTY_id7_
+  count: 1
+  instances:
+    - tile_0__0_
+- module: tile_1__io_leftL_left_id8_
+  count: 1
+  instances:
+    - tile_0__1_
+- module: tile_2__io_leftL_left_id9_
+  count: 1
+  instances:
+    - tile_0__2_
+- module: tile_3__io_leftL_left_id10_
+  count: 1
+  instances:
+    - tile_0__3_
+- module: tile_4__io_leftL_left_id11_
+  count: 1
+  instances:
+    - tile_0__4_
+- module: tile_7__clb_id12_
+  count: 3
+  instances:
+    - tile_1__1_
+    - tile_1__2_
+    - tile_1__3_
+- module: tile_8__clb_id13_
+  count: 1
+  instances:
+    - tile_1__4_
+- module: tile_11__clb_id14_
+  count: 3
+  instances:
+    - tile_2__1_
+    - tile_2__2_
+    - tile_2__3_
+- module: tile_12__clb_id15_
+  count: 1
+  instances:
+    - tile_2__4_
+- module: direct_interc
+  count: 6
+  instances:
+    - direct_interc_0_
+    - direct_interc_1_
+    - direct_interc_2_
+    - direct_interc_3_
+    - direct_interc_4_
+    - direct_interc_5_
+
+Total: 17 modules 29 references

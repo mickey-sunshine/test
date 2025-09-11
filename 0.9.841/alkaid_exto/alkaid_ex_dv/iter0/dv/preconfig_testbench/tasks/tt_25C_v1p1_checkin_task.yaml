@@ -1,0 +1,139 @@
+group: checkin
+fabric: ultimate
+testcases:
+  - name: and2
+    files:
+      - name: rtl
+        type: rtl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/rtl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/rtl
+      - name: gl
+        type: gl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/gl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/gl
+      - name: pl
+        type: pl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/pl
+      - name: makefile
+        type: cocotb_makefile
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/Makefile
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/Makefile
+      - name: testbench
+        type: cocotb_testbench
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2/test_and2.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/test_and2.py
+      - name: bitstream_base
+        type: bitstream_base
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/fabric_bitstream_base.xml
+      - name: bitstream_value
+        type: bitstream_value
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/and2/tt_25C_v1p1/fabric_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/fabric_bitstream.xml
+      - name: cocotb_force
+        type: cocotb_util
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2/tt_25C_v1p1/cocotb_force_bitstream.py
+  - name: and2_latch
+    files:
+      - name: rtl
+        type: rtl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/rtl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/rtl
+      - name: gl
+        type: gl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/gl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/gl
+      - name: pl
+        type: pl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/pl
+      - name: makefile
+        type: cocotb_makefile
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_latch/Makefile
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/Makefile
+      - name: testbench
+        type: cocotb_testbench
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_latch/test_and2_latch.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/test_and2_latch.py
+      - name: bitstream_base
+        type: bitstream_base
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/fabric_bitstream_base.xml
+      - name: bitstream_value
+        type: bitstream_value
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/and2_latch/tt_25C_v1p1/fabric_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/fabric_bitstream.xml
+      - name: cocotb_force
+        type: cocotb_util
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_latch/tt_25C_v1p1/cocotb_force_bitstream.py
+  - name: and2_or2
+    files:
+      - name: rtl
+        type: rtl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/rtl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/rtl
+      - name: gl
+        type: gl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/gl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/gl
+      - name: pl
+        type: pl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/pl
+      - name: makefile
+        type: cocotb_makefile
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_or2/Makefile
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/Makefile
+      - name: testbench
+        type: cocotb_testbench
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/micro_benchmark/simple_gates/and2_or2/test_and2_or2.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/test_and2_or2.py
+      - name: bitstream_base
+        type: bitstream_base
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream_base.xml
+      - name: bitstream_value
+        type: bitstream_value
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/fabric_bitstream.xml
+      - name: cocotb_force
+        type: cocotb_util
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/cocotb_force_bitstream.py
+  - name: local_clk_test
+    files:
+      - name: rtl
+        type: rtl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/rtl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/rtl
+      - name: gl
+        type: gl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/gl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/gl
+      - name: pl
+        type: pl
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/netlist/pl
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/pl
+      - name: makefile
+        type: cocotb_makefile
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/checkin/local_clk/Makefile
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/Makefile
+      - name: testbench
+        type: cocotb_testbench
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/benchmarks/alkaid_benchmark/checkin/local_clk/test_local_clk_test.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/test_local_clk_test.py
+      - name: bitstream_base
+        type: bitstream_base
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_netlist/iter0/reports/ultimate/bitstream_distribution/base_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/fabric_bitstream_base.xml
+      - name: bitstream_value
+        type: bitstream_value
+        src: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/bitstream/checkin/local_clk_test/tt_25C_v1p1/fabric_bitstream.xml
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/fabric_bitstream.xml
+      - name: cocotb_force
+        type: cocotb_util
+        src: /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py
+        des: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/local_clk_test/tt_25C_v1p1/cocotb_force_bitstream.py

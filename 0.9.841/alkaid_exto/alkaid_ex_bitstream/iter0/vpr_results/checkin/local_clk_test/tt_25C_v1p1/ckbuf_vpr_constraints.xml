@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<vpr_constraints>
+	<global_route_constraints>
+		<set_global_signal name="rst_ni" route_model="ideal" />
+		<set_global_signal name="clk_i" route_model="ideal" />
+	</global_route_constraints>
+	<partition_list>
+		<partition name="rst_local_ckbuf">
+			<add_region x_low="1" y_low="3" x_high="1" y_high="3" subtile="9" />
+			<add_atom name_pattern="rst_local_ckbuf" />
+		</partition>
+	</partition_list>
+</vpr_constraints>

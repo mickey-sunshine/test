@@ -1,0 +1,25 @@
+<!--
+	- Module Naming rules
+	- Author: Xifan TANG
+	- Organization: RapidFlex
+	- Date: Thu Sep 11 11:32:28 2025
+-->
+
+<module_names>
+	<module_name default="tile_0_" given="tile_0__EMPTY_id7_"/>
+	<module_name default="tile_10_" given="tile_10__io_bottomL_bottom_id5_"/>
+	<module_name default="tile_11_" given="tile_11__clb_id14_"/>
+	<module_name default="tile_12_" given="tile_12__clb_id15_"/>
+	<module_name default="tile_13_" given="tile_13__EMPTY_id4_"/>
+	<module_name default="tile_14_" given="tile_14__io_rightL_right_id3_"/>
+	<module_name default="tile_15_" given="tile_15__io_rightL_right_id2_"/>
+	<module_name default="tile_1_" given="tile_1__io_leftL_left_id8_"/>
+	<module_name default="tile_2_" given="tile_2__io_leftL_left_id9_"/>
+	<module_name default="tile_3_" given="tile_3__io_leftL_left_id10_"/>
+	<module_name default="tile_4_" given="tile_4__io_leftL_left_id11_"/>
+	<module_name default="tile_5_" given="tile_5__EMPTY_id0_"/>
+	<module_name default="tile_6_" given="tile_6__io_bottomL_bottom_id6_"/>
+	<module_name default="tile_7_" given="tile_7__clb_id12_"/>
+	<module_name default="tile_8_" given="tile_8__clb_id13_"/>
+	<module_name default="tile_9_" given="tile_9__io_topL_top_id1_"/>
+</module_names>

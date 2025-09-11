@@ -1,0 +1,13 @@
+<!--
+	- I/O mapping
+-->
+
+<io_mapping>
+	<io name="gfpga_pad_pinput_extmode_A2F[57:57]" net="clk_i" dir="input"/>
+	<io name="gfpga_pad_pinput_extmode_A2F[58:58]" net="rst_ni" dir="input"/>
+	<io name="gfpga_pad_pinput_extmode_A2F[50:50]" net="A_i" dir="input"/>
+	<io name="gfpga_pad_pinput_extmode_A2F[70:70]" net="B_i" dir="input"/>
+	<io name="gfpga_pad_poutput_F2A[50:50]" net="C_o" dir="output"/>
+	<io name="gfpga_pad_poutput_F2A[51:51]" net="C_local_clk_o" dir="output"/>
+	<io name="gfpga_pad_poutput_F2A[52:52]" net="C_local_rst_o" dir="output"/>
+</io_mapping>

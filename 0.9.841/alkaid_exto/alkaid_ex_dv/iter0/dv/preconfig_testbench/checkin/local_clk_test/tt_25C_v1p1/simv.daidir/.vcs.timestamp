@@ -1,0 +1,597 @@
+249      
+0 fpga_defines.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/fpga_defines.v
+0 ./custom_modules/efpga_circuits.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/./custom_modules/efpga_circuits.v
+0 dff.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/dff.v
+0 rtl/dff.v
+0 ff_peripheral.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/ff_peripheral.v
+0 rtl/ff_peripheral.v
+0 mmffisc2.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/mmffisc2.v
+0 rtl/mmffisc2.v
+0 mmffosc2.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/mmffosc2.v
+0 rtl/mmffosc2.v
+0 scff.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/scff.v
+0 rtl/scff.v
+0 mmff.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/mmff.v
+0 rtl/mmff.v
+0 mmff_clk_ctrl.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/mmff_clk_ctrl.v
+0 rtl/mmff_clk_ctrl.v
+0 delay_cell.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/delay_cell.v
+0 rtl/delay_cell.v
+0 pdelay_chain_tree.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/pdelay_chain_tree.v
+0 rtl/pdelay_chain_tree.v
+0 pinput_dchain_extmode.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/pinput_dchain_extmode.v
+0 rtl/pinput_dchain_extmode.v
+0 pinput_extmode.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/pinput_extmode.v
+0 rtl/pinput_extmode.v
+0 pinput.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/pinput.v
+0 rtl/pinput.v
+0 poutput.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/poutput.v
+0 rtl/poutput.v
+0 pcounter_breg.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/pcounter_breg.v
+0 rtl/pcounter_breg.v
+0 pcounter_mode_selection.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/pcounter_mode_selection.v
+0 rtl/pcounter_mode_selection.v
+0 rf_pcounter.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/rf_pcounter.v
+0 rtl/rf_pcounter.v
+0 efpga_ccff.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/efpga_ccff.v
+0 rtl/efpga_ccff.v
+0 efpga_stdcell_wrapper.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/efpga_stdcell_wrapper.v
+0 rtl/efpga_stdcell_wrapper.v
+0 mmff_wrapper.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/mmff_wrapper.v
+0 rtl/mmff_wrapper.v
+0 rf_pcounter_wrapper.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/rf_pcounter_wrapper.v
+0 rtl/rf_pcounter_wrapper.v
+0 scc40ulp_uhdc40_hvt.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/scc40ulp_uhdc40_hvt.v
+0 rtl/scc40ulp_uhdc40_hvt.v
+0 scc40ulp_uhdc40_lvt.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/scc40ulp_uhdc40_lvt.v
+0 rtl/scc40ulp_uhdc40_lvt.v
+0 scc40ulp_uhdc40_rvt.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/scc40ulp_uhdc40_rvt.v
+0 rtl/scc40ulp_uhdc40_rvt.v
+0 sub_module/inv_buf_passgate.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/inv_buf_passgate.v
+0 sub_module/arch_encoder.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/arch_encoder.v
+0 sub_module/local_encoder.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/local_encoder.v
+0 sub_module/mux_primitives.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/mux_primitives.v
+0 sub_module/muxes.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/muxes.v
+0 sub_module/luts.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/luts.v
+0 sub_module/wires.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/wires.v
+0 sub_module/memories.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/memories.v
+0 sub_module/shift_register_banks.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/sub_module/shift_register_banks.v
+0 lb/logical_tile_ckbuf_mode_ckbuf_physical_mode__ckbuf_core.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_ckbuf_mode_ckbuf_physical_mode__ckbuf_core.v
+0 lb/logical_tile_ckbuf_mode_ckbuf_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_ckbuf_mode_ckbuf_.v
+0 lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode___phy_fpga_adder_core.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode___phy_fpga_adder_core.v
+0 lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic_mode_frac_logic_default_mode__frac_lut5_arith_frac_lut5_arith.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic_mode_frac_logic_default_mode__frac_lut5_arith_frac_lut5_arith.v
+0 lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic.v
+0 lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__p_ff_p_ff.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__p_ff_p_ff.v
+0 lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric.v
+0 lb/logical_tile_clb_mode_clb_default_mode__fle.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_clb_mode_clb_default_mode__fle.v
+0 lb/logical_tile_clb_mode_clb_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_clb_mode_clb_.v
+0 lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__io_pi_io_pi.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__io_pi_io_pi.v
+0 lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi.v
+0 lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad.v
+0 lb/logical_tile_io_pi_mode_io_pi_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_mode_io_pi_.v
+0 lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__io_pi_pdc_ecb1_io_pi_pdc_ecb1.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__io_pi_pdc_ecb1_io_pi_pdc_ecb1.v
+0 lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__p_io_pdc_ecb1_scffi_p_io_pdc_ecb1_scffi.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__p_io_pdc_ecb1_scffi_p_io_pdc_ecb1_scffi.v
+0 lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad.v
+0 lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_.v
+0 lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__io_po_core.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__io_po_core.v
+0 lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__p_io_scffo_p_io_scffo.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__p_io_scffo_p_io_scffo.v
+0 lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad.v
+0 lb/logical_tile_io_po_mode_io_po_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_mode_io_po_.v
+0 lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__io_po_cko_core.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__io_po_cko_core.v
+0 lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__p_io_cko_scffo_p_io_cko_scffo.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__p_io_cko_scffo_p_io_cko_scffo.v
+0 lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad.v
+0 lb/logical_tile_io_po_cko_mode_io_po_cko_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_io_po_cko_mode_io_po_cko_.v
+0 lb/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt.v
+0 lb/logical_tile_pcnt_mode_pcnt_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/logical_tile_pcnt_mode_pcnt_.v
+0 lb/grid_clb.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/grid_clb.v
+0 lb/grid_io_bottomL_bottom.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/grid_io_bottomL_bottom.v
+0 lb/grid_io_leftL_left.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/grid_io_leftL_left.v
+0 lb/grid_io_rightL_right.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/grid_io_rightL_right.v
+0 lb/grid_io_topL_top.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/lb/grid_io_topL_top.v
+0 routing/sb_0_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_0_.v
+0 routing/sb_1_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_1_.v
+0 routing/sb_2_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_2_.v
+0 routing/sb_3_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_3_.v
+0 routing/sb_4_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_4_.v
+0 routing/sb_5_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_5_.v
+0 routing/sb_6_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_6_.v
+0 routing/sb_7_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_7_.v
+0 routing/sb_8_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_8_.v
+0 routing/sb_9_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_9_.v
+0 routing/sb_10_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_10_.v
+0 routing/sb_11_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_11_.v
+0 routing/sb_12_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_12_.v
+0 routing/sb_13_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_13_.v
+0 routing/sb_14_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/sb_14_.v
+0 routing/cbx_0_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cbx_0_.v
+0 routing/cbx_1_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cbx_1_.v
+0 routing/cbx_2_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cbx_2_.v
+0 routing/cbx_3_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cbx_3_.v
+0 routing/cbx_4_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cbx_4_.v
+0 routing/cbx_5_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cbx_5_.v
+0 routing/cbx_6_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cbx_6_.v
+0 routing/cby_0_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cby_0_.v
+0 routing/cby_1_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cby_1_.v
+0 routing/cby_2_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cby_2_.v
+0 routing/cby_3_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cby_3_.v
+0 routing/cby_4_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cby_4_.v
+0 routing/cby_5_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cby_5_.v
+0 routing/cby_6_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/routing/cby_6_.v
+0 tile/tile_0__EMPTY_id7_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_0__EMPTY_id7_.v
+0 tile/tile_1__io_leftL_left_id8_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_1__io_leftL_left_id8_.v
+0 tile/tile_2__io_leftL_left_id9_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_2__io_leftL_left_id9_.v
+0 tile/tile_3__io_leftL_left_id10_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_3__io_leftL_left_id10_.v
+0 tile/tile_4__io_leftL_left_id11_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_4__io_leftL_left_id11_.v
+0 tile/tile_5__EMPTY_id0_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_5__EMPTY_id0_.v
+0 tile/tile_6__io_bottomL_bottom_id6_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_6__io_bottomL_bottom_id6_.v
+0 tile/tile_7__clb_id12_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_7__clb_id12_.v
+0 tile/tile_8__clb_id13_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_8__clb_id13_.v
+0 tile/tile_9__io_topL_top_id1_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_9__io_topL_top_id1_.v
+0 tile/tile_10__io_bottomL_bottom_id5_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_10__io_bottomL_bottom_id5_.v
+0 tile/tile_11__clb_id14_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_11__clb_id14_.v
+0 tile/tile_12__clb_id15_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_12__clb_id15_.v
+0 tile/tile_13__EMPTY_id4_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_13__EMPTY_id4_.v
+0 tile/tile_14__io_rightL_right_id3_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_14__io_rightL_right_id3_.v
+0 tile/tile_15__io_rightL_right_id2_.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/tile/tile_15__io_rightL_right_id2_.v
+0 fpga_core.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/fpga_core.v
+0 fpga_top.v
+0 /eda/synopsys/vcs/R-2020.12-SP2-1/etc/systemverilog/fpga_top.v
+52
++acc+1
++cli+4
++define+COCOTB_SIM=1
++define+UNIT_DELAY
++define+functional
++define+functional
++incdir+
++incdir+rtl
++incdir+rtl/custom_modules
++itf+/eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/vcsdp_lite.tab
++memcbk
++vcsd1
++vpi
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/eda/synopsys/vcs/R-2020.12-SP2-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/libvirsim.so /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/liberrorinf.so /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/libsnpsmalloc.so /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/eda/synopsys/verdi/S-2021.09-SP2-3/share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/eda/synopsys/vcs/R-2020.12-SP2-1/include
+-Mxllcflags=
+-P
+-P
+-Xcbug=0x1
+-debug=3
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-load
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+-top
+/eda/synopsys/vcs/R-2020.12-SP2-1/linux64/bin/vcs1
+local_clk_test_top_formal_verification
+pli.tab
+/eda/tools/anaconda/lib/python3.9/site-packages/cocotb/libs/libcocotbvpi_vcs.so
+/eda/synopsys/verdi/S-2021.09-SP2-3/share/PLI/VCS/LINUX64/verdi.tab
+local_clk_test_top_formal_verification.v
+rtl/fabric_netlists.v
+142
+https_proxy=http://yhjiang:Jiang%400611@10.170.11.16:3128
+http_proxy=http://yhjiang:Jiang%400611@10.170.11.16:3128
+__MODULES_LMALTNAME=starrc/S-2021.06-SP1&starrc/default&starrc&as|starrc/latest:fm/O-2018.06-SP3&as|fm/latest:icv/Q-2019.12-SP2&as|icv/default&as|icv/latest:conformal/19.20&as|conformal/default&as|conformal/latest:ic/618.300&as|ic/default&as|ic/latest:calibre/2022.2.38&as|calibre/latest:quest/2021.2&as|quest/default&as|quest/latest:tessent/2020.4&as|tessent/default&as|tessent/latest:fusioncompiler/U-2022.12-SP6&as|fusioncompiler/default&as|fusioncompiler/latest
+__LSF_JOB_TMPDIR__=/tmp/284065.tmpdir
+_LMFILES_=/eda/env/module/modulefiles/synopsys/starrc/S-2021.06-SP1:/eda/env/module/modulefiles/synopsys/icc2/R-2020.09-SP2:/eda/env/module/modulefiles/synopsys/syn/Q-2019.12-SP4:/eda/env/module/modulefiles/synopsys/fm/O-2018.06-SP3:/eda/env/module/modulefiles/synopsys/icv/Q-2019.12-SP2:/eda/env/module/modulefiles/synopsys/vcs/R-2020.12-SP2-1:/eda/env/module/modulefiles/synopsys/verdi/S-2021.09-SP2-3:/eda/env/module/modulefiles/synopsys/lc/O-2018.06-SP1:/eda/env/module/modulefiles/synopsys/pt/T-2022.03:/eda/env/module/modulefiles/synopsys/starrc/P-2019.03-SP4:/eda/env/module/modulefiles/cadence/conformal/19.20:/eda/env/module/modulefiles/cadence/ic/618.300:/eda/env/module/modulefiles/mentor/calibre/2022.2.38:/eda/env/module/modulefiles/mentor/quest/2021.2:/eda/env/module/modulefiles/mentor/tessent/2020.4:/eda/env/module/modulefiles/ansys/RedHawk/2021.1:/eda/env/module/modulefiles/lic/lic:/eda/env/module/modulefiles/synopsys/fusioncompiler/U-2022.12-SP6
+_CONDA_ROOT=/eda/tools/anaconda
+_CONDA_EXE=/eda/tools/anaconda/bin/conda
+_CE_M=
+_CE_CONDA=
+XMODIFIERS=@im=ibus
+XDG_SESSION_ID=16329
+XDG_RUNTIME_DIR=/run/user/1047
+VMR_MODE_FLAG=64
+VERDI_HOME=/eda/synopsys/verdi/S-2021.09-SP2-3
+VENDOR=unknown
+VC_STATIC_HOME=/eda/synopsys/starrc/P-2019.03-SP4
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/eda/synopsys/vcs/R-2020.12-SP2-1
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_BIN_DIR=/eda/synopsys/vcs/R-2020.12-SP2-1/bin
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOPLEVEL=local_clk_test_top_formal_verification
+TOOL_HOME=/eda/synopsys/vcs/R-2020.12-SP2-1/linux64
+TESSENT_HOME=/eda/mentor/tessent20.4
+SYN_HOME=/eda/synopsys/syn/Q-2019.12-SP4
+SYNOPSYS_LC_ROOT=/eda/synopsys/lc/O-2018.06-SP1
+SSH_TTY=/dev/pts/43
+SSH_CONNECTION=10.170.28.2 60524 10.170.28.11 22
+SSH_CLIENT=10.170.28.2 60524 22
+SIM_BUILD=./
+SIM=vcs
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SBD_KRB5CCNAME_VAL=
+RLM_LICENSE=5053@10.170.28.180
+REMOTEHOST=10.170.28.2
+REDHAWK_HOME=/eda/apache/redhawk/V2021R1.1
+QUESTA_HOME=/eda/mentor/questa2021.2/questasim
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PYTHONHOME=/eda/tools/anaconda
+PT_HOME=/eda/synopsys/prime/T-2022.03
+OVA_UUM=0
+OSTYPE=linux
+OS=Linux
+NETLIST_TYPE=rtl
+MODULES_CMD=/eda/env/module/libexec/modulecmd.tcl
+MODULESHOME=/eda/env/module/
+MODULEPATH=/eda/env/module/modulefiles/synopsys:/eda/env/module/modulefiles/cadence:/eda/env/module/modulefiles/mentor:/eda/env/module/modulefiles/ansys:/eda/env/module/modulefiles/misc:/eda/env/module/modulefiles/mathworks:/eda/env/module/modulefiles/beyond:/eda/env/module/modulefiles/lic
+MGLS_LICENSE_FILE=29000@10.170.28.180:29000@10.170.28.181
+MFLAGS=-w
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=2
+MAKEFLAGS=w -- SIM=vcs NETLIST_TYPE=rtl MAKEFILE_INC_HOME=/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_makeinc
+MAKEFILE_INC_HOME=/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/utils/cocotb_makeinc
+LS_SUBCWD=/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841
+LS_JOBPID=7688
+LS_EXEC_T=START
+LS_EXECCWD=/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841
+LSF_VERSION=34
+LSF_SERVERDIR=/eda/tools/lsf/lsf01/10.1/linux3.10-glibc2.17-x86_64/etc
+LSF_LOGDIR=/eda/tools/lsf/lsf01/log
+LSF_LIM_API_NTRIES=1
+LSF_LIBDIR=/eda/tools/lsf/lsf01/10.1/linux3.10-glibc2.17-x86_64/lib
+LSF_JOB_TIMESTAMP_VALUE=1757561459
+LSF_INVOKE_CMD=bsub
+LSF_ENVDIR=/eda/tools/lsf/lsf01/conf
+LSF_CGROUP_TOPDIR_KEY=lsf01
+LSF_BINDIR=/eda/tools/lsf/lsf01/10.1/linux3.10-glibc2.17-x86_64/bin
+LSFUSER=yhjiang
+LSB_XFER_OP=
+LSB_USEPTY=y
+LSB_UNIXGROUP_INT=rapid-flex
+LSB_TRAPSIGS=trap # 15 10 12 2 1
+LSB_SUB_USER=yhjiang
+LSB_SUB_HOST=eda01
+LSB_RES_GET_FANOUT_INFO=Y
+LSB_QUEUE=normal
+LSB_PROJECT_NAME=default
+LSB_OUTDIR=/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841
+LSB_MCPU_HOSTS=eda01 1 
+LSB_MAX_NUM_PROCESSORS=1
+LSB_JOB_EXECUSER=yhjiang
+LSB_JOBRES_PID=7688
+LSB_JOBRES_CALLBACK=55089@eda01
+LSB_JOBNAME=aaee -f run.arkangel
+LSB_JOBINDEX=0
+LSB_JOBID=284065
+LSB_JOBFILENAME=/home/yhjiang/.lsbatch/1757561458.284065
+LSB_JOBEXIT_STAT=0
+LSB_INTERACTIVE=Y
+LSB_HOSTS=eda01
+LSB_EXIT_PRE_ABORT=99
+LSB_EXEC_HOSTTYPE=X86_64
+LSB_EXEC_CLUSTER=lsf01
+LSB_EFFECTIVE_RSRCREQ=select[type == local] order[r15s:pg] 
+LSB_EEXEC_REAL_UID=
+LSB_EEXEC_REAL_GID=
+LSB_ECHKPNT_RSH_CMD=ssh
+LSB_DJOB_RANKFILE=/home/yhjiang/.lsbatch/1757561458.284065.hostfile
+LSB_DJOB_NUMPROC=1
+LSB_DJOB_HOSTFILE=/home/yhjiang/.lsbatch/1757561458.284065.hostfile
+LSB_CHKFILENAME=/home/yhjiang/.lsbatch/1757561458.284065
+LSB_BATCH_JID=284065
+LSB_AFFINITY_HOSTFILE=/home/yhjiang/.lsbatch/1757561458.284065.hostAffinityFile
+LSB_ACCT_FILE=/tmp/284065.tmpdir/.1757561458.284065.acct
+LOADEDMODULES=starrc/S-2021.06-SP1:icc2/R-2020.09-SP2:syn/Q-2019.12-SP4:fm/O-2018.06-SP3:icv/Q-2019.12-SP2:vcs/R-2020.12-SP2-1:verdi/S-2021.09-SP2-3:lc/O-2018.06-SP1:pt/T-2022.03:starrc/P-2019.03-SP4:conformal/19.20:ic/618.300:calibre/2022.2.38:quest/2021.2:tessent/2020.4:RedHawk/2021.1:lic:fusioncompiler/U-2022.12-SP6
+LIBPYTHON_LOC=/eda/tools/anaconda/lib/libpython3.9.so.1.0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/eda/synopsys/lc/O-2018.06-SP1
+LC_ALL=C
+JOB_TERMINATE_INTERVAL=10
+IC_HOME=/eda/cadence/IC618.300
+ICV_HOME=/eda/synopsys/icvalidator/Q-2019.12-SP2
+ICC_HOME=/eda/synopsys/icc2/R-2020.09-SP2
+HOSTTYPE=X86_64
+GROUP=rapid-flex
+FUSIONCOMPILER_HOME=/eda/synopsys/fusioncompiler/U-2022.12-SP6/
+FM_HOME=/eda/synopsys/formality/O-2018.06-SP3
+DVE_HOME=/eda/synopsys/vcs/R-2020.12-SP2-1/gui/dve
+CPATH=/eda/tools/anaconda/envs/eda/include
+CONFRML_HOME=/eda/cadence/CONFRML192
+CONDA_SHLVL=1
+CONDA_PYTHON_EXE=/eda/tools/anaconda/bin/python
+CONDA_PROMPT_MODIFIER=(eda) 
+CONDA_PREFIX=/eda/tools/anaconda/envs/eda
+CONDA_EXE=/eda/tools/anaconda/bin/conda
+CONDA_DEFAULT_ENV=eda
+COCOTB_RESULTS_FILE=results.xml
+CMAKE_PREFIX_PATH=/eda/tools/anaconda/envs/eda
+CDS_LIC_FILE=28000@10.170.28.180:28000@10.170.28.181
+CALIBRE_HOME=/eda/mentor/calibre2022.2/aoj_cal_2022.2_38.20
+BSUB_BLOCK_EXEC_HOST=
+APACHEDA_LICENSE_FILE=26000@10.170.28.180
+ANSYS_LICENSE_FILE=26000@10.170.28.180
+0
+0
+118
+1757562119 rtl/fpga_top.v
+1757562119 rtl/fpga_core.v
+1757562119 rtl/tile/tile_15__io_rightL_right_id2_.v
+1757562119 rtl/tile/tile_14__io_rightL_right_id3_.v
+1757562119 rtl/tile/tile_13__EMPTY_id4_.v
+1757562119 rtl/tile/tile_12__clb_id15_.v
+1757562119 rtl/tile/tile_11__clb_id14_.v
+1757562119 rtl/tile/tile_10__io_bottomL_bottom_id5_.v
+1757562119 rtl/tile/tile_9__io_topL_top_id1_.v
+1757562119 rtl/tile/tile_8__clb_id13_.v
+1757562119 rtl/tile/tile_7__clb_id12_.v
+1757562119 rtl/tile/tile_6__io_bottomL_bottom_id6_.v
+1757562119 rtl/tile/tile_5__EMPTY_id0_.v
+1757562119 rtl/tile/tile_4__io_leftL_left_id11_.v
+1757562119 rtl/tile/tile_3__io_leftL_left_id10_.v
+1757562119 rtl/tile/tile_2__io_leftL_left_id9_.v
+1757562119 rtl/tile/tile_1__io_leftL_left_id8_.v
+1757562119 rtl/tile/tile_0__EMPTY_id7_.v
+1757562119 rtl/routing/cby_6_.v
+1757562119 rtl/routing/cby_5_.v
+1757562119 rtl/routing/cby_4_.v
+1757562119 rtl/routing/cby_3_.v
+1757562119 rtl/routing/cby_2_.v
+1757562119 rtl/routing/cby_1_.v
+1757562119 rtl/routing/cby_0_.v
+1757562119 rtl/routing/cbx_6_.v
+1757562119 rtl/routing/cbx_5_.v
+1757562119 rtl/routing/cbx_4_.v
+1757562119 rtl/routing/cbx_3_.v
+1757562119 rtl/routing/cbx_2_.v
+1757562119 rtl/routing/cbx_1_.v
+1757562119 rtl/routing/cbx_0_.v
+1757562119 rtl/routing/sb_14_.v
+1757562119 rtl/routing/sb_13_.v
+1757562119 rtl/routing/sb_12_.v
+1757562119 rtl/routing/sb_11_.v
+1757562119 rtl/routing/sb_10_.v
+1757562119 rtl/routing/sb_9_.v
+1757562119 rtl/routing/sb_8_.v
+1757562119 rtl/routing/sb_7_.v
+1757562119 rtl/routing/sb_6_.v
+1757562119 rtl/routing/sb_5_.v
+1757562119 rtl/routing/sb_4_.v
+1757562119 rtl/routing/sb_3_.v
+1757562119 rtl/routing/sb_2_.v
+1757562119 rtl/routing/sb_1_.v
+1757562119 rtl/routing/sb_0_.v
+1757562119 rtl/lb/grid_io_topL_top.v
+1757562119 rtl/lb/grid_io_rightL_right.v
+1757562119 rtl/lb/grid_io_leftL_left.v
+1757562119 rtl/lb/grid_io_bottomL_bottom.v
+1757562119 rtl/lb/grid_clb.v
+1757562119 rtl/lb/logical_tile_pcnt_mode_pcnt_.v
+1757562119 rtl/lb/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt.v
+1757562119 rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_.v
+1757562119 rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad.v
+1757562119 rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__p_io_cko_scffo_p_io_cko_scffo.v
+1757562119 rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__io_po_cko_core.v
+1757562119 rtl/lb/logical_tile_io_po_mode_io_po_.v
+1757562119 rtl/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad.v
+1757562119 rtl/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__p_io_scffo_p_io_scffo.v
+1757562119 rtl/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__io_po_core.v
+1757562119 rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_.v
+1757562119 rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad.v
+1757562119 rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__p_io_pdc_ecb1_scffi_p_io_pdc_ecb1_scffi.v
+1757562119 rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__io_pi_pdc_ecb1_io_pi_pdc_ecb1.v
+1757562119 rtl/lb/logical_tile_io_pi_mode_io_pi_.v
+1757562119 rtl/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad.v
+1757562119 rtl/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi.v
+1757562119 rtl/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__io_pi_io_pi.v
+1757562119 rtl/lb/logical_tile_clb_mode_clb_.v
+1757562119 rtl/lb/logical_tile_clb_mode_clb_default_mode__fle.v
+1757562119 rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric.v
+1757562119 rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__p_ff_p_ff.v
+1757562119 rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic.v
+1757562119 rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic_mode_frac_logic_default_mode__frac_lut5_arith_frac_lut5_arith.v
+1757562119 rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode___phy_fpga_adder_core.v
+1757562119 rtl/lb/logical_tile_ckbuf_mode_ckbuf_.v
+1757562119 rtl/lb/logical_tile_ckbuf_mode_ckbuf_physical_mode__ckbuf_core.v
+1757562119 rtl/sub_module/shift_register_banks.v
+1757562119 rtl/sub_module/memories.v
+1757562119 rtl/sub_module/wires.v
+1757562119 rtl/sub_module/luts.v
+1757562119 rtl/sub_module/muxes.v
+1757562119 rtl/sub_module/mux_primitives.v
+1757562119 rtl/sub_module/local_encoder.v
+1757562119 rtl/sub_module/arch_encoder.v
+1757562119 rtl/sub_module/inv_buf_passgate.v
+1619601617 rtl/custom_modules/scc40ulp_uhdc40_rvt.v
+1619601617 /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_RVT_V0p2/verilog/scc40ulp_uhdc40_rvt.v
+1622437085 rtl/custom_modules/scc40ulp_uhdc40_lvt.v
+1622437085 /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_LVT/V0p2/verilog/scc40ulp_uhdc40_lvt.v
+1622436809 rtl/custom_modules/scc40ulp_uhdc40_hvt.v
+1622436809 /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_HVT/V0p2/verilog/scc40ulp_uhdc40_hvt.v
+1754383609 rtl/custom_modules/rf_pcounter_wrapper.v
+1754383609 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/custom_modules/rf_pcounter_wrapper.v
+1754383609 rtl/custom_modules/mmff_wrapper.v
+1754383609 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/custom_modules/mmff_wrapper.v
+1754383609 rtl/custom_modules/efpga_stdcell_wrapper.v
+1754383609 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/custom_modules/efpga_stdcell_wrapper.v
+1754383609 rtl/custom_modules/efpga_ccff.v
+1754383609 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/custom_modules/efpga_ccff.v
+1756101347 rtl/custom_modules/rf_pcounter.v
+1756101347 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/pcnt/rtl/rf_pcnt_wrapper/rf_pcounter.v
+1756101347 rtl/custom_modules/pcounter_mode_selection.v
+1756101347 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/pcnt/rtl/rf_pcnt_wrapper/pcounter_mode_selection.v
+1756101347 rtl/custom_modules/pcounter_breg.v
+1756101347 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/pcnt/rtl/rf_pcnt_wrapper/pcounter_breg.v
+1756101369 rtl/custom_modules/poutput.v
+1756101369 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_pio/rtl/poutput.v
+1756101369 rtl/custom_modules/pinput.v
+1756101369 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_pio/rtl/pinput.v
+1756101369 rtl/custom_modules/pinput_extmode.v
+1756101369 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_pio/rtl/pinput_extmode.v
+1756101369 rtl/custom_modules/pinput_dchain_extmode.v
+1756101369 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_pio/rtl/pinput_dchain_extmode.v
+1756101369 rtl/custom_modules/pdelay_chain_tree.v
+1756101369 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_pio/rtl/pdelay_chain_tree/pdelay_chain_tree.v
+1756101369 rtl/custom_modules/delay_cell.v
+1756101369 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_pio/rtl/pdelay_chain_tree/delay_cell.v
+1756101356 rtl/custom_modules/mmff_clk_ctrl.v
+1756101356 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_mmff/rtl/mmff_clk_ctrl.v
+1756101356 rtl/custom_modules/mmff.v
+1756101356 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_mmff/rtl/mmff.v
+1756101356 rtl/custom_modules/scff.v
+1756101356 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_mmff/rtl/scff.v
+1756101356 rtl/custom_modules/mmffosc2.v
+1756101356 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_mmff/rtl/mmffosc2.v
+1756101356 rtl/custom_modules/mmffisc2.v
+1756101356 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_mmff/rtl/mmffisc2.v
+1756101356 rtl/custom_modules/ff_peripheral.v
+1756101356 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_mmff/rtl/ff_peripheral.v
+1756101356 rtl/custom_modules/dff.v
+1756101356 /rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/tsmc22ulp_mmff/rtl/dff.v
+1757562119 rtl/./custom_modules/efpga_circuits.v
+1757562119 rtl/fpga_defines.v
+1757562119 rtl/fabric_netlists.v
+1757562885 local_clk_test_top_formal_verification.v
+1657187642 /eda/synopsys/verdi/S-2021.09-SP2-3/share/PLI/VCS/LINUX64/verdi.tab
+1626663962 /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/vcsdp_lite.tab
+1757562896 pli.tab
+4
+1626665287 /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/libvirsim.so
+1626664738 /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/liberrorinf.so
+1626664460 /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/libsnpsmalloc.so
+1626664734 /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/libvfs.so
+1757562919 simv.daidir
+-1 partitionlib

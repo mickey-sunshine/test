@@ -1,0 +1,811 @@
+rm -f results.xml
+make -f Makefile results.xml
+make[1]: Entering directory `/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1'
+echo "acc+=rw,wn:*" > pli.tab
+cd ./ && \
+TOPLEVEL=and2_or2_top_formal_verification \
+/eda/synopsys/vcs/R-2020.12-SP2-1/bin/vcs -top and2_or2_top_formal_verification  +acc+1 +vpi -P pli.tab +define+COCOTB_SIM=1 -sverilog \
+-timescale=1ns/1ps \
+ -debug_access+all +incdir+ +incdir+rtl +incdir+rtl/custom_modules -full64 -debug -load /eda/tools/anaconda/lib/python3.9/site-packages/cocotb/libs/libcocotbvpi_vcs.so  +define+functional and2_or2_top_formal_verification.v rtl/fabric_netlists.v
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+f+dmptf -debug_region+cell+encrypt' instead.
+
+
+Warning-[DBGACC_DBG] Multiple debug options being used
+  The debug switches '-debug_access' and '-debug*' are being used together.  
+  For better performance, consider using only '-debug_access'.
+
+                         Chronologic VCS (TM)
+      Version R-2020.12-SP2-1_Full64 -- Thu Sep 11 11:54:56 2025
+
+                    Copyright (c) 1991 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Warning-[DEPRECATED_OPTION] Deprecated option used
+  The specified option '+acc+1' is deprecated.
+  Please use '-debug_access+r+w+nomemcbk -debug_region+cell' instead.
+
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:76   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+
+Warning-[VPI-CT-NS] VPI function is not supported
+  The VPI function 'vpi_register_cb' is not supported in the compiler.
+  Please fix the code being referred to by the '-load' compile option.
+
+     -.--ns ERROR    gpi                                ..b/vpi/VpiCbHdl.cpp:72   in arm_callback                    VPI: Unable to register a callback handle for VPI type cbStartOfSimulation(11)
+
+Warning-[VPI-CT-NS] VPI function is not supported
+  The VPI function 'vpi_chk_error' is not supported in the compiler.
+  Please fix the code being referred to by the '-load' compile option.
+
+
+Warning-[VPI-CT-NS] VPI function is not supported
+  The VPI function 'vpi_register_cb' is not supported in the compiler.
+  Please fix the code being referred to by the '-load' compile option.
+
+     -.--ns ERROR    gpi                                ..b/vpi/VpiCbHdl.cpp:72   in arm_callback                    VPI: Unable to register a callback handle for VPI type cbEndOfSimulation(12)
+
+Warning-[VPI-CT-NS] VPI function is not supported
+  The VPI function 'vpi_chk_error' is not supported in the compiler.
+  Please fix the code being referred to by the '-load' compile option.
+
+Parsing design file 'and2_or2_top_formal_verification.v'
+Parsing design file 'rtl/fabric_netlists.v'
+Parsing included file 'rtl/fpga_defines.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/dff.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/ff_peripheral.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/mmffisc2.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/mmffosc2.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/scff.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/mmff.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/mmff_clk_ctrl.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/delay_cell.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/pdelay_chain_tree.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/pinput_dchain_extmode.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/pinput_extmode.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/pinput.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/poutput.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/pcounter_breg.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/pcounter_mode_selection.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/rf_pcounter.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/efpga_ccff.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/efpga_stdcell_wrapper.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/mmff_wrapper.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/rf_pcounter_wrapper.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/scc40ulp_uhdc40_hvt.v'.
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/scc40ulp_uhdc40_lvt.v'.
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55407
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55407
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55443
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55443
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55483
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55483
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55527
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55527
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55576
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55576
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55625
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55625
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55671
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55671
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55735
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55735
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55859
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55859
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55932
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55932
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55963
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55963
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 55994
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 55994
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56037
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56037
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56073
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56073
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56109
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56109
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56145
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56145
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56181
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56181
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56217
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56217
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56247
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56247
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56280
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56280
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56319
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56319
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56349
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56349
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56374
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56374
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_lvt.v, 56414
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_hvt.v", 56414
+  This udp will be overridden by the last declaration.
+  
+
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Parsing included file 'rtl/custom_modules/scc40ulp_uhdc40_rvt.v'.
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55407
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55407
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55443
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55443
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55483
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55483
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55527
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55527
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55576
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55576
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55625
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55625
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55671
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55671
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55735
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55735
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55859
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55859
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55932
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55932
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55963
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55963
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 55994
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 55994
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56037
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56037
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56073
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56073
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56109
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56109
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56145
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56145
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56181
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56181
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56217
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56217
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56247
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56247
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56280
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56280
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56319
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56319
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56349
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56349
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56374
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56374
+  This udp will be overridden by the last declaration.
+  
+
+
+Warning-[OPD] Override previous declaration
+rtl/custom_modules/scc40ulp_uhdc40_rvt.v, 56414
+  Previously declared at:"rtl/custom_modules/scc40ulp_uhdc40_lvt.v", 56414
+  This udp will be overridden by the last declaration.
+  
+
+Back to file 'rtl/./custom_modules/efpga_circuits.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/inv_buf_passgate.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/arch_encoder.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/local_encoder.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/mux_primitives.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/muxes.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/luts.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/wires.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/memories.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/sub_module/shift_register_banks.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_ckbuf_mode_ckbuf_physical_mode__ckbuf_core.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_ckbuf_mode_ckbuf_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode___phy_fpga_adder_core.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic_mode_frac_logic_default_mode__frac_lut5_arith_frac_lut5_arith.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__frac_logic.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__p_ff_p_ff.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_clb_mode_clb_default_mode__fle.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_clb_mode_clb_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__io_pi_io_pi.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_mode_io_pi_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__io_pi_pdc_ecb1_io_pi_pdc_ecb1.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad_mode_pi_pdc_ecb1_pad_default_mode__p_io_pdc_ecb1_scffi_p_io_pdc_ecb1_scffi.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_physical_mode__pi_pdc_ecb1_pad.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_pi_pdc_ecb1_mode_io_pi_pdc_ecb1_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__io_po_core.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__p_io_scffo_p_io_scffo.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_mode_io_po_physical_mode__po_pad.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_mode_io_po_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__io_po_cko_core.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad_mode_po_cko_pad_default_mode__p_io_cko_scffo_p_io_cko_scffo.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_physical_mode__po_cko_pad.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_io_po_cko_mode_io_po_cko_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_pcnt_mode_pcnt_physical_mode___pcnt__pcnt.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/logical_tile_pcnt_mode_pcnt_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/grid_clb.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/grid_io_bottomL_bottom.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/grid_io_leftL_left.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/grid_io_rightL_right.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/lb/grid_io_topL_top.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_0_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_1_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_2_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_3_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_4_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_5_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_6_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_7_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_8_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_9_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_10_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_11_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_12_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_13_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/sb_14_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cbx_0_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cbx_1_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cbx_2_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cbx_3_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cbx_4_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cbx_5_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cbx_6_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cby_0_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cby_1_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cby_2_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cby_3_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cby_4_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cby_5_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/routing/cby_6_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_0__EMPTY_id7_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_1__io_leftL_left_id8_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_2__io_leftL_left_id9_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_3__io_leftL_left_id10_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_4__io_leftL_left_id11_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_5__EMPTY_id0_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_6__io_bottomL_bottom_id6_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_7__clb_id12_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_8__clb_id13_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_9__io_topL_top_id1_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_10__io_bottomL_bottom_id5_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_11__clb_id14_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_12__clb_id15_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_13__EMPTY_id4_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_14__io_rightL_right_id3_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/tile/tile_15__io_rightL_right_id2_.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/fpga_core.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Parsing included file 'rtl/fpga_top.v'.
+Back to file 'rtl/fabric_netlists.v'.
+Top Level Modules:
+       and2_or2_top_formal_verification
+TimeScale is 10 ps / 1 ps
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+101 modules and 1 UDP read.
+recompiling module and2_or2_top_formal_verification
+recompiling module mmff
+recompiling module mmffisc2_wrapper
+recompiling module cb_mux_size8
+recompiling module cb_mux_size48
+recompiling module cb_mux_size16
+recompiling module cb_mux_size56
+recompiling module cb_mux_size26
+recompiling module cb_mux_size76
+recompiling module sb_mux_size6
+recompiling module sb_mux_size5
+recompiling module sb_mux_size4
+recompiling module sb_mux_size11
+recompiling module sb_mux_size9
+recompiling module sb_mux_size7
+recompiling module sb_mux_size8
+recompiling module sb_mux_size10
+recompiling module sb_mux_size17
+recompiling module sb_mux_size13
+recompiling module sb_mux_size15
+recompiling module sb_mux_size23
+recompiling module sb_mux_size21
+recompiling module sb_mux_size3
+recompiling module sb_mux_size2
+recompiling module sb_mux_size12
+recompiling module sb_mux_size19
+recompiling module clk_mux_size3
+recompiling module direct_interc
+recompiling module cb_mux_size8_feedthrough_mem
+recompiling module cb_mux_size48_mem
+recompiling module cb_mux_size48_feedthrough_mem
+recompiling module cb_mux_size16_feedthrough_mem
+recompiling module cb_mux_size56_mem
+recompiling module cb_mux_size56_feedthrough_mem
+recompiling module cb_mux_size26_feedthrough_mem
+recompiling module cb_mux_size76_mem
+recompiling module cb_mux_size76_feedthrough_mem
+recompiling module sb_mux_size6_feedthrough_mem
+recompiling module sb_mux_size5_feedthrough_mem
+recompiling module sb_mux_size4_feedthrough_mem
+recompiling module sb_mux_size11_feedthrough_mem
+recompiling module sb_mux_size9_feedthrough_mem
+recompiling module sb_mux_size7_feedthrough_mem
+recompiling module sb_mux_size8_feedthrough_mem
+recompiling module sb_mux_size10_feedthrough_mem
+recompiling module sb_mux_size17_feedthrough_mem
+recompiling module sb_mux_size13_feedthrough_mem
+recompiling module sb_mux_size15_feedthrough_mem
+recompiling module sb_mux_size23_feedthrough_mem
+recompiling module sb_mux_size21_feedthrough_mem
+50 of 101 modules done
+recompiling module sb_mux_size3_feedthrough_mem
+recompiling module sb_mux_size2_feedthrough_mem
+recompiling module clk_mux_size3_feedthrough_mem
+recompiling module mmffisc2_wrapper_EFPGA_CCFF_mem
+recompiling module mmffisc2_wrapper_feedthrough_EFPGA_CCFF_mem
+recompiling module mmffosc2_wrapper_EFPGA_CCFF_mem
+recompiling module mmffosc2cko_wrapper_EFPGA_CCFF_mem
+recompiling module frac_lut5_arith_EFPGA_CCFF_mem
+recompiling module pcnt_wrapper_EFPGA_CCFF_mem
+recompiling module logical_tile_ckbuf_mode_ckbuf_
+recompiling module logical_tile_clb_mode_clb_default_mode__fle_mode_fle_physical_mode__fabric_mode_fabric_default_mode__p_ff_p_ff
+recompiling module logical_tile_clb_mode_clb_default_mode__fle
+recompiling module logical_tile_clb_mode_clb_
+recompiling module logical_tile_io_pi_mode_io_pi_
+recompiling module logical_tile_io_po_mode_io_po_
+recompiling module logical_tile_io_po_cko_mode_io_po_cko_
+recompiling module logical_tile_pcnt_mode_pcnt_
+recompiling module grid_clb
+recompiling module grid_io_bottomL_bottom
+recompiling module grid_io_leftL_left
+recompiling module grid_io_rightL_right
+recompiling module sb_7_
+recompiling module sb_8_
+recompiling module sb_11_
+recompiling module sb_12_
+recompiling module cbx_0_
+recompiling module cbx_1_
+recompiling module cbx_2_
+recompiling module cby_0_
+recompiling module cby_1_
+recompiling module cby_2_
+recompiling module cby_3_
+recompiling module cby_4_
+recompiling module cby_5_
+recompiling module cby_6_
+recompiling module tile_0__EMPTY_id7_
+recompiling module tile_1__io_leftL_left_id8_
+recompiling module tile_2__io_leftL_left_id9_
+recompiling module tile_3__io_leftL_left_id10_
+recompiling module tile_4__io_leftL_left_id11_
+recompiling module tile_5__EMPTY_id0_
+recompiling module tile_6__io_bottomL_bottom_id6_
+recompiling module tile_7__clb_id12_
+recompiling module tile_8__clb_id13_
+recompiling module tile_9__io_topL_top_id1_
+recompiling module tile_10__io_bottomL_bottom_id5_
+recompiling module tile_11__clb_id14_
+recompiling module tile_12__clb_id15_
+recompiling module tile_13__EMPTY_id4_
+recompiling module tile_14__io_rightL_right_id3_
+100 of 101 modules done
+recompiling module tile_15__io_rightL_right_id2_
+All of 101 modules done
+make[2]: Entering directory `/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/csrc'
+/eda/tools/anaconda/envs/eda/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/ld: warning: rmar_nd.o: missing .note.GNU-stack section implies executable stack
+/eda/tools/anaconda/envs/eda/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+make[2]: Leaving directory `/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/csrc'
+make[2]: Entering directory `/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/csrc'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv   -no-pie    -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib -L/eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _85009_archive_1.so objs/udps/U7Vwg.o  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /eda/synopsys/vcs/R-2020.12-SP2-1/linux64/lib/vcs_save_restore_new.o /eda/synopsys/verdi/S-2021.09-SP2-3/share/PLI/VCS/LINUX64/pli.a -ldl -lm  -lc -lpthread -ldl 
+/eda/tools/anaconda/envs/eda/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/ld: warning: rmar_nd.o: missing .note.GNU-stack section implies executable stack
+/eda/tools/anaconda/envs/eda/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+../simv up to date
+make[2]: Leaving directory `/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/csrc'
+CPU time: 15.197 seconds to compile + 4.899 seconds to elab + .528 seconds to link
+rm -f results.xml
+MODULE=test_and2_or2 TESTCASE= TOPLEVEL=and2_or2_top_formal_verification TOPLEVEL_LANG=verilog \
+ .//simv +define+COCOTB_SIM=1   -debug_access+all +incdir+ +incdir+rtl +incdir+rtl/custom_modules -full64 
+
+Warning-[RT_UO] Unsupported option
+  Unsupported option '-debug_access+all' is ignored
+
+
+Warning-[RT_UO] Unsupported option
+  Unsupported option '-full64' is ignored
+
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2-1_Full64; Runtime version R-2020.12-SP2-1_Full64;  Sep 11 11:55 2025
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:76   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Chronologic Simulation VCS Release version R-2020.12-SP2-1_Full64
+     0.00ns INFO     cocotb                             Running tests with cocotb v1.7.2 from /eda/tools/anaconda/lib/python3.9/site-packages/cocotb
+     0.00ns INFO     cocotb                             Seeding Python random module with 1757562918
+     0.00ns INFO     cocotb.regression                  Found test test_and2_or2.test_and2_or2
+     0.00ns INFO     cocotb.regression                  running test_and2_or2 (1/1)
+/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1/cocotb_force_bitstream.py:84: DeprecationWarning: Setting values on handles using the ``handle <= value`` syntax is deprecated. Instead use the ``handle.value = value`` syntax
+  config_bit_opath <= Force(int(bit_value))
+     0.00ns INFO     ..and2_or2_top_formal_verification ==== Begin Test case 0 ====
+     1.00ns INFO     ..and2_or2_top_formal_verification a is 0
+     1.00ns INFO     ..and2_or2_top_formal_verification b is 0
+     1.00ns INFO     ..and2_or2_top_formal_verification c is 0
+     1.00ns INFO     ..and2_or2_top_formal_verification expected_c is 0
+     1.00ns INFO     ..and2_or2_top_formal_verification expected_d is 0
+     1.00ns INFO     ..and2_or2_top_formal_verification ==== End Test case 0 ====
+     1.00ns INFO     ..and2_or2_top_formal_verification ==== Begin Test case 1 ====
+     2.00ns INFO     ..and2_or2_top_formal_verification a is 0
+     2.00ns INFO     ..and2_or2_top_formal_verification b is 1
+     2.00ns INFO     ..and2_or2_top_formal_verification c is 0
+     2.00ns INFO     ..and2_or2_top_formal_verification expected_c is 0
+     2.00ns INFO     ..and2_or2_top_formal_verification expected_d is 1
+     2.00ns INFO     ..and2_or2_top_formal_verification ==== End Test case 1 ====
+     2.00ns INFO     ..and2_or2_top_formal_verification ==== Begin Test case 2 ====
+     3.00ns INFO     ..and2_or2_top_formal_verification a is 1
+     3.00ns INFO     ..and2_or2_top_formal_verification b is 0
+     3.00ns INFO     ..and2_or2_top_formal_verification c is 0
+     3.00ns INFO     ..and2_or2_top_formal_verification expected_c is 0
+     3.00ns INFO     ..and2_or2_top_formal_verification expected_d is 1
+     3.00ns INFO     ..and2_or2_top_formal_verification ==== End Test case 2 ====
+     3.00ns INFO     ..and2_or2_top_formal_verification ==== Begin Test case 3 ====
+     4.00ns INFO     ..and2_or2_top_formal_verification a is 1
+     4.00ns INFO     ..and2_or2_top_formal_verification b is 1
+     4.00ns INFO     ..and2_or2_top_formal_verification c is 1
+     4.00ns INFO     ..and2_or2_top_formal_verification expected_c is 1
+     4.00ns INFO     ..and2_or2_top_formal_verification expected_d is 1
+     4.00ns INFO     ..and2_or2_top_formal_verification ==== End Test case 3 ====
+     4.00ns INFO     cocotb.regression                  test_and2_or2 passed
+     4.00ns INFO     cocotb.regression                  **************************************************************************************
+                                                        ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        **************************************************************************************
+                                                        ** test_and2_or2.test_and2_or2    PASS           4.00           2.27          1.76  **
+                                                        **************************************************************************************
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0                  4.00           2.71          1.48  **
+                                                        **************************************************************************************
+                                                        
+$finish at simulation time                 4001
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4001 ps
+CPU Time:      3.050 seconds;       Data structure size:  20.4Mb
+Thu Sep 11 11:55:21 2025
+make[1]: Leaving directory `/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/dv/preconfig_testbench/checkin/and2_or2/tt_25C_v1p1'

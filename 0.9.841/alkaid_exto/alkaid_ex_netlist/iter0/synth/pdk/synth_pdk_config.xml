@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<pdk>
+	<root>/eda/internal/alkaid_infra/pdk/s40/s40ulp</root>
+	<sclibs>
+		<sclib name="uhdc40_hvt_v0.2">
+			<file tag="tt">std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/0.9v/scc40ulp_uhdc40_hvt_tt_v0p9_25c_basic.db</file>
+			<file tag="ffg">std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/0.9v/scc40ulp_uhdc40_hvt_ffg_v0p99_125c_basic.db</file>
+			<file tag="ffg_ccs">std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/0.9v/scc40ulp_uhdc40_hvt_ffg_v0p99_125c_ccs.db</file>
+			<file tag="tt_v1p0">std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/1.0v/scc40ulp_uhdc40_hvt_tt_v1p0_25c_basic.db</file>
+			<file tag="tt_v1p1">std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic.db</file>
+		</sclib>
+		<sclib name="uhdc40_lvt_v0.2">
+			<file tag="tt">std_cell/SCC40ULP_UHDC40_LVT/V0p2/liberty/0.9v/scc40ulp_uhdc40_lvt_tt_v0p9_25c_basic.db</file>
+			<file tag="tt_v1p0">std_cell/SCC40ULP_UHDC40_LVT/V0p2/liberty/1.0v/scc40ulp_uhdc40_lvt_tt_v1p0_25c_basic.db</file>
+			<file tag="tt_v1p1">std_cell/SCC40ULP_UHDC40_LVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic.db</file>
+		</sclib>
+		<sclib name="uhdc40_rvt_v0.2">
+			<file tag="tt">std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/0.9v/scc40ulp_uhdc40_rvt_tt_v0p9_25c_basic.db</file>
+			<file tag="ffg">std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/0.9v/scc40ulp_uhdc40_rvt_ffg_v0p99_125c_basic.db</file>
+			<file tag="ffg_ccs">std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/0.9v/scc40ulp_uhdc40_rvt_ffg_v0p99_125c_ccs.db</file>
+			<file tag="tt_v1p0">std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/1.0v/scc40ulp_uhdc40_rvt_tt_v1p0_25c_basic.db</file>
+			<file tag="tt_v1p1">std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/1.1v/scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic.db</file>
+		</sclib>
+	</sclibs>
+</pdk>

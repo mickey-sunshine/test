@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ckbuf_location_map>
+	<ckbuf pin="clk[0:0]" type="clock" x="1" y="3" z="4" />
+	<ckbuf pin="clk[1:1]" type="clock" x="1" y="3" z="5" />
+	<ckbuf pin="clk[2:2]" type="clock" x="1" y="3" z="6" />
+	<ckbuf pin="clk[3:3]" type="clock" x="1" y="3" z="7" />
+	<ckbuf pin="clk[4:4]" type="clock" x="1" y="2" z="4" />
+	<ckbuf pin="clk[5:5]" type="clock" x="1" y="2" z="5" />
+	<ckbuf pin="clk[6:6]" type="clock" x="1" y="2" z="6" />
+	<ckbuf pin="clk[7:7]" type="clock" x="1" y="2" z="7" />
+	<ckbuf pin="reset[0:0]" type="reset" x="1" y="3" z="8" />
+	<ckbuf pin="reset[1:1]" type="reset" x="1" y="3" z="9" />
+	<ckbuf pin="reset[2:2]" type="reset" x="1" y="3" z="10" />
+	<ckbuf pin="reset[3:3]" type="reset" x="1" y="3" z="11" />
+	<ckbuf pin="reset[4:4]" type="reset" x="1" y="3" z="12" />
+	<ckbuf pin="reset[5:5]" type="reset" x="1" y="3" z="13" />
+	<ckbuf pin="reset[6:6]" type="reset" x="1" y="3" z="14" />
+	<ckbuf pin="reset[7:7]" type="reset" x="1" y="3" z="15" />
+	<ckbuf pin="reset[8:8]" type="reset" x="1" y="3" z="16" />
+	<ckbuf pin="reset[9:9]" type="reset" x="1" y="3" z="17" />
+	<ckbuf pin="reset[10:10]" type="reset" x="1" y="3" z="18" />
+	<ckbuf pin="reset[11:11]" type="reset" x="1" y="3" z="19" />
+	<ckbuf pin="reset[12:12]" type="reset" x="1" y="2" z="8" />
+	<ckbuf pin="reset[13:13]" type="reset" x="1" y="2" z="9" />
+	<ckbuf pin="reset[14:14]" type="reset" x="1" y="2" z="10" />
+	<ckbuf pin="reset[15:15]" type="reset" x="1" y="2" z="11" />
+	<ckbuf pin="reset[16:16]" type="reset" x="1" y="2" z="12" />
+	<ckbuf pin="reset[17:17]" type="reset" x="1" y="2" z="13" />
+	<ckbuf pin="reset[18:18]" type="reset" x="1" y="2" z="14" />
+	<ckbuf pin="reset[19:19]" type="reset" x="1" y="2" z="15" />
+	<ckbuf pin="reset[20:20]" type="reset" x="1" y="2" z="16" />
+	<ckbuf pin="reset[21:21]" type="reset" x="1" y="2" z="17" />
+	<ckbuf pin="reset[22:22]" type="reset" x="1" y="2" z="18" />
+	<ckbuf pin="reset[23:23]" type="reset" x="1" y="2" z="19" />
+</ckbuf_location_map>

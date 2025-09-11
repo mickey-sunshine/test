@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<block name="/home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_dv/iter0/vpr_results/checkin/local_clk_test/tt_25C_v1p1/vpr.net.post_routing" instance="FPGA_packed_netlist[0]" architecture_id="SHA256:7f98338d0e27e5dedc8b8f3ae61ac16b99b899e9a2c7b5fe43543d970a4e1b62" atom_netlist_id="SHA256:81a0b0198b8909e3e7775349422693f2ee7b75ac44f5a229a469357bf62d01fb">
+	<inputs>clk_i rst_ni A_i B_i</inputs>
+	<outputs>out:C_o out:C_local_clk_o out:C_local_rst_o</outputs>
+	<clocks>clk_i</clocks>
+	<block name="C_local_rst_o" instance="io_po[0]" mode="io_output">
+		<inputs>
+			<port name="f2a_i">A_i</port>
+			<port name="reset">rst_local_ckbuf</port>
+			<port name="sc_in">open</port>
+		</inputs>
+		<outputs>
+			<port name="sc_out">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">clk_i</port>
+		</clocks>
+		<block name="C_local_rst_o" instance="io_output[0]" mode="io_output_default_mode">
+			<inputs>
+				<port name="f2a_i">io_po.f2a_i[0]-&gt;io_output[0:0]_f2a_i[0:0]</port>
+				<port name="reset">io_po.reset[0]-&gt;io_output[0:0]_reset[0:0]</port>
+				<port name="sc_in">open</port>
+			</inputs>
+			<outputs>
+				<port name="sc_out">open</port>
+			</outputs>
+			<clocks>
+				<port name="clk">io_po.clk[0]-&gt;io_output[0:0]_clk[0:0]</port>
+			</clocks>
+			<block name="out:C_local_rst_o" instance="builtin_outpad[0]">
+				<attributes />
+				<parameters />
+				<inputs>
+					<port name="outpad">v_io_scffo[0].Q[0]-&gt;builtin_outpad[0:0]_outpad[0:0]</port>
+				</inputs>
+				<outputs />
+				<clocks />
+			</block>
+			<block name="C_local_rst_o" instance="v_io_scffo[0]" mode="v_io_scffo_mode_dffrn">
+				<inputs>
+					<port name="D">io_output.f2a_i[0]-&gt;v_io_scffo[0:0]_D[0:0]</port>
+					<port name="R">io_output.reset[0]-&gt;v_io_scffo[0:0]_R[0:0]</port>
+				</inputs>
+				<outputs>
+					<port name="Q">p_io_scffo_dffrn[0].Q[0]-&gt;v_io_scffo[0:0]_Q[0:0]</port>
+				</outputs>
+				<clocks>
+					<port name="C">io_output.clk[0]-&gt;v_io_scffo[0:0]_C[0:0]</port>
+				</clocks>
+				<block name="C_local_rst_o" instance="p_io_scffo_dffrn[0]">
+					<attributes />
+					<parameters />
+					<inputs>
+						<port name="D">v_io_scffo.D[0]-&gt;p_io_scffo_dffrn[0:0]_D[0:0]</port>
+						<port name="RN">v_io_scffo.R[0]-&gt;p_io_scffo_dffrn[0:0]_RN[0:0]</port>
+					</inputs>
+					<outputs>
+						<port name="Q">C_local_rst_o</port>
+					</outputs>
+					<clocks>
+						<port name="C">v_io_scffo.C[0]-&gt;p_io_scffo_dffrn[0:0]_C[0:0]</port>
+					</clocks>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block name="C_o" instance="io_po[1]" mode="io_output">
+		<inputs>
+			<port name="f2a_i">A_i</port>
+			<port name="reset">rst_ni</port>
+			<port name="sc_in">open</port>
+		</inputs>
+		<outputs>
+			<port name="sc_out">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">clk_i</port>
+		</clocks>
+		<block name="C_o" instance="io_output[0]" mode="io_output_default_mode">
+			<inputs>
+				<port name="f2a_i">io_po.f2a_i[0]-&gt;io_output[0:0]_f2a_i[0:0]</port>
+				<port name="reset">io_po.reset[0]-&gt;io_output[0:0]_reset[0:0]</port>
+				<port name="sc_in">open</port>
+			</inputs>
+			<outputs>
+				<port name="sc_out">open</port>
+			</outputs>
+			<clocks>
+				<port name="clk">io_po.clk[0]-&gt;io_output[0:0]_clk[0:0]</port>
+			</clocks>
+			<block name="out:C_o" instance="builtin_outpad[0]">
+				<attributes />
+				<parameters />
+				<inputs>
+					<port name="outpad">v_io_scffo[0].Q[0]-&gt;builtin_outpad[0:0]_outpad[0:0]</port>
+				</inputs>
+				<outputs />
+				<clocks />
+			</block>
+			<block name="C_o" instance="v_io_scffo[0]" mode="v_io_scffo_mode_dffrn">
+				<inputs>
+					<port name="D">io_output.f2a_i[0]-&gt;v_io_scffo[0:0]_D[0:0]</port>
+					<port name="R">io_output.reset[0]-&gt;v_io_scffo[0:0]_R[0:0]</port>
+				</inputs>
+				<outputs>
+					<port name="Q">p_io_scffo_dffrn[0].Q[0]-&gt;v_io_scffo[0:0]_Q[0:0]</port>
+				</outputs>
+				<clocks>
+					<port name="C">io_output.clk[0]-&gt;v_io_scffo[0:0]_C[0:0]</port>
+				</clocks>
+				<block name="C_o" instance="p_io_scffo_dffrn[0]">
+					<attributes />
+					<parameters />
+					<inputs>
+						<port name="D">v_io_scffo.D[0]-&gt;p_io_scffo_dffrn[0:0]_D[0:0]</port>
+						<port name="RN">v_io_scffo.R[0]-&gt;p_io_scffo_dffrn[0:0]_RN[0:0]</port>
+					</inputs>
+					<outputs>
+						<port name="Q">C_o</port>
+					</outputs>
+					<clocks>
+						<port name="C">v_io_scffo.C[0]-&gt;p_io_scffo_dffrn[0:0]_C[0:0]</port>
+					</clocks>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block name="C_local_clk_o" instance="io_po[2]" mode="io_output">
+		<inputs>
+			<port name="f2a_i">A_i</port>
+			<port name="reset">rst_ni</port>
+			<port name="sc_in">open</port>
+		</inputs>
+		<outputs>
+			<port name="sc_out">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">clk_i</port>
+		</clocks>
+		<block name="C_local_clk_o" instance="io_output[0]" mode="io_output_default_mode">
+			<inputs>
+				<port name="f2a_i">io_po.f2a_i[0]-&gt;io_output[0:0]_f2a_i[0:0]</port>
+				<port name="reset">io_po.reset[0]-&gt;io_output[0:0]_reset[0:0]</port>
+				<port name="sc_in">open</port>
+			</inputs>
+			<outputs>
+				<port name="sc_out">open</port>
+			</outputs>
+			<clocks>
+				<port name="clk">io_po.clk[0]-&gt;io_output[0:0]_clk[0:0]</port>
+			</clocks>
+			<block name="out:C_local_clk_o" instance="builtin_outpad[0]">
+				<attributes />
+				<parameters />
+				<inputs>
+					<port name="outpad">v_io_scffo[0].Q[0]-&gt;builtin_outpad[0:0]_outpad[0:0]</port>
+				</inputs>
+				<outputs />
+				<clocks />
+			</block>
+			<block name="C_local_clk_o" instance="v_io_scffo[0]" mode="v_io_scffo_mode_dffnrn">
+				<inputs>
+					<port name="D">io_output.f2a_i[0]-&gt;v_io_scffo[0:0]_D[0:0]</port>
+					<port name="R">io_output.reset[0]-&gt;v_io_scffo[0:0]_R[0:0]</port>
+				</inputs>
+				<outputs>
+					<port name="Q">p_io_scffo_dffnrn[0].Q[0]-&gt;v_io_scffo[0:0]_Q[0:0]</port>
+				</outputs>
+				<clocks>
+					<port name="C">io_output.clk[0]-&gt;v_io_scffo[0:0]_C[0:0]</port>
+				</clocks>
+				<block name="C_local_clk_o" instance="p_io_scffo_dffnrn[0]">
+					<attributes />
+					<parameters />
+					<inputs>
+						<port name="D">v_io_scffo.D[0]-&gt;p_io_scffo_dffnrn[0:0]_D[0:0]</port>
+						<port name="RN">v_io_scffo.R[0]-&gt;p_io_scffo_dffnrn[0:0]_RN[0:0]</port>
+					</inputs>
+					<outputs>
+						<port name="Q">C_local_clk_o</port>
+					</outputs>
+					<clocks>
+						<port name="C">v_io_scffo.C[0]-&gt;p_io_scffo_dffnrn[0:0]_C[0:0]</port>
+					</clocks>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block name="rst_local" instance="clb[3]" mode="clb_default_mode">
+		<inputs>
+			<port name="I0">open open open open</port>
+			<port name="I1">open open open open</port>
+			<port name="I2">open open open open</port>
+			<port name="I3">open open open open</port>
+			<port name="I4">open open open open</port>
+			<port name="I5">open open open open</port>
+			<port name="I6">open open open open</port>
+			<port name="I7">open open open open</port>
+			<port name="I8">open open open open</port>
+			<port name="I9">open open open open</port>
+			<port name="I10">open open open open</port>
+			<port name="I11">B_i rst_ni open open</port>
+			<port name="Ix">open open open open open open open open open open open open</port>
+			<port name="cin">open</port>
+			<port name="reset">open</port>
+		</inputs>
+		<outputs>
+			<port name="O">open open open open open open open open open open open open open open open open open open open open open open open fle[11].out[1]-&gt;clb[0:0]_O[23:23]</port>
+			<port name="cout">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">open</port>
+		</clocks>
+		<block name="open" instance="fle[0]" />
+		<block name="open" instance="fle[1]" />
+		<block name="open" instance="fle[2]" />
+		<block name="open" instance="fle[3]" />
+		<block name="open" instance="fle[4]" />
+		<block name="open" instance="fle[5]" />
+		<block name="open" instance="fle[6]" />
+		<block name="open" instance="fle[7]" />
+		<block name="open" instance="fle[8]" />
+		<block name="open" instance="fle[9]" />
+		<block name="open" instance="fle[10]" />
+		<block name="rst_local" instance="fle[11]" mode="fle_mode_n2_lut4">
+			<inputs>
+				<port name="in">clb.I11[0]-&gt;fle[11:11]_in[0:0] clb.I11[1]-&gt;fle[11:11]_in[1:1] open open open</port>
+				<port name="reset">open</port>
+				<port name="cin">open</port>
+			</inputs>
+			<outputs>
+				<port name="cout">open</port>
+				<port name="out">open lut4inter[0].out[1]-&gt;fle[0:0]_out[1:1]</port>
+			</outputs>
+			<clocks>
+				<port name="clk">open</port>
+			</clocks>
+			<block name="rst_local" instance="lut4inter[0]" mode="lut4inter_default_mode">
+				<inputs>
+					<port name="in">fle.in[0]-&gt;lut4inter[0:0]_in[0:0] fle.in[1]-&gt;lut4inter[0:0]_in[1:1] open open</port>
+					<port name="reset">open</port>
+				</inputs>
+				<outputs>
+					<port name="out">open ble4[1].out[0]-&gt;lut4inter[0:0]_out[1:1]</port>
+				</outputs>
+				<clocks>
+					<port name="clk">open</port>
+				</clocks>
+				<block name="open" instance="ble4[0]" />
+				<block name="rst_local" instance="ble4[1]" mode="ble4_default_mode">
+					<inputs>
+						<port name="in">lut4inter.in[0]-&gt;ble4[1:1]_in[0:0] lut4inter.in[1]-&gt;ble4[1:1]_in[1:1] open open</port>
+						<port name="reset">open</port>
+					</inputs>
+					<outputs>
+						<port name="out">lut4[0].out[0]-&gt;ble4[0:0]_out[0:0]</port>
+					</outputs>
+					<clocks>
+						<port name="clk">open</port>
+					</clocks>
+					<block name="rst_local" instance="lut4[0]" mode="lut4">
+						<inputs>
+							<port name="in">ble4.in[0]-&gt;lut4[0:0]_in[0:0] ble4.in[1]-&gt;lut4[0:0]_in[1:1] open open</port>
+						</inputs>
+						<outputs>
+							<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
+						</outputs>
+						<clocks />
+						<block name="rst_local" instance="lut[0]">
+							<attributes />
+							<parameters />
+							<inputs>
+								<port name="in">lut4.in[0]-&gt;direct:lut4 lut4.in[1]-&gt;direct:lut4 open open</port>
+								<port_rotation_map name="in">0 1 open open</port_rotation_map>
+							</inputs>
+							<outputs>
+								<port name="out">rst_local</port>
+							</outputs>
+							<clocks />
+						</block>
+					</block>
+					<block name="open" instance="v_ble4_ff[0]" />
+				</block>
+			</block>
+		</block>
+	</block>
+	<block name="rst_local_ckbuf" instance="ckbuf[4]" mode="ckbuf_physical_mode">
+		<inputs>
+			<port name="in">rst_local</port>
+		</inputs>
+		<outputs>
+			<port name="out">ckbuf_core[0].out[0]-&gt;ckbuf[0:0]_out[0:0]</port>
+		</outputs>
+		<clocks />
+		<block name="rst_local_ckbuf" instance="ckbuf_core[0]">
+			<attributes />
+			<parameters />
+			<inputs>
+				<port name="in">ckbuf.in[0]-&gt;ckbuf_core[0:0]_in[0:0]</port>
+			</inputs>
+			<outputs>
+				<port name="out">rst_local_ckbuf</port>
+			</outputs>
+			<clocks />
+		</block>
+	</block>
+	<block name="clk_i" instance="io_pi[5]" mode="io_input">
+		<inputs>
+			<port name="reset">open</port>
+			<port name="sc_in">open</port>
+		</inputs>
+		<outputs>
+			<port name="a2f_o">io_input[0].a2f_o[0]-&gt;io_pi[0:0]_a2f_o[0:0]</port>
+			<port name="sc_out">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">open</port>
+		</clocks>
+		<block name="clk_i" instance="io_input[0]" mode="io_input_default_mode">
+			<inputs>
+				<port name="reset">open</port>
+				<port name="sc_in">open</port>
+			</inputs>
+			<outputs>
+				<port name="a2f_o">builtin_inpad[0].inpad[0]-&gt;io_input[0:0]_a2f_o[0:0]</port>
+				<port name="sc_out">open</port>
+			</outputs>
+			<clocks>
+				<port name="clk">open</port>
+			</clocks>
+			<block name="clk_i" instance="builtin_inpad[0]">
+				<attributes />
+				<parameters />
+				<inputs />
+				<outputs>
+					<port name="inpad">clk_i</port>
+				</outputs>
+				<clocks />
+			</block>
+			<block name="open" instance="v_io_scffi[0]" />
+		</block>
+	</block>
+	<block name="rst_ni" instance="io_pi[6]" mode="io_input">
+		<inputs>
+			<port name="reset">open</port>
+			<port name="sc_in">open</port>
+		</inputs>
+		<outputs>
+			<port name="a2f_o">io_input[0].a2f_o[0]-&gt;io_pi[0:0]_a2f_o[0:0]</port>
+			<port name="sc_out">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">open</port>
+		</clocks>
+		<block name="rst_ni" instance="io_input[0]" mode="io_input_default_mode">
+			<inputs>
+				<port name="reset">open</port>
+				<port name="sc_in">open</port>
+			</inputs>
+			<outputs>
+				<port name="a2f_o">builtin_inpad[0].inpad[0]-&gt;io_input[0:0]_a2f_o[0:0]</port>
+				<port name="sc_out">open</port>
+			</outputs>
+			<clocks>
+				<port name="clk">open</port>
+			</clocks>
+			<block name="rst_ni" instance="builtin_inpad[0]">
+				<attributes />
+				<parameters />
+				<inputs />
+				<outputs>
+					<port name="inpad">rst_ni</port>
+				</outputs>
+				<clocks />
+			</block>
+			<block name="open" instance="v_io_scffi[0]" />
+		</block>
+	</block>
+	<block name="A_i" instance="io_pi[7]" mode="io_input">
+		<inputs>
+			<port name="reset">open</port>
+			<port name="sc_in">open</port>
+		</inputs>
+		<outputs>
+			<port name="a2f_o">io_input[0].a2f_o[0]-&gt;io_pi[0:0]_a2f_o[0:0]</port>
+			<port name="sc_out">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">open</port>
+		</clocks>
+		<block name="A_i" instance="io_input[0]" mode="io_input_default_mode">
+			<inputs>
+				<port name="reset">open</port>
+				<port name="sc_in">open</port>
+			</inputs>
+			<outputs>
+				<port name="a2f_o">builtin_inpad[0].inpad[0]-&gt;io_input[0:0]_a2f_o[0:0]</port>
+				<port name="sc_out">open</port>
+			</outputs>
+			<clocks>
+				<port name="clk">open</port>
+			</clocks>
+			<block name="A_i" instance="builtin_inpad[0]">
+				<attributes />
+				<parameters />
+				<inputs />
+				<outputs>
+					<port name="inpad">A_i</port>
+				</outputs>
+				<clocks />
+			</block>
+			<block name="open" instance="v_io_scffi[0]" />
+		</block>
+	</block>
+	<block name="B_i" instance="io_pi[8]" mode="io_input">
+		<inputs>
+			<port name="reset">open</port>
+			<port name="sc_in">open</port>
+		</inputs>
+		<outputs>
+			<port name="a2f_o">io_input[0].a2f_o[0]-&gt;io_pi[0:0]_a2f_o[0:0]</port>
+			<port name="sc_out">open</port>
+		</outputs>
+		<clocks>
+			<port name="clk">open</port>
+		</clocks>
+		<block name="B_i" instance="io_input[0]" mode="io_input_default_mode">
+			<inputs>
+				<port name="reset">open</port>
+				<port name="sc_in">open</port>
+			</inputs>
+			<outputs>
+				<port name="a2f_o">builtin_inpad[0].inpad[0]-&gt;io_input[0:0]_a2f_o[0:0]</port>
+				<port name="sc_out">open</port>
+			</outputs>
+			<clocks>
+				<port name="clk">open</port>
+			</clocks>
+			<block name="B_i" instance="builtin_inpad[0]">
+				<attributes />
+				<parameters />
+				<inputs />
+				<outputs>
+					<port name="inpad">B_i</port>
+				</outputs>
+				<clocks />
+			</block>
+			<block name="open" instance="v_io_scffi[0]" />
+		</block>
+	</block>
+</block>

@@ -1,0 +1,85 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : sb_4_
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Operating Conditions: tt_v1p1_25c   Library: scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic
+Wire Load Model Mode: top
+
+  Startpoint: ccff_head[0]
+              (input port clocked by PROG_CLK)
+  Endpoint: sb_4__config_group_mem_size244/mem_top_track_0_EFPGA_CCFF_0__q_reg_reg
+            (rising edge-triggered flip-flop clocked by PROG_CLK)
+  Path Group: PROG_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock PROG_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   10.00      10.00 r
+  ccff_head[0] (in)                                       0.00      10.00 r
+  sb_4__config_group_mem_size244/ccff_head[0] (sb_4__config_group_mem_size244)
+                                                          0.00      10.00 r
+  sb_4__config_group_mem_size244/mem_top_track_0_del1/Z (BUFV1_7TH40)
+                                                          0.04      10.04 r
+  sb_4__config_group_mem_size244/mem_top_track_0_del2/Z (BUFV1_7TH40)
+                                                          0.06      10.10 r
+  sb_4__config_group_mem_size244/mem_top_track_0_del3_0/Z (BUFV1_7TH40)
+                                                          0.06      10.16 r
+  sb_4__config_group_mem_size244/mem_top_track_0_EFPGA_CCFF_0__q_reg_reg/D (DRQV1_7TH40)
+                                                          0.00      10.16 r
+  data arrival time                                                 10.16
+
+  clock PROG_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.02      19.98
+  sb_4__config_group_mem_size244/mem_top_track_0_EFPGA_CCFF_0__q_reg_reg/CK (DRQV1_7TH40)
+                                                          0.00      19.98 r
+  library setup time                                     -0.11      19.87
+  data required time                                                19.87
+  --------------------------------------------------------------------------
+  data required time                                                19.87
+  data arrival time                                                -10.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        9.71
+
+
+  Startpoint: right_bottom_grid_top_width_0_height_0_subtile_0__pin_O_14_[0]
+              (input port clocked by vCLK)
+  Endpoint: chanx_right_out[10]
+            (output port clocked by vCLK)
+  Path Group: vCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  right_bottom_grid_top_width_0_height_0_subtile_0__pin_O_14_[0] (in)
+                                                          0.00       0.00 r
+  U489/ZN (NAND2V2_7TR40)                                 0.02       0.02 f
+  U580/ZN (NAND2V4_7TR40)                                 0.02       0.04 r
+  U528/ZN (NAND2V4_7TR40)                                 0.02       0.06 f
+  U509/ZN (NAND2V2_7TR40)                                 0.02       0.08 r
+  U515/Z (OR2V4_7TR40)                                    0.20       0.28 r
+  chanx_right_out[10] (out)                               0.00       0.28 r
+  data arrival time                                                  0.28
+
+  max_delay                                               0.30       0.30
+  clock uncertainty                                      -0.02       0.28
+  output external delay                                   0.00       0.28
+  data required time                                                 0.28
+  --------------------------------------------------------------------------
+  data required time                                                 0.28
+  data arrival time                                                 -0.28
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+1

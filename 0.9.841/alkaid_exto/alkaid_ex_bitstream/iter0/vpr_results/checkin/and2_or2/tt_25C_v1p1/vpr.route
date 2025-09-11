@@ -1,0 +1,45 @@
+Placement_File: /home/yhjiang/Desktop/test_project/to_Mickey/20250911/0.9.841/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/checkin/and2_or2/tt_25C_v1p1/vpr.place Placement_ID: SHA256:a40cde8bbda496e9d17da6c05751d2ec28afc59d576b6b5a6be06d41772e0c1c
+Array size: 4 x 6 logic blocks.
+
+Routing:
+
+Net 0 (b)
+
+Node:	168	SOURCE (2,0,0)  Pad: 22  Switch: 0
+Node:	248	  OPIN (2,0,0)  Pad: 22  Switch: 3
+Node:	4042	 CHANX (2,0,0) to (3,0,0)  Track: 16  Switch: 5
+Node:	5038	 CHANY (2,1,0)  Track: 2  Switch: 1
+Node:	950	  IPIN (2,1,0)  Pin: 45   clb.I11[1] Switch: 0
+Node:	793	  SINK (2,1,0)  Class: 11  Switch: -1 Net_pin_index: 1
+
+
+Net 1 (a)
+
+Node:	6	SOURCE (1,0,0)  Pad: 17  Switch: 0
+Node:	86	  OPIN (1,0,0)  Pad: 17  Switch: 3
+Node:	4040	 CHANX (2,0,0) to (3,0,0)  Track: 12  Switch: 5
+Node:	5036	 CHANY (2,1,0)  Track: 0  Switch: 1
+Node:	949	  IPIN (2,1,0)  Pin: 44   clb.I11[0] Switch: 0
+Node:	793	  SINK (2,1,0)  Class: 11  Switch: -1 Net_pin_index: 1
+
+
+Net 2 (d)
+
+Node:	754	SOURCE (2,1,0)  Class: 48  Switch: 0
+Node:	850	  OPIN (2,1,0)  Pin: 84   clb.O[22] Switch: 2
+Node:	4185	 CHANX (2,1,0)  Track: 9  Switch: 6
+Node:	4791	 CHANY (1,0,0) to (1,1,0)  Track: 23  Switch: 2
+Node:	4032	 CHANX (2,0,0)  Track: 4  Switch: 1
+Node:	276	  IPIN (2,0,0)  Pad: 50  Switch: 0
+Node:	216	  SINK (2,0,0)  Pad: 50  Switch: -1 Net_pin_index: 1
+
+
+Net 3 (c)
+
+Node:	755	SOURCE (2,1,0)  Class: 49  Switch: 0
+Node:	851	  OPIN (2,1,0)  Pin: 85   clb.O[23] Switch: 3
+Node:	4165	 CHANX (1,1,0) to (2,1,0)  Track: 23  Switch: 5
+Node:	4837	 CHANY (1,1,0)  Track: 5  Switch: 2
+Node:	4034	 CHANX (2,0,0)  Track: 6  Switch: 1
+Node:	278	  IPIN (2,0,0)  Pad: 55  Switch: 0
+Node:	220	  SINK (2,0,0)  Pad: 55  Switch: -1 Net_pin_index: 1

@@ -1,0 +1,157 @@
+Information: Updating graph... (UID-83)
+Warning: A non-unate path in clock network for clock 'CLK0'
+ from pin 'U47/ZN' is detected. (TIM-052)
+ 
+****************************************
+Report : reference
+Design : grid_io_topL_top
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+   td - set_target_library_subset -dont_use somewhere in design
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AOI21V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.744800       2     1.489600
+AOI22V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.931000       1     0.931000
+AOI221V1_7TH40     scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     1.303400       1     1.303400
+CLKINV2_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.372400       8     2.979200
+DRQV1_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     3.537800       2     7.075600 n
+DSRNQV1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     4.096400       2     8.192800 n
+MUX2V1_7TH40       scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     1.675800       3     5.027400
+NAND2V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.558600       2     1.117200
+NAND3XXBV1_7TH40   scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.931000       4     3.724000
+OA221V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     1.489600       1     1.489600
+OAI21V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.744800       2     1.489600
+OAI22V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.931000       1     0.931000
+OAI31V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.931000       1     0.931000
+PULL0_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+XNOR2CV1_7TH40     scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     1.303400       2     2.606800
+grid_io_topL_top_config_group_mem_size136   696.388010       1   696.388010 h, n
+grid_io_topL_top_logical_tile_io_pi_mode_io_pi_    40.033000       8   320.263998 h, n
+grid_io_topL_top_logical_tile_io_po_mode_io_po_    40.591600       7   284.141197 h, n
+-----------------------------------------------------------------------------
+Total 18 references                                  1340.453804
+
+****************************************
+Design: grid_io_topL_top_config_group_mem_size136 
+****************************************
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFV1_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.558600     142    79.321201
+CLKBUFV4_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800      12     8.937600
+CLKINV2_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.372400     136    50.646398
+DRQV1_7TH40        scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     3.537800     136   481.140810 n
+INV2_7TR40         scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+NAND2V1_7TH40      scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic     0.558600     136    75.969601
+-----------------------------------------------------------------------------
+Total 6 references                                    696.388010
+
+****************************************
+Design: grid_io_topL_top_logical_tile_io_pi_mode_io_pi_ 
+****************************************
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AOI22BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       1     1.303400
+CLKINV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+PULL0_7TL40        scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+grid_io_topL_top_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi    37.984800       1    37.984800 h, n
+-----------------------------------------------------------------------------
+Total 4 references                                     40.033000
+
+****************************************
+Design: grid_io_topL_top_logical_tile_io_pi_mode_io_pi_physical_mode__pi_pad_mode_pi_pad_default_mode__p_io_scffi_p_io_scffi 
+****************************************
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AOI22BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       1     1.303400
+AOI221V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       1     1.303400
+CLKINV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400       6     2.234400
+DRQV2_7TR40        scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     3.537800       2     7.075600 n
+DSRNQV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     4.096400       2     8.192800 n
+MUX2V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800       3     5.027400
+NAND2V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600       2     1.117200
+NAND3XXBV2_7TR40   scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       4     4.468800
+OAI21V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       3     2.234400
+OAI31V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       1     0.931000
+OAI212V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       1     1.117200
+PULL0_7TL40        scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+XNOR2CV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       2     2.606800
+-----------------------------------------------------------------------------
+Total 13 references                                    37.984800
+
+****************************************
+Design: grid_io_topL_top_logical_tile_io_po_mode_io_po_ 
+****************************************
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AOI22BBV2_7TR40    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       1     1.303400
+CLKINV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+PULL0_7TL40        scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+grid_io_topL_top_logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__p_io_scffo_p_io_scffo    38.543400       1    38.543400 h, n
+-----------------------------------------------------------------------------
+Total 4 references                                     40.591600
+
+****************************************
+Design: grid_io_topL_top_logical_tile_io_po_mode_io_po_physical_mode__po_pad_mode_po_pad_default_mode__p_io_scffo_p_io_scffo 
+****************************************
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AO32V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.489600       1     1.489600
+AOI22V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.931000       1     0.931000
+AOI221V2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       1     1.303400
+CLKINV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.372400       5     1.862000
+DRQV2_7TR40        scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     3.537800       2     7.075600 n
+DSRNQV2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     4.096400       2     8.192800 n
+MUX2V2_7TR40       scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.675800       3     5.027400
+NAND2V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.558600       4     2.234400
+NAND3XXBV2_7TR40   scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.117200       4     4.468800
+OAI21V2_7TR40      scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     0.744800       4     2.979200
+PULL0_7TL40        scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic     0.372400       1     0.372400
+XNOR2CV2_7TR40     scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic     1.303400       2     2.606800
+-----------------------------------------------------------------------------
+Total 12 references                                    38.543400
+ 
+****************************************
+Report : area
+Design : grid_io_topL_top
+Version: Q-2019.12-SP4
+--removed--
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_HVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_hvt_tt_v1p1_25c_basic.db)
+    scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_RVT_V0p2/liberty/1.1v/scc40ulp_uhdc40_rvt_tt_v1p1_25c_basic.db)
+    scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic (File: /eda/internal/alkaid_infra/pdk/s40/s40ulp/std_cell/SCC40ULP_UHDC40_LVT/V0p2/liberty/1.1v/scc40ulp_uhdc40_lvt_tt_v1p1_25c_basic.db)
+
+Number of ports:                         1197
+Number of nets:                          1869
+Number of cells:                         1114
+Number of combinational cells:            883
+Number of sequential cells:               200
+Number of macros/black boxes:               0
+Number of buf/inv:                        397
+Number of references:                      18
+
+Combinational area:                615.018599
+Buf/Inv area:                      178.751997
+Noncombinational area:             725.435205
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1340.453804
+Total area:                 undefined
+1

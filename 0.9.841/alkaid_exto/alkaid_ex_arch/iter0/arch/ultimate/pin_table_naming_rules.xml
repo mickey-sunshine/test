@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<pin_table_naming_rules>
+	<side_rule side="TOP" startx="1" starty="5" endx="2" endy="5" />
+	<side_rule side="RIGHT" startx="3" starty="1" endx="3" endy="4" />
+	<side_rule side="BOTTOM" startx="1" starty="0" endx="2" endy="0" />
+	<side_rule side="LEFT" startx="0" starty="1" endx="0" endy="4" />
+</pin_table_naming_rules>
