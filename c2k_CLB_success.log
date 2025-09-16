@@ -1,0 +1,457 @@
+
+
+                        _                                        _ 
+         /\            | |        /\                            | |
+        /  \     _ __  | | __    /  \     _ __     __ _    ___  | |
+       / /\ \   | '__| | |/ /   / /\ \   | '_ \   / _` |  / _ \ | |
+      / ____ \  | |    |   <   / ____ \  | | | | | (_| | |  __/ | |
+     /_/    \_\ |_|    |_|\_\ /_/    \_\ |_| |_|  \__, |  \___| |_|     
+                                                   __/ |           
+                                                  |___/            
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                        ArkAngel FPGA Design Tool Suites
+                               Engineering Edition
+                                 Version 2024R1
+             Copyright (C) 2023-2024 by Rapid Flex Shanghai Limited
+                              ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Rapid Flex Shanghai
+Limited and its affiliates and may be used and disclosed only as authorized in a
+license agreement which controls such use and disclosure. The licensed product
+may be delivered with software that is subject to open-source licensing terms.
+The open-source software is provided on an "AS IS" basis:
+
+ANY WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY DISCLAIMED
+AS: RAPID FLEX SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED TO PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES, LOSS OF USE OR DATA OR PROFITS, OR BUSINESS
+INTERRUPTION, NO MATTER HOW THEY ARE CAUSED IN USING OF THIS SOFRWARE, ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+This software and the associated documentation are proprietary to Rapid Flex
+Shanghai Limited and its affiliates. This software may only be used in
+accordance with the terms and conditions of a written license agreement with
+Rapid Flex. All other use, reproduction, or distribution of this software is
+strictly prohibited.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Initializing...
+Booting...
+# Read Boot Configuration File
+# Read Boot Configuration File took 0.00 seconds (max_rss 11.7 MiB, delta_rss +1.2 MiB)
+Done
+Initializing... took 0.00 seconds (max_rss 11.7 MiB, delta_rss +1.2 MiB)
+Reading script file run.arkangel...
+
+Command line to execute: create_tapeout --config_file project.xml
+
+Confirm selected options when call command 'create_tapeout':
+--config_file: project.xml
+--verbosity: off
+Reading configuration file 'project.xml'...
+Read tapeout project file
+# Read architecture template for project file
+# Read architecture template for project file took 0.00 seconds (max_rss 12.0 MiB, delta_rss +0.0 MiB)
+Read tapeout project file took 0.00 seconds (max_rss 12.0 MiB, delta_rss +0.2 MiB)
+Read PDK file
+Read PDK file took 0.00 seconds (max_rss 12.0 MiB, delta_rss +0.1 MiB)
+Validating configuration file...
+Read benchmark file
+Read benchmark file took 0.00 seconds (max_rss 12.1 MiB, delta_rss +0.1 MiB)
+Done
+Initializing tapeout project 'alkaid_ex'...
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto'
+
+Command line to execute: create_arch
+
+Confirm selected options when call command 'create_arch':
+--run: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.2 MiB, delta_rss +0.1 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.2 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Initializing arch directory...
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp'
+Warning 1: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 2: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 3: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Warning 4: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate'
+Warning 5: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 6: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 7: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 8: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 9: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 10: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Warning 11: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Done
+
+Command line to execute: setup_arch
+
+Confirm selected options when call command 'setup_arch':
+--run: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.3 MiB, delta_rss +0.1 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.3 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_device_data/tt_25C_v1p1'
+Warning 12: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v0p9'
+Warning 13: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v0p9' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p0'
+Warning 14: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p0' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p1'
+Warning 15: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_device_data/tt_25C_v1p1' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_module_names/tt_25C_v1p1'
+Warning 16: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_module_names/tt_25C_v1p1'
+Warning 17: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_module_names/tt_25C_v1p1' already exists. Will overwrite contents
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 12.7 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.00 seconds (max_rss 12.7 MiB, delta_rss +0.0 MiB)
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 12.7 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.00 seconds (max_rss 12.7 MiB, delta_rss +0.0 MiB)
+Done
+
+Command line to execute: set_arch --type module_names
+
+Confirm selected options when call command 'set_arch':
+--type: module_names
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.1 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 18: Will overwrite existing copy!
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Read module rename rules
+Read module rename rules took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Generating custom module names...
+Adding custom module name 'tile_0__EMPTY_id7_'
+Adding custom module name 'tile_10__io_bottomL_bottom_id5_'
+Adding custom module name 'tile_11__clb_id14_'
+Adding custom module name 'tile_12__clb_id15_'
+Adding custom module name 'tile_13__EMPTY_id4_'
+Adding custom module name 'tile_14__io_rightL_right_id3_'
+Adding custom module name 'tile_15__io_rightL_right_id2_'
+Adding custom module name 'tile_1__io_leftL_left_id8_'
+Adding custom module name 'tile_2__io_leftL_left_id9_'
+Adding custom module name 'tile_3__io_leftL_left_id10_'
+Adding custom module name 'tile_4__io_leftL_left_id11_'
+Adding custom module name 'tile_5__EMPTY_id0_'
+Adding custom module name 'tile_6__io_bottomL_bottom_id6_'
+Adding custom module name 'tile_7__clb_id12_'
+Adding custom module name 'tile_8__clb_id13_'
+Adding custom module name 'tile_9__io_topL_top_id1_'
+Write module renaming rules
+Write module renaming rules took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Warning 19: Will overwrite existing copy!
+Read tile reference file
+Read tile reference file took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Read fabric hierarchy file to load types of tiles
+Read fabric hierarchy file to load types of tiles took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Read module rename rules
+Read module rename rules took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Generating custom module names...
+Adding custom module name 'tile_0__EMPTY_id7_'
+Adding custom module name 'tile_10__io_bottomL_bottom_id5_'
+Adding custom module name 'tile_11__clb_id14_'
+Adding custom module name 'tile_12__clb_id15_'
+Adding custom module name 'tile_13__EMPTY_id4_'
+Adding custom module name 'tile_14__io_rightL_right_id3_'
+Adding custom module name 'tile_15__io_rightL_right_id2_'
+Adding custom module name 'tile_1__io_leftL_left_id8_'
+Adding custom module name 'tile_2__io_leftL_left_id9_'
+Adding custom module name 'tile_3__io_leftL_left_id10_'
+Adding custom module name 'tile_4__io_leftL_left_id11_'
+Adding custom module name 'tile_5__EMPTY_id0_'
+Adding custom module name 'tile_6__io_bottomL_bottom_id6_'
+Adding custom module name 'tile_7__clb_id12_'
+Adding custom module name 'tile_8__clb_id13_'
+Adding custom module name 'tile_9__io_topL_top_id1_'
+Write module renaming rules
+Write module renaming rules took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1'
+Warning 20: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_fabric_key/tt_25C_v1p1'
+Warning 21: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_init_fabric_key/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+
+Command line to execute: set_arch --type crafted_fabric_key
+
+Confirm selected options when call command 'set_arch':
+--type: crafted_fabric_key
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 22: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 23: Will overwrite existing copy!
+Warning 24: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1'
+Warning 25: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+[ARKANGEL INFO] Parent process pid: 46475, child process pid: 46917, parent process has run
+
+Command line to execute: set_arch --type crafted_fabric_key
+
+Confirm selected options when call command 'set_arch':
+--type: crafted_fabric_key
+--run: off
+--fabric: off
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 22: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 23: Will overwrite existing copy!
+Warning 24: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1'
+Warning 25: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/dp/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+[ARKANGEL INFO] Parent process pid: 46475, child process pid: 46917, child process has run
+[ARKANGEL INFO] Parent process received: child process has run
+[ARKANGEL INFO] Waiting for process with pid: 46917
+
+Confirm selected options when call command 'fabric_key_assistant':
+--reference: /home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/reference_fabric_key.xml
+--input: /home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/crafted_fabric_key.xml
+--output: /home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/fabric_key.xml
+--verbose: off
+--help: off
+Read the reference fabric key from an XML file: /home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/reference_fabric_key.xml.
+Read Fabric Key
+Read Fabric Key took 0.00 seconds (max_rss 5.3 MiB, delta_rss +0.0 MiB)
+Read the hand-crafted fabric key from an XML file: /home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/crafted_fabric_key.xml.
+Read Fabric Key
+Read Fabric Key took 0.00 seconds (max_rss 5.3 MiB, delta_rss +0.0 MiB)
+Checking key alias in reference key...
+Checking key alias in reference key... [Pass]
+Checking key names and values in reference key...
+Checking key names and valus in reference key... [Pass]
+Checking key alias in input key...
+Checking key alias in input key... [Pass]
+Checking key alias matching between reference key and input keys...
+Checking key alias matching between reference key and input keys... [Pass]
+Pairing key alias between reference key and input keys...
+Write the final fabric key to an XML file: /home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate/fabric_key.xml.
+Write Fabric Key
+Write Fabric Key took 0.00 seconds (max_rss 5.3 MiB, delta_rss +0.0 MiB)
+[ARKANGEL INFO] Process 46917 finished with status: 0
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_io_coordinate/tt_25C_v1p1'
+Warning 26: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/openfpga_tasks/ultimate/generate_io_coordinate/tt_25C_v1p1' already exists. Will overwrite contents
+Done
+
+Command line to execute: set_arch --fabric dp --type io_pin_table_naming_rules
+
+Confirm selected options when call command 'set_arch':
+--type: io_pin_table_naming_rules
+--run: off
+--fabric: dp
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 27: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 28: Will overwrite existing copy!
+Read I/O coordinate File
+Read I/O coordinate File took 0.00 seconds (max_rss 12.8 MiB, delta_rss +0.0 MiB)
+Write pin table naming rules to file
+Warning 29: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/dp' already exists. Will overwrite contents
+Write pin table naming rules to file took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Done
+
+Command line to execute: set_arch --fabric ultimate --type io_pin_table_naming_rules
+
+Confirm selected options when call command 'set_arch':
+--type: io_pin_table_naming_rules
+--run: off
+--fabric: ultimate
+--file: off
+--verbosity: off
+Automatically use the latest run 'iter0' as default
+Warning 30: The selected run 'iter0' is succeed. This will invoke previous data! Please double check before moving forward
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Warning 31: Will overwrite existing copy!
+Read I/O coordinate File
+Read I/O coordinate File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Write pin table naming rules to file
+Warning 32: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_arch/iter0/arch/ultimate' already exists. Will overwrite contents
+Write pin table naming rules to file took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Done
+
+Command line to execute: eval_arch
+
+Confirm selected options when call command 'eval_arch':
+--run: off
+--arch_run: off
+--corner: off
+--report_qor: off
+--verbosity: off
+Automatically create a new run 'iter0'
+Automatically use the latest run 'iter0' of arch as default
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Read keywords File
+Read keywords File took 0.00 seconds (max_rss 12.9 MiB, delta_rss +0.0 MiB)
+Set eFPGA core fabric size to 0 (H) x 0 (W)
+This excludes the I/O rows and columns
+Final check will be applied when running architecture generation
+Will use the default number of clocks for device family
+Will use the default number of programming clocks for device family
+Will use the default number of configurable regions for device family
+Will use the default number of resets for device family
+Generating golden bitstream and reports...
+Initializing bitstream generation workspace...
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_bitstream/iter0'
+Warning 33: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Done
+Running bitstream generation for suite 'C2000' for corner 'tt_25C_v1p1'...
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_bitstream/iter0/vpr_results/C2000/c2k_CLB/tt_25C_v1p1'
+Succeed to create directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/c2k_CLB/tt_25C_v1p1'
+Done
+Warning 34: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/c2k_CLB/tt_25C_v1p1' already exists. Will overwrite contents
+Warning 35: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_bitstream/iter0/openfpga_tasks/c2k_CLB/tt_25C_v1p1' already exists. Will overwrite contents
+Generating vpr constraints file...
+# Read Pin Constraints
+# Read Pin Constraints took 0.00 seconds (max_rss 13.8 MiB, delta_rss +0.0 MiB)
+Global signal clk_i is constrained to port clk[0:0]
+Global signal OPEN is constrained to port clk[1:1]
+Global signal OPEN is constrained to port clk[2:2]
+Global signal OPEN is constrained to port clk[3:3]
+Global signal OPEN is constrained to port clk[4:4]
+Global signal OPEN is constrained to port clk[5:5]
+Global signal OPEN is constrained to port clk[6:6]
+Global signal OPEN is constrained to port clk[7:7]
+Global signal rst_ni is constrained to port reset[0:0]
+Global signal OPEN is constrained to port reset[1:1]
+The number of available global ports is: 22
+Ckbuf net sample_rst_i_ckbuf is constraint to port reset[1:1] 
+Ckbuf net sample_trigger_ckbuf is constraint to port clk[1:1] 
+# Write Pin Constraints
+# Write Pin Constraints took 0.00 seconds (max_rss 13.8 MiB, delta_rss +0.0 MiB)
+Generating vpr constraints file... took 0.00 seconds (max_rss 13.8 MiB, delta_rss +0.8 MiB)
+Read block usage File
+Read block usage File took 0.00 seconds (max_rss 13.8 MiB, delta_rss +0.0 MiB)
+Done
+Warning 36: Directory '/home/yhjiang/Desktop/test_project/c2k_CLB/alkaid_exto/alkaid_ex_bitstream/iter0' already exists. Will overwrite contents
+Done
+
+Command line to execute: show_dashboard
+
+Confirm selected options when call command 'show_dashboard':
+--verbosity: off
+Dashboard of tapeout project 'alkaid_ex'
+Step     	Substep                 	Status        	Latest Run	Frozen	
+arch     	N/A                     	success       	iter0     	N     
+arch     	arch_creation           	success       	iter0     	N     
+arch     	arch_setup              	success       	iter0     	N     
+arch     	arch_init_module_names  	success       	iter0     	N     
+arch     	arch_init_fabric_key    	success       	iter0     	N     
+arch     	arch_io_coordinate      	success       	iter0     	N     
+arch     	arch_pin_table          	success       	iter0     	N     
+bitstream	N/A                     	success       	iter0     	N     
+bitstream	arch_eval               	success       	iter0     	N     
+netlist  	N/A                     	fresh         	N/A       	N/A   
+pd       	N/A                     	fresh         	N/A       	N/A   
+so       	N/A                     	fresh         	N/A       	N/A   
+dv       	N/A                     	fresh         	N/A       	N/A   
+[Tapeout progress] 33.33%
+
+Command line to execute: exit
+
+Confirm selected options when call command 'exit':
+
+Finish execution with 0 errors
+
+The entire ArkAngel flow took 41.65 seconds
+
+Thank you for using ArkAngel!
