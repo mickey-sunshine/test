@@ -1,1 +1,0 @@
-/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/ips/pcnt/rtl/rf_pcnt_wrapper/pcounter_mode_selection.v

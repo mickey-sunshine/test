@@ -1,1 +1,0 @@
-../../../../../../../../../../../../../../../rapidsilicon/data/ArkAngel_Engineering_v0.9.841/etc/utils/cocotb_utils/scripts/cocotb_force_bitstream.py

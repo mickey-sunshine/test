@@ -1,1 +1,0 @@
-/rapidsilicon/data/ArkAngel_Engineering_v0.9.841/bin/..//etc/device/ALKDC/custom_modules/rf_pcounter_wrapper.v
