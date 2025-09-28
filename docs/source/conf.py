@@ -20,7 +20,11 @@ extensions = [
 language = None  # 不指定默认语言，由Read the Docs切换
 locale_dirs = ['locale/']  # 翻译文件目录
 gettext_compact = False    # 每个文档生成独立的翻译文件
-
+project_name = os.environ.get('READTHEDOCS_PROJECT', '')
+if 'zh' in project_name:  # 中文项目名称含 'zh'
+    language = 'zh_CN'
+else:  # 英文项目
+    language = 'en'
 # 主题配置
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
