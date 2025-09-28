@@ -1,6 +1,7 @@
 #!/bin/bash
 # 注意：脚本必须放在docs目录下，且执行时需在docs目录中运行
 
+
 # 第一步：生成.pot翻译模板文件（确保source目录路径正确）
 # 这里的路径是：当前目录（docs）下的source目录
 sphinx-build -b gettext source source/locale
