@@ -1,0 +1,67 @@
+name: Generate License File
+on:
+  workflow_dispatch:
+    inputs:
+      # type for license
+      licType:
+        description: >
+          type for license.
+          Optional presets: 
+          - 'eval' (uses ./licenses/eval.lic)
+          - 'prototype' (uses ./licenses/prototype.lic)
+          - 'full' (uses ./licenses/full.lic) 
+        required: false  
+        type: string    
+        default: 'eval'
+
+env:
+  # Update the commit id when a major/minor version update is required
+  BRANCH_NAME: license_generate
+  COMMIT_TITLE: "Generate license file"
+
+jobs:
+  patch-count:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          submodules: true
+          token: ${{ secrets.CI4RF }}
+          persist-credentials: false
+
+      - name: Checkout infra
+        uses: actions/checkout@v3
+        with:
+          repository: RapidFlex/alkaid_infra
+          path: utils/alkaid_infra
+          token: ${{ secrets.CI4RF }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Insert Patch Count
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          make release_version VERSION_BUMP_TYPE=minor INFRA_ROOT=utils/alkaid_infra
+
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{env.BRANCH_NAME}}
+          force: true
+
+      - name: Generate license
+        run: |
+          make license LIC_TYPE=${{ github.event.inputs.licType }}
+      
+      - name: Upload license and MD5 files
+        uses: actions/upload-artifact@v4
+        with:
+          name: aaee-licenses
+          path: |
+            ./projects/AAEE/*.lic
+            ./projects/AAEE/*.lic.md5
+          retention-days: 30
