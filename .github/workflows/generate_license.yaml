@@ -7,12 +7,17 @@ on:
         description: >
           type for license.
           Optional presets: 
-          - 'eval' (uses ./licenses/eval.lic)
-          - 'prototype' (uses ./licenses/prototype.lic)
-          - 'full' (uses ./licenses/full.lic) 
+          - 'eval'
+          - 'prototype'
+          - 'full'
         required: false  
         type: string    
         default: 'eval'
+      duration:
+        description: 'License valid duration in days (default: 30)'
+        required: false
+        type: number # Parameter type: number (ensures integer input)
+        default: 30 # Default value: 30 days (consistent with the original hardcoded logic)
 
 env:
   # Update the commit id when a major/minor version update is required
@@ -40,12 +45,6 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Insert Patch Count
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          make release_version VERSION_BUMP_TYPE=minor INFRA_ROOT=utils/alkaid_infra
-
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
         with:
@@ -55,7 +54,7 @@ jobs:
 
       - name: Generate license
         run: |
-          make license LIC_TYPE=${{ github.event.inputs.licType }}
+          make license LIC_TYPE=${{ github.event.inputs.licType }}  LIC_DURATION=${{ github.event.inputs.duration }}
       
       - name: Upload license and MD5 files
         uses: actions/upload-artifact@v4
@@ -64,4 +63,4 @@ jobs:
           path: |
             ./projects/AAEE/*.lic
             ./projects/AAEE/*.lic.md5
-          retention-days: 30
+          retention-days: 3
