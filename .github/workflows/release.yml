@@ -1,0 +1,156 @@
+name: Create license customer installer release (Manual Trigger)
+
+on:
+  workflow_dispatch:
+    inputs:
+      licType:
+        description: 'License type (eval, prototype, full)'
+        required: true
+        type: choice
+        options:
+          - eval
+          - prototype
+          - full
+        default: 'eval'
+      duration:
+        description: 'License duration in days'
+        required: true
+        type: number
+        default: 30
+      targetOS:
+        description: 'Target operating system'
+        required: true
+        type: choice
+        options:
+          - both
+          - ubuntu
+          - centos
+        default: 'both'
+jobs:
+  build_ubuntu2204_customer:
+    #Determine whether to run based on the input system.
+    if: inputs.targetOS == 'both' || inputs.targetOS == 'ubuntu'
+    runs-on: [self-hosted, Linux, X64, eda_us_machine0]
+    permissions:
+      contents: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.CI4RF }}
+
+    steps:
+      - name: Runner workspace path 
+        run: | 
+          echo "Cleaning up previous run"
+          rm -rf "${{ github.workspace }}"
+          mkdir -p "${{ github.workspace }}"
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build doc
+        run: |
+          cd docs
+          make html
+
+      - name: Build customer installer with license
+        run: |
+          make checkout_utils_submodules
+          make customer_installer -j4 INSTALLER_TYPE=IFW
+          for f in ArkAngel*-Linux.run; do
+            mv "$f" "${f%.run}-customer-ubuntu2204.run"
+          done
+          make license LIC_TYPE=${{ inputs.licType }} LIC_DURATION=${{ inputs.duration }}
+
+
+      - name: Release customer version
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.CI4RF }}
+          artifacts: |
+            ArkAngel*-customer-ubuntu2204.run
+            ./projects/AAEE/*.lic
+            ./projects/AAEE/*.lic.md5
+            ./projects/AAEE/private.rsa
+            ./projects/AAEE/public.rsa
+          generateReleaseNotes: true
+          allowUpdates: true
+          skipIfReleaseExists: false
+
+  build_centos_customer:
+    #Determine whether to run based on the input system.
+    if: inputs.targetOS == 'both' || inputs.targetOS == 'centos'
+    runs-on: [self-hosted, Linux, X64, eda_cn]
+    permissions:
+      contents: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.CI4RF }}
+
+    steps:
+      - name: Runner workspace path
+        run: |
+          echo "Cleaning up previous run"
+          rm -rf "${{ github.workspace }}"
+          mkdir -p "${{ github.workspace }}"
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Dump tool versions
+        env:
+          CC: gcc
+          CXX: g++
+        run: |
+          cat /etc/centos-release
+          cmake --version
+          ${CC} --version
+          ${CXX} --version
+
+      - name: Build doc
+        run: |
+          echo "conda activate eda && cd docs && make html" > scl_docs.sh
+          cat scl_docs.sh | scl enable devtoolset-10 csh
+
+      - name: Build customer installer with license
+        run: |
+          cat << 'EOF' > scl_customer_installer.csh
+          conda activate eda
+          if ($status != 0) exit 1
+
+          make checkout_utils_submodules
+          make customer_installer -j4 INSTALLER_TYPE=IFW
+          if ($status != 0) exit 1
+
+          foreach f (`ls ArkAngel*-Linux.run`)
+              set base = $f:r
+              mv "$f" "${base}-customer-centos.run"
+          end
+          make license LIC_TYPE=${{ github.event.inputs.licType }}  LIC_DURATION=${{ github.event.inputs.duration }}
+          EOF
+
+          scl enable devtoolset-10 -- csh scl_customer_installer.csh
+
+      - name: Copy customer installer to absolute path
+        run: |
+          TARGET_DIR="/rapidsilicon/data/aaee_licensed_for_customers/"
+          mkdir -p "$TARGET_DIR"
+          cp ./ArkAngel*-customer-centos.run "$TARGET_DIR"
+          ls -lh "$TARGET_DIR" | grep customer
+
+      - name: Copy license related files to runner path
+        run: |
+          TARGET_LICENSE_DIR="/rapidsilicon/data/licenses_for_customer_aaee" 
+          TARGET_RSA_DIR="/rapidsilicon/data/aaee_secret_rsa_keys_selfowned"
+
+          mkdir -p "$TARGET_LICENSE_DIR" "$TARGET_RSA_DIR"
+
+          cp ./projects/AAEE/*.lic "$TARGET_LICENSE_DIR"
+          cp ./projects/AAEE/*.lic.md5 "$TARGET_LICENSE_DIR"
+
+          cp ./projects/AAEE/private.rsa "$TARGET_RSA_DIR"
+          cp ./projects/AAEE/public.rsa "$TARGET_RSA_DIR"
+
+          ls -lh "$TARGET_LICENSE_DIR"
+          ls -lh "$TARGET_RSA_DIR"
