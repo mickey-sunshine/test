@@ -1,4 +1,4 @@
-name: Create license customer installer release (Manual Trigger)
+name: Create license
 
 on:
   workflow_dispatch:
